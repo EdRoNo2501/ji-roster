@@ -100,7 +100,6 @@ body {
 .row:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: -2px; }
 /* JI members on country rankings: imperial gold tint */
 .row.ji-member { background: rgba(var(--ji-tint), 0.13); }
-.row.member-inactive { opacity: 0.62; }
 .section-heading {
   margin: 20px 8px 8px; padding: 8px 10px;
   border-top: 1px solid rgba(201,167,95,0.45);
@@ -330,7 +329,6 @@ body {
 .row { border-radius: 3px; }
 .row.ji-member { background: rgba(204,153,58,.10); }
 .row.ji-member:hover { background: rgba(204,153,58,.17); }
-.row.member-inactive { opacity: .48; }
 .row.inactive { opacity: .36; }
 .section-heading {
   font-family: 'Inter', sans-serif;
@@ -427,7 +425,7 @@ body {
       <div class="stat h4"><div class="stat-label">Max</div></div>
     </div>
     <div id="rows"></div>
-    <div class="roster-legend no-export"><span class="legend-active"></span> Activo <span class="legend-inactive"></span> Inactivo en el clan</div>
+    <div class="roster-legend no-export"><span class="legend-active"></span> Activo <span class="legend-inactive"></span> Inactivo por actividad ranked</div>
     <div class="pager no-export" id="pager" aria-label="Ranking pages"></div>
   </div>
 
@@ -719,36 +717,24 @@ function render(data, lastCheck) {
   const rowsEl = document.getElementById('rows');
   rowsEl.innerHTML = '';
 
-  // The JI roster separates explicit clan membership from recent gameplay.
-  // Country leaderboards include only the active JI members configured for them.
+  // Activity status is derived automatically from recent ranked 1v1 / team games.
   const isClanRoster = currentTab === 'ji';
   const shown = [];
   let active = 0;
   for (const p of data.players) {
-    const rankable = p.member_status !== 'inactive' && !p.inactive;
+    const rankable = !p.inactive;
     if (rankable) {
       if (data.show_top && active >= data.show_top) break;
       active++;
     }
     shown.push({ p, rank: rankable ? active : null });
   }
-  let lastMembershipSection = null;
   shown.filter(inPage(shown, data.page_size)).forEach(({ p, rank }) => {
-    if ((p.member_status || 'active') !== lastMembershipSection) {
-      const heading = document.createElement('div');
-      heading.className = 'section-heading';
-      heading.textContent = p.member_status === 'inactive'
-        ? 'Integrantes inactivos'
-        : 'Integrantes activos';
-      rowsEl.appendChild(heading);
-      lastMembershipSection = p.member_status;
-    }
     // Each row links to the player's aoe2insights profile
     const row = document.createElement('a');
     row.className = 'row';
     // Highlight Jaguares Imperiales on the country rankings (roster tab is JI)
     if (currentTab === 'ji') row.classList.add('ji-member');
-    if (p.member_status === 'inactive') row.classList.add('member-inactive');
     row.href = `https://www.aoe2insights.com/user/${encodeURIComponent(p.profile_id)}/`;
     row.target = '_blank';
     row.rel = 'noopener';
