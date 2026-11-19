@@ -36,9 +36,10 @@ ROOT = Path(__file__).resolve().parent.parent
 # Every roster updates on every run (the cron-job.org timer fires every 5 min).
 ROSTERS = [
     {"config": ROOT / "config" / "players.json", "output": ROOT / "docs" / "data" / "roster.json"},
-    {"config": ROOT / "config" / "mexico.json", "output": ROOT / "docs" / "data" / "mexico.json"},
-    {"config": ROOT / "config" / "colombia.json", "output": ROOT / "docs" / "data" / "colombia.json"},
-    {"config": ROOT / "config" / "peru.json", "output": ROOT / "docs" / "data" / "peru.json"},
+    *[
+        {"config": ROOT / "config" / f"{country}.json", "output": ROOT / "docs" / "data" / f"{country}.json"}
+        for country in ("colombia", "mexico", "argentina", "peru", "venezuela", "uruguay")
+    ],
 ]
 
 STATS_URL = "https://aoe-api.worldsedgelink.com/community/leaderboard/GetPersonalStat"
@@ -295,6 +296,10 @@ def build_player(player: dict, prev: dict | None, prefixes: dict | None = None) 
     if not clan:  # nothing in the name: fall back to the account's in-game clan
         clan = GAME_CLANS.get(_game_clan.get(sub[0] if sub else official_id(player)))
     result = {"profile_id": player["id"]}
+    if player.get("member_status"):
+        result["member_status"] = player["member_status"]
+    if player.get("country"):
+        result["country"] = player["country"]
     if sub:
         result["via"] = {"id": sub_id, **({"listed_last": listed_last} if listed_last else {})}
     if "tag" in player:                       # name fixed in config (clan roster, or a short name like "Lobo")
@@ -379,7 +384,7 @@ def next_baseline(prev_output: dict, results: list, now: datetime) -> dict:
 def snapshot(order: list, now: datetime) -> dict:
     """Rank snapshot: active players numbered 1..n in order; inactive players
     get no rank (listed separately, so the page shows no arrow for them)."""
-    active = [p for p in order if not p.get("inactive")]
+    active = [p for p in order if p.get("member_status", "active") == "active" and not p.get("inactive")]
     return {
         "taken_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "ranks": {str(p["profile_id"]): i + 1 for i, p in enumerate(active)},
@@ -393,7 +398,7 @@ def fit_roster(baseline: dict, results: list) -> dict:
     added players are slotted in at the place they first appear (no NEW badge,
     and nobody shows a ▼ for being passed by them). Players back from inactive
     are slotted in the same way."""
-    ids = [str(p["profile_id"]) for p in results if not p.get("inactive")]
+    ids = [str(p["profile_id"]) for p in results if p.get("member_status", "active") == "active" and not p.get("inactive")]
     kept = sorted((k for k in baseline["ranks"] if k in ids), key=baseline["ranks"].get)
     for i, pid in enumerate(ids):
         if pid not in baseline["ranks"]:
@@ -436,8 +441,17 @@ def update_roster(roster: dict, now: datetime) -> bool:
     if stale:
         print(f"  {len(stale)} kept last known values: {stale}")
 
-    # Sort by current 1v1 ELO descending, unranked (None) go last
-    results.sort(key=lambda p: (p["cur_1v1"] is None, -(p["cur_1v1"] or 0), -(p["max_1v1"] or 0)))
+    # The clan roster has two explicit membership sections. Within each section,
+    # sort by current 1v1 ELO; national leaderboards remain pure country rankings.
+    if config.get("clan_name"):
+        results.sort(key=lambda p: (
+            p.get("member_status") != "active",
+            p["cur_1v1"] is None,
+            -(p["cur_1v1"] or 0),
+            -(p["max_1v1"] or 0),
+        ))
+    else:
+        results.sort(key=lambda p: (p["cur_1v1"] is None, -(p["cur_1v1"] or 0), -(p["max_1v1"] or 0)))
 
     baseline = next_baseline(prev_output, results, now)
 
