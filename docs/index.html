@@ -383,7 +383,7 @@ body {
 .history-toggle:hover { color:var(--gold-bright);text-decoration:underline; }
 .data-health { margin-top:6px;font-size:11px;letter-spacing:.6px;display:flex;align-items:center;gap:6px;justify-content:center; }
 .data-health .dot { width:7px;height:7px;border-radius:50%;background:#69a879;display:inline-block; }
-.data-health.partial .dot { background:#d1a34f; }
+.data-health.partial .dot, .data-health.outdated .dot { background:#d1a34f; }
 .history-panel { display:none;margin:20px auto 0;padding:14px;max-width:680px;border:1px solid rgba(210,169,79,.35);border-radius:4px;background:rgba(5,8,14,.7); }
 .history-panel.open { display:block; }
 .history-panel h3 { color:var(--gold-bright);font:600 16px 'Cinzel',serif;margin-bottom:5px; }
@@ -506,7 +506,9 @@ async function fetchStatus() {
     const label = document.getElementById('data-health-text');
     if (health && label && stamp) {
       health.classList.toggle('partial', statusData.status !== 'ok');
-      label.textContent = (statusData.status === 'ok' ? 'Data check OK' : 'Data check partial') + ' · ' + timeAgo(stamp);
+      const outdated = Date.now() - stamp.getTime() > 90 * 60 * 1000;
+      health.classList.toggle('outdated', outdated);
+      label.textContent = (outdated ? 'Data status outdated' : statusData.status === 'ok' ? 'Data check OK' : 'Data check partial') + ' · ' + timeAgo(stamp);
       health.title = 'Last check: ' + stamp.toLocaleString() + (statusData.stale_players?.length ? ' · stale players: ' + statusData.stale_players.join(', ') : '');
     }
     return stamp;
