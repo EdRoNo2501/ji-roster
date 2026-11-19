@@ -1,6 +1,6 @@
 # Linked accounts
 
-Generated 2026-11-19T02:27:17Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
+Generated 2026-11-19T04:26:04Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
 Used to show players LIVE when they play on any of their accounts. Ratings are RM 1v1.
 
 ## Jaguares Imperiales
@@ -8,7 +8,7 @@ Used to show players LIVE when they play on any of their accounts. Ratings are R
 | Player | Linked accounts |
 |---|---|
 | JAGR | Virus | — |
-| [JAGR] GORDAZO | — |
+| [JAGR] GORDAZO | Fenix (1230) |
 | JAGR | DesNoguns | — |
 | JAGR | BkB | — |
 | JAGR | Quaa | — |
@@ -36,54 +36,54 @@ Used to show players LIVE when they play on any of their accounts. Ratings are R
 | JAGR | mauricio | — |
 | JAGR | CIHUACOATL | — |
 | JAGR | GastonWick | — |
-| JAGR | GoodByeWorld | — |
+| JAGR | GoodByeWorld | GoodByeWorld (1278) |
 
 ## Colombia
 
 | Player | Linked accounts |
 |---|---|
-| JAGR | DesNoguns | — |
+| Ravens91120 | — |
 | JAGR | Herol | JAGR/HEROL2.0 (1179) |
-| JAGR | juankof | — |
+| GUNT0TENREDNECK | — |
 | JAGR | Luigi-gb | — |
-| JAGR | HIPERYON | — |
-| JAGR | Cacique | — |
-| JAGR | Ojimenezg87 | — |
+| Knobi Kenobi471 | — |
+| Pillzbee | — |
+| TomLitts | — |
 
 ## México
 
 | Player | Linked accounts |
 |---|---|
-| JAGR | Virus | — |
+| CrsShadow1727 | — |
 | JAGR | TheButterfly_Effect | — |
-| JAGR_Soyuncacahuate | — |
-| JAGR | Arthur King MX | — |
+| LpChagas01 | — |
+| PUMAPSI | — |
 | JAGR | xKensyt | — |
 
 ## Argentina
 
 | Player | Linked accounts |
 |---|---|
-| [JAGR] GORDAZO | — |
+| SmoKin Roche88 | — |
 | JAGR | PIPO GOROSITO | — |
-| JAGR fran | — |
-| JAGR | Dr. Xeneize | — |
+| Spud4395 | — |
+| Hotpocket0331 | — |
 
 ## Perú
 
 | Player | Linked accounts |
 |---|---|
 | JAGR | BkB | — |
-| JAGR | OLD BUST@ | — |
-| JAGR | Javi | — |
-| JAGR | STYLORD | — |
+| CRACKDEPOT | — |
+| GivenSumo8403 | — |
+| zzCangye | — |
 
 ## Venezuela
 
 | Player | Linked accounts |
 |---|---|
 | JAGR I Milanesito | — |
-| JAGR | Mazzei10 | — |
+| fSu22 | — |
 
 ## Uruguay
 

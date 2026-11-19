@@ -1,15 +1,23 @@
 {
- "updated_at": "2026-11-19T02:27:17Z",
+ "updated_at": "2026-11-19T04:26:04Z",
  "players": {
-  "12359161": {
+  "15693918": {
    "name": "JAGR | Virus",
    "accounts": []
   },
-  "12989767": {
+  "11228943": {
    "name": "[JAGR] GORDAZO",
-   "accounts": []
+   "accounts": [
+    {
+     "id": 21591075,
+     "hops": 1,
+     "name": "Fenix",
+     "rating": 1230,
+     "last": "2025-12-29"
+    }
+   ]
   },
-  "12876939": {
+  "20088550": {
    "name": "JAGR | DesNoguns",
    "accounts": []
   },
@@ -33,7 +41,7 @@
     }
    ]
   },
-  "12573559": {
+  "10177783": {
    "name": "JAGR | OLD BUST@",
    "accounts": []
   },
@@ -41,7 +49,7 @@
    "name": "JAGR | PIPO GOROSITO",
    "accounts": []
   },
-  "13258119": {
+  "22844552": {
    "name": "JAGR | juankof",
    "accounts": []
   },
@@ -53,11 +61,11 @@
    "name": "JAGR | Luigi-gb",
    "accounts": []
   },
-  "13026074": {
+  "21158225": {
    "name": "JAGR | Javi",
    "accounts": []
   },
-  "12722759": {
+  "14853507": {
    "name": "JAGR | STYLORD",
    "accounts": []
   },
@@ -65,11 +73,11 @@
    "name": "JAGR I Milanesito",
    "accounts": []
   },
-  "13190355": {
+  "22395071": {
    "name": "JAGR_Soyuncacahuate",
    "accounts": []
   },
-  "12953298": {
+  "20624529": {
    "name": "JAGR | Arthur King MX",
    "accounts": []
   },
@@ -77,27 +85,27 @@
    "name": "JAGR | xKensyt",
    "accounts": []
   },
-  "13067703": {
+  "11977428": {
    "name": "JAGR fran",
    "accounts": []
   },
-  "12831320": {
+  "19756037": {
    "name": "JAGR | HIPERYON",
    "accounts": []
   },
-  "13505523": {
+  "24532073": {
    "name": "JAGR | Mazzei10",
    "accounts": []
   },
-  "13222272": {
+  "1143428": {
    "name": "JAGR | Dr. Xeneize",
    "accounts": []
   },
-  "13081631": {
+  "17965338": {
    "name": "JAGR | Cacique",
    "accounts": []
   },
-  "12820653": {
+  "17558118": {
    "name": "JAGR | Ojimenezg87",
    "accounts": []
   },
@@ -139,7 +147,7 @@
    "name": "JAGR | mauricio",
    "accounts": []
   },
-  "13087608": {
+  "21666060": {
    "name": "JAGR | CIHUACOATL",
    "accounts": []
   },
@@ -147,8 +155,76 @@
    "name": "JAGR | GastonWick",
    "accounts": []
   },
-  "13013041": {
+  "21061891": {
    "name": "JAGR | GoodByeWorld",
+   "accounts": [
+    {
+     "id": 25916329,
+     "hops": 1,
+     "name": "GoodByeWorld",
+     "rating": 1278,
+     "last": "2026-11-12"
+    }
+   ]
+  },
+  "12876939": {
+   "name": "Ravens91120",
+   "accounts": []
+  },
+  "13258119": {
+   "name": "GUNT0TENREDNECK",
+   "accounts": []
+  },
+  "12831320": {
+   "name": "Knobi Kenobi471",
+   "accounts": []
+  },
+  "13081631": {
+   "name": "Pillzbee",
+   "accounts": []
+  },
+  "12820653": {
+   "name": "TomLitts",
+   "accounts": []
+  },
+  "12359161": {
+   "name": "CrsShadow1727",
+   "accounts": []
+  },
+  "13190355": {
+   "name": "LpChagas01",
+   "accounts": []
+  },
+  "12953298": {
+   "name": "PUMAPSI",
+   "accounts": []
+  },
+  "12989767": {
+   "name": "SmoKin Roche88",
+   "accounts": []
+  },
+  "13067703": {
+   "name": "Spud4395",
+   "accounts": []
+  },
+  "13222272": {
+   "name": "Hotpocket0331",
+   "accounts": []
+  },
+  "12573559": {
+   "name": "CRACKDEPOT",
+   "accounts": []
+  },
+  "13026074": {
+   "name": "GivenSumo8403",
+   "accounts": []
+  },
+  "12722759": {
+   "name": "zzCangye",
+   "accounts": []
+  },
+  "13505523": {
+   "name": "fSu22",
    "accounts": []
   }
  },

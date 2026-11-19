@@ -1,34 +1,34 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-19T02:27:17Z",
+  "updated_at": "2026-11-19T04:26:04Z",
   "baseline": {
     "taken_at": "2026-11-19T02:27:17Z",
     "ranks": {
-      "3964428": 1,
-      "1981408": 2,
-      "10037286": 3,
-      "2057662": 4,
-      "1835814": 5,
-      "10608499": 6,
-      "4229230": 7
+      "12359161": 1,
+      "12989767": 2,
+      "12876939": 3,
+      "3964428": 4,
+      "1981408": 5,
+      "10037286": 6,
+      "12573559": 7,
+      "2057662": 8,
+      "13258119": 9,
+      "1835814": 10,
+      "13026074": 11,
+      "12722759": 12,
+      "10608499": 13,
+      "13190355": 14,
+      "12953298": 15,
+      "4229230": 16,
+      "13067703": 17,
+      "12831320": 18,
+      "13505523": 19,
+      "13222272": 20,
+      "13081631": 21,
+      "12820653": 22
     },
     "inactive": [
-      "12359161",
-      "12989767",
-      "12876939",
-      "12573559",
-      "13258119",
       "12950375",
-      "13026074",
-      "12722759",
-      "13190355",
-      "12953298",
-      "13067703",
-      "12831320",
-      "13505523",
-      "13222272",
-      "13081631",
-      "12820653",
       "2861536",
       "13087608",
       "13013041"
@@ -36,15 +36,56 @@
   },
   "players": [
     {
+      "profile_id": 12359161,
+      "member_status": "active",
+      "country": "México",
+      "tag": "JAGR | Virus",
+      "cur_1v1": 1802,
+      "max_1v1": 1894,
+      "cur_tg": 1431,
+      "max_tg": 1638,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-11-19",
+      "live": {
+        "match": 522173736,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
+    },
+    {
+      "profile_id": 12989767,
+      "member_status": "active",
+      "country": "Argentina",
+      "tag": "[JAGR] GORDAZO",
+      "cur_1v1": 1635,
+      "max_1v1": 1739,
+      "cur_tg": 1508,
+      "max_tg": 1508,
+      "last_tg": "2026-11-15",
+      "last_1v1": "2026-11-17"
+    },
+    {
+      "profile_id": 12876939,
+      "member_status": "active",
+      "country": "Colombia",
+      "tag": "JAGR | DesNoguns",
+      "cur_1v1": 1610,
+      "max_1v1": 1652,
+      "cur_tg": 1361,
+      "max_tg": 1570,
+      "last_1v1": "2026-11-18",
+      "last_tg": "2026-11-19"
+    },
+    {
       "profile_id": 3964428,
       "member_status": "active",
       "country": "Perú",
       "tag": "JAGR | BkB",
       "cur_1v1": 1559,
       "max_1v1": 1676,
-      "cur_tg": 1521,
+      "cur_tg": 1541,
       "max_tg": 1721,
-      "last_tg": "2026-11-18",
+      "last_tg": "2026-11-19",
       "last_1v1": "2026-11-02"
     },
     {
@@ -72,6 +113,18 @@
       "last_1v1": "2026-11-16"
     },
     {
+      "profile_id": 12573559,
+      "member_status": "active",
+      "country": "Perú",
+      "tag": "JAGR | OLD BUST@",
+      "cur_1v1": 1426,
+      "max_1v1": 1620,
+      "cur_tg": 1061,
+      "max_tg": 1075,
+      "last_1v1": "2026-11-18",
+      "last_tg": "2026-11-13"
+    },
+    {
       "profile_id": 2057662,
       "member_status": "active",
       "country": "Argentina",
@@ -82,6 +135,18 @@
       "max_tg": 1434,
       "last_tg": "2026-11-18",
       "last_1v1": "2026-11-08"
+    },
+    {
+      "profile_id": 13258119,
+      "member_status": "active",
+      "country": "Colombia",
+      "tag": "JAGR | juankof",
+      "cur_1v1": 1376,
+      "max_1v1": 1439,
+      "cur_tg": 1381,
+      "max_tg": 1483,
+      "last_1v1": "2026-10-30",
+      "last_tg": "2026-11-15"
     },
     {
       "profile_id": 1835814,
@@ -96,6 +161,30 @@
       "last_tg": "2026-11-17"
     },
     {
+      "profile_id": 13026074,
+      "member_status": "active",
+      "country": "Perú",
+      "tag": "JAGR | Javi",
+      "cur_1v1": 1303,
+      "max_1v1": 1303,
+      "cur_tg": 1235,
+      "max_tg": 1313,
+      "last_tg": "2026-11-16",
+      "last_1v1": "2026-11-01"
+    },
+    {
+      "profile_id": 12722759,
+      "member_status": "active",
+      "country": "Perú",
+      "tag": "JAGR | STYLORD",
+      "cur_1v1": 1279,
+      "max_1v1": 1470,
+      "cur_tg": 1297,
+      "max_tg": 1426,
+      "last_1v1": "2026-11-17",
+      "last_tg": "2026-11-14"
+    },
+    {
       "profile_id": 10608499,
       "member_status": "active",
       "country": "Venezuela",
@@ -106,6 +195,30 @@
       "max_tg": 1296,
       "last_tg": "2026-11-10",
       "last_1v1": "2026-11-17"
+    },
+    {
+      "profile_id": 13190355,
+      "member_status": "active",
+      "country": "México",
+      "tag": "JAGR_Soyuncacahuate",
+      "cur_1v1": 1201,
+      "max_1v1": 1201,
+      "cur_tg": 1373,
+      "max_tg": 1408,
+      "last_1v1": "2026-11-16",
+      "last_tg": "2026-11-18"
+    },
+    {
+      "profile_id": 12953298,
+      "member_status": "active",
+      "country": "México",
+      "tag": "JAGR | Arthur King MX",
+      "cur_1v1": 1182,
+      "max_1v1": 1356,
+      "cur_tg": 1186,
+      "max_tg": 1227,
+      "last_1v1": "2026-11-18",
+      "last_tg": "2026-11-10"
     },
     {
       "profile_id": 4229230,
@@ -120,175 +233,87 @@
       "last_tg": "2026-10-13"
     },
     {
-      "profile_id": 12359161,
-      "member_status": "active",
-      "country": "México",
-      "tag": "JAGR | Virus",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12989767,
-      "member_status": "active",
-      "country": "Argentina",
-      "tag": "[JAGR] GORDAZO",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12876939,
-      "member_status": "active",
-      "country": "Colombia",
-      "tag": "JAGR | DesNoguns",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12573559,
-      "member_status": "active",
-      "country": "Perú",
-      "tag": "JAGR | OLD BUST@",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 13258119,
-      "member_status": "active",
-      "country": "Colombia",
-      "tag": "JAGR | juankof",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12950375,
-      "member_status": "active",
-      "country": "México",
-      "tag": "JAGR | TheButterfly_Effect",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 13026074,
-      "member_status": "active",
-      "country": "Perú",
-      "tag": "JAGR | Javi",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12722759,
-      "member_status": "active",
-      "country": "Perú",
-      "tag": "JAGR | STYLORD",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 13190355,
-      "member_status": "active",
-      "country": "México",
-      "tag": "JAGR_Soyuncacahuate",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12953298,
-      "member_status": "active",
-      "country": "México",
-      "tag": "JAGR | Arthur King MX",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
       "profile_id": 13067703,
       "member_status": "active",
       "country": "Argentina",
       "tag": "JAGR fran",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "cur_1v1": 1158,
+      "max_1v1": 1158,
+      "cur_tg": 1401,
+      "max_tg": 1446,
+      "last_tg": "2026-11-17",
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 12831320,
       "member_status": "active",
       "country": "Colombia",
       "tag": "JAGR | HIPERYON",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "cur_1v1": 1145,
+      "max_1v1": 1213,
+      "cur_tg": 1279,
+      "max_tg": 1415,
+      "last_1v1": "2026-10-26",
+      "last_tg": "2026-10-25"
     },
     {
       "profile_id": 13505523,
       "member_status": "active",
       "country": "Venezuela",
       "tag": "JAGR | Mazzei10",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "cur_1v1": 1047,
+      "max_1v1": 1064,
+      "cur_tg": 1306,
+      "max_tg": 1396,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-11-07"
     },
     {
       "profile_id": 13222272,
       "member_status": "active",
       "country": "Argentina",
       "tag": "JAGR | Dr. Xeneize",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "cur_1v1": 995,
+      "max_1v1": 1079,
+      "cur_tg": 1043,
+      "max_tg": 1206,
+      "last_tg": "2026-10-24",
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 13081631,
       "member_status": "active",
       "country": "Colombia",
       "tag": "JAGR | Cacique",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "cur_1v1": 940,
+      "max_1v1": 985,
+      "cur_tg": 1144,
+      "max_tg": 1144,
+      "last_tg": "2026-11-15",
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 522173272,
+        "game": "Quick Play 1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 12820653,
       "member_status": "active",
       "country": "Colombia",
       "tag": "JAGR | Ojimenezg87",
+      "cur_1v1": 825,
+      "max_1v1": 1040,
+      "cur_tg": 1122,
+      "max_tg": 1122,
+      "last_1v1": "2026-11-18",
+      "last_tg": "2026-10-24"
+    },
+    {
+      "profile_id": 12950375,
+      "member_status": "active",
+      "country": "México",
+      "tag": "JAGR | TheButterfly_Effect",
       "cur_1v1": null,
       "max_1v1": null,
       "cur_tg": null,
@@ -320,6 +345,18 @@
       "last_1v1": "2026-09-19"
     },
     {
+      "profile_id": 13013041,
+      "member_status": "inactive",
+      "country": "Venezuela",
+      "tag": "JAGR | GoodByeWorld",
+      "cur_1v1": 1309,
+      "max_1v1": 1341,
+      "cur_tg": 1443,
+      "max_tg": 1552,
+      "last_tg": "2026-11-15",
+      "last_1v1": "2026-09-20"
+    },
+    {
       "profile_id": 761809,
       "member_status": "inactive",
       "country": "Costa Rica",
@@ -330,6 +367,18 @@
       "max_tg": 1482,
       "last_tg": "2026-11-18",
       "last_1v1": "2026-06-24"
+    },
+    {
+      "profile_id": 13087608,
+      "member_status": "inactive",
+      "country": "México",
+      "tag": "JAGR | CIHUACOATL",
+      "cur_1v1": 1218,
+      "max_1v1": 1218,
+      "cur_tg": 1330,
+      "max_tg": 1352,
+      "last_tg": "2026-11-05",
+      "last_1v1": "2026-08-29"
     },
     {
       "profile_id": 2861536,
@@ -356,28 +405,6 @@
       "max_tg": 963,
       "last_tg": "2026-11-01",
       "last_1v1": "2026-10-19"
-    },
-    {
-      "profile_id": 13087608,
-      "member_status": "inactive",
-      "country": "México",
-      "tag": "JAGR | CIHUACOATL",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 13013041,
-      "member_status": "inactive",
-      "country": "Venezuela",
-      "tag": "JAGR | GoodByeWorld",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
     }
   ]
 }
