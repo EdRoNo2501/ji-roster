@@ -44,7 +44,8 @@ ROSTERS = [
 
 STATS_URL = "https://aoe-api.worldsedgelink.com/community/leaderboard/GetPersonalStat"
 HEADERS = {"User-Agent": "ji-roster (Jaguares Imperiales roster; GitHub Pages)"}
-BATCH_SIZE = 50          # profiles per request
+# World's Edge getPersonalStat accepts batches of about 10 profile IDs.
+BATCH_SIZE = 10          # profiles per request
 RETRY_DELAY_SECONDS = 5  # one retry per batch for transient errors
 
 # leaderboard_id in the API -> our field suffix (3 = RM 1v1, 4 = RM Team)
