@@ -311,8 +311,6 @@ def build_player(player: dict, prev: dict | None, prefixes: dict | None = None) 
     if not clan:  # nothing in the name: fall back to the account's in-game clan
         clan = GAME_CLANS.get(_game_clan.get(sub[0] if sub else official_id(player)))
     result = {"profile_id": player["id"]}
-    if player.get("member_status"):
-        result["member_status"] = player["member_status"]
     if player.get("country"):
         result["country"] = player["country"]
     if sub:
