@@ -1,92 +1,83 @@
 #!/usr/bin/env python3
-"""Read-only World's Edge alias lookup for JI roster names.
+"""Read-only, one-request-per-player World's Edge alias lookup diagnostic.
 
-Queries both the configured display tag and a conservative clan-prefix-free
-candidate. Results are diagnostic only: this script never edits config or data.
+Uses each configured in-game tag exactly as written. It prints the complete
+JSON response (compactly) so we can inspect the API's actual response shape.
+No roster/config/data files are modified.
 """
 import json
-import re
 import sys
+import time
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from fetch_ratings import STATS_URL, HEADERS
 
 CONFIG = ROOT / "config" / "players.json"
-BATCH_SIZE = 10
+PAUSE_SECONDS = 0.5
 
 
-def alias_candidates(tag):
-    """Return the exact configured tag and a possible bare in-game name."""
-    tag = " ".join((tag or "").split())
-    candidates = [tag] if tag else []
-    bare = re.sub(r"^\[JAGR\]\s*", "", tag, flags=re.IGNORECASE)
-    bare = re.sub(r"^JAGR\s*(?:\|\s*|I\s+|_)?", "", bare, flags=re.IGNORECASE)
-    bare = bare.strip()
-    if bare and bare not in candidates:
-        candidates.append(bare)
-    return candidates
-
-
-def request_aliases(aliases):
-    query = urlencode({"title": "age2", "aliases": json.dumps(aliases)})
-    req = Request(f"{STATS_URL}?{query}", headers=HEADERS)
+def request_alias(alias):
+    # Deliberately send one exact in-game tag per request, not a batch.
+    query = urlencode({"title": "age2", "aliases": json.dumps([alias])})
+    url = f"{STATS_URL}?{query}"
+    req = Request(url, headers=HEADERS)
     with urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    if data.get("result", {}).get("code") != 0:
-        raise ValueError(f"API error: {data.get('result')}")
-    return data
+        status = resp.status
+        raw = resp.read().decode("utf-8")
+    return status, url, json.loads(raw), raw
 
 
 def main():
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
     players = config["players"]
-    owners = {}
-    for player in players:
-        for alias in alias_candidates(player.get("tag", "")):
-            owners.setdefault(alias, []).append(player)
-
-    aliases = list(owners)
     print(f"Roster: {config.get('clan_name', 'unknown')} — {len(players)} players")
-    print(f"Unique alias candidates: {len(aliases)}")
-    print("Candidates include configured tags and possible names without the JAGR prefix.")
-    print("No roster/config/data files are modified. Review identity matches before adding official_id.")
+    print("Mode: one API request per configured tag; exact spelling preserved.")
+    print("No roster/config/data files are modified.")
+    print(f"Endpoint: {STATS_URL}")
 
-    for start in range(0, len(aliases), BATCH_SIZE):
-        batch = aliases[start:start + BATCH_SIZE]
-        print(f"\n=== alias lookup {start + 1}-{start + len(batch)} ===")
-        data = request_aliases(batch)
-        profiles = data.get("profiles", [])
-        by_alias = {}
-        for profile in profiles:
-            by_alias.setdefault(profile.get("alias"), []).append(profile)
-
-        for alias in batch:
-            matches = by_alias.get(alias, [])
-            linked_players = [
-                {"tag": p.get("tag"), "aoe2insights_id": p.get("id")}
-                for p in owners[alias]
-            ]
-            if not matches:
-                print(json.dumps({
-                    "queried_alias": alias,
-                    "roster_players": linked_players,
-                    "status": "NO_EXACT_MATCH",
-                }, ensure_ascii=False))
-                continue
-            for profile in matches:
-                print(json.dumps({
-                    "queried_alias": alias,
-                    "roster_players": linked_players,
-                    "status": "MATCH",
-                    "official_profile_id": profile.get("profile_id"),
-                    "returned_alias": profile.get("alias"),
-                    "name": profile.get("name"),
-                    "personal_statgroup_id": profile.get("personal_statgroup_id"),
-                }, ensure_ascii=False))
+    for index, player in enumerate(players, start=1):
+        tag = player.get("tag", "")
+        print(f"\n=== PLAYER {index}/{len(players)} ===")
+        print(json.dumps({
+            "roster_tag": tag,
+            "aoe2insights_id": player.get("id"),
+            "configured_official_id": player.get("official_id", "(not set; defaults to id)"),
+            "member_status": player.get("member_status", "active"),
+        }, ensure_ascii=False))
+        try:
+            status, url, data, raw = request_alias(tag)
+            print(f"HTTP_STATUS: {status}")
+            print(f"TOP_LEVEL_KEYS: {json.dumps(list(data.keys()), ensure_ascii=False)}")
+            print(f"API_RESULT: {json.dumps(data.get('result'), ensure_ascii=False)}")
+            profiles = data.get("profiles")
+            print(f"PROFILES_TYPE: {type(profiles).__name__}")
+            print(f"PROFILES: {json.dumps(profiles, ensure_ascii=False, separators=(',', ':'))}")
+            groups = data.get("statGroups")
+            group_summary = []
+            for group in groups or []:
+                group_summary.append({
+                    "id": group.get("id"),
+                    "members": group.get("members"),
+                })
+            print(f"STATGROUPS: {json.dumps(group_summary, ensure_ascii=False, separators=(',', ':'))}")
+            stats = data.get("leaderboardStats")
+            print(f"LEADERBOARD_STATS_COUNT: {len(stats) if isinstance(stats, list) else 'not-a-list-or-missing'}")
+            print(f"LEADERBOARD_STATS: {json.dumps(stats, ensure_ascii=False, separators=(',', ':'))}")
+            # Preserve the raw response for fields not anticipated by this script.
+            print(f"RAW_RESPONSE: {raw}")
+        except HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            print(f"HTTP_ERROR: {exc.code} {exc.reason}")
+            print(f"HTTP_ERROR_BODY: {body}")
+        except (URLError, TimeoutError, ValueError) as exc:
+            print(f"REQUEST_ERROR: {type(exc).__name__}: {exc}")
+        if index < len(players):
+            time.sleep(PAUSE_SECONDS)
 
 
 if __name__ == "__main__":
