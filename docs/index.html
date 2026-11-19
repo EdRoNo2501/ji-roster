@@ -378,6 +378,18 @@ body {
   .poster:not(.exporting) .roster-legend { font-size: 9px; }
 }
 
+
+.history-toggle { border:0;background:transparent;color:var(--gold);cursor:pointer;font-size:11px;margin-left:7px;opacity:.85; }
+.history-toggle:hover { color:var(--gold-bright);text-decoration:underline; }
+.data-health { margin-top:6px;font-size:11px;letter-spacing:.6px;display:flex;align-items:center;gap:6px;justify-content:center; }
+.data-health .dot { width:7px;height:7px;border-radius:50%;background:#69a879;display:inline-block; }
+.data-health.partial .dot { background:#d1a34f; }
+.history-panel { display:none;margin:20px auto 0;padding:14px;max-width:680px;border:1px solid rgba(210,169,79,.35);border-radius:4px;background:rgba(5,8,14,.7); }
+.history-panel.open { display:block; }
+.history-panel h3 { color:var(--gold-bright);font:600 16px 'Cinzel',serif;margin-bottom:5px; }
+.history-panel .history-meta { color:var(--muted);font-size:11px;margin-bottom:10px; }
+.history-panel svg { width:100%;height:auto;display:block;overflow:visible; }
+.history-panel .history-empty { color:var(--muted);font-size:12px;padding:20px;text-align:center; }
 </style>
 </head>
 <body>
@@ -426,7 +438,7 @@ body {
     </svg>
     <div class="updated" id="updated"></div>
     <button class="action-btn no-export" id="download" type="button">Download PNG</button>
-    <div class="action-msg no-export" id="action-msg" role="status"></div>
+    <div class="action-msg no-export" id="action-msg" role="status"></div><div class="data-health no-export" id="data-health"><span class="dot"></span><span id="data-health-text">Checking data status…</span></div><div class="history-panel no-export" id="history-panel"></div>
   </div>
 </div>
 
@@ -457,6 +469,8 @@ let currentPage = 1;      // tabs with page_size show one page of the ranking at
 let currentPageRange = '';  // e.g. "16-30", for the PNG filename
 let lastRender = null;    // [data, lastCheck], so switching pages needs no refetch
 let lastUpdatedAt = null;
+let historyData = null;
+let statusData = null;
 let loadSeq = 0;  // ignore responses from a tab the viewer has already left
 
 // "#mexico" or "#mexico-2" (page 2)
@@ -481,9 +495,56 @@ async function fetchRoster(file) {
 // the job last ran. Unauthenticated limit is 60 requests/hour per visitor.
 const RUNS_URL = ''; // Set to your GitHub repo Actions endpoint after publishing.
 
+
+async function fetchStatus() {
+  try {
+    const res = await fetch('data/status.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) return null;
+    statusData = await res.json();
+    const stamp = statusData.updated_at ? new Date(statusData.updated_at) : null;
+    const health = document.getElementById('data-health');
+    const label = document.getElementById('data-health-text');
+    if (health && label && stamp) {
+      health.classList.toggle('partial', statusData.status !== 'ok');
+      label.textContent = (statusData.status === 'ok' ? 'Data check OK' : 'Data check partial') + ' · ' + timeAgo(stamp);
+      health.title = 'Last check: ' + stamp.toLocaleString() + (statusData.stale_players?.length ? ' · stale players: ' + statusData.stale_players.join(', ') : '');
+    }
+    return stamp;
+  } catch { return null; }
+}
+async function fetchHistory() {
+  if (historyData) return historyData;
+  try {
+    const res = await fetch('data/history.json?t=' + Date.now(), { cache: 'no-store' });
+    if (res.ok) historyData = await res.json();
+  } catch {}
+  return historyData;
+}
+function showHistory(profileId, playerName) {
+  const panel = document.getElementById('history-panel');
+  if (!panel) return;
+  panel.classList.add('open');
+  panel.innerHTML = '<h3>' + escapeHtml(playerName) + ' · 1v1 Rating History</h3><div class="history-meta">Daily snapshots · UTC</div>';
+  const points = historyData?.players?.[String(profileId)] || [];
+  if (points.length < 2) {
+    panel.innerHTML += '<div class="history-empty">Not enough historical data yet. The chart will grow as daily snapshots are collected.</div>';
+    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    return;
+  }
+  const vals = points.map(p => Number(p.rating)).filter(Number.isFinite);
+  const min = Math.min(...vals), max = Math.max(...vals), span = max - min || 1;
+  const w = 620, h = 220, pad = 34;
+  const coords = points.map((p,i)=>({x:pad+i*(w-2*pad)/(points.length-1),y:h-pad-(p.rating-min)*(h-2*pad)/span}));
+  const line = coords.map(p=>p.x.toFixed(1)+','+p.y.toFixed(1)).join(' ');
+  const grid = [0,.25,.5,.75,1].map(t=>{const y=pad+t*(h-2*pad),v=Math.round(max-t*span);return '<line x1="'+pad+'" y1="'+y+'" x2="'+(w-pad)+'" y2="'+y+'" stroke="rgba(201,167,95,.18)"/><text x="4" y="'+(y+4)+'" fill="#a2a8b4" font-size="10">'+v+'</text>';}).join('');
+  const labels = [0,Math.floor((points.length-1)/2),points.length-1].filter((n,i,a)=>a.indexOf(n)===i).map(i=>'<text x="'+coords[i].x+'" y="'+(h-6)+'" fill="#a2a8b4" font-size="10" text-anchor="middle">'+escapeHtml(points[i].date)+'</text>').join('');
+  panel.innerHTML += '<svg viewBox="0 0 '+w+' '+h+'" aria-label="Rating history graph">'+grid+'<polyline points="'+line+'" fill="none" stroke="#e6c988" stroke-width="2.5"/>'+coords.map(p=>'<circle cx="'+p.x+'" cy="'+p.y+'" r="3" fill="#e6c988"/>').join('')+labels+'</svg><div class="history-meta">Current: '+vals[vals.length-1]+' · '+points.length+' daily snapshots</div>';
+  panel.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
 async function fetchLastCheck() {
   try {
-    if (!RUNS_URL) return null;
+    if (!RUNS_URL) return fetchStatus();
     const res = await fetch(RUNS_URL, { cache: 'no-store' });
     if (!res.ok) return null;
     const run = (await res.json()).workflow_runs?.[0];
@@ -501,7 +562,8 @@ async function loadTab(tab, page = 1) {
   document.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === tab)));
   document.getElementById('subtitle').textContent = cfg.subtitle;
   try {
-    const [data, lastCheck] = await Promise.all([fetchRoster(cfg.file), fetchLastCheck()]);
+    const [data, lastCheck, hist] = await Promise.all([fetchRoster(cfg.file), fetchLastCheck(), fetchHistory()]);
+    historyData = hist;
     if (seq === loadSeq) render(data, lastCheck);
   } catch (err) {
     if (seq !== loadSeq) return;
@@ -723,6 +785,17 @@ function render(data, lastCheck) {
       </div>`).join('')}
     `;
     rowsEl.appendChild(row);
+
+    const historyButton = document.createElement('button');
+    historyButton.type = 'button';
+    historyButton.className = 'history-toggle no-export';
+    historyButton.textContent = '↗';
+    historyButton.title = 'Show rating history';
+    historyButton.setAttribute('aria-label', 'Show rating history');
+    historyButton.dataset.profile = String(p.profile_id);
+    historyButton.dataset.player = (p.clan ? p.clan + ' | ' : '') + p.tag;
+    historyButton.addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); showHistory(historyButton.dataset.profile, historyButton.dataset.player); });
+    row.querySelector('.who').appendChild(historyButton);
   });
   fitNames();
   document.fonts.ready.then(fitNames);  // re-fit once the web fonts have loaded
