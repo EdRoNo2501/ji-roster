@@ -115,6 +115,18 @@ def parse_stats(data: dict) -> dict[int, tuple[dict, tuple]]:
 
 
 _stats: dict[int, tuple[dict, tuple]] = {}
+# Canonical account metadata from the master clan roster. Country configs keep
+# only AoE2Insights IDs; inherit official IDs here so every view queries the
+# same World's Edge account without duplicating account mappings in 8 files.
+_master_players: dict[int, dict] = {}
+
+
+def inherit_account_ids(player: dict) -> dict:
+    canonical = _master_players.get(player["id"], {})
+    for field in ("official_id", "1v1_from"):
+        if field not in player and field in canonical:
+            player[field] = canonical[field]
+    return player
 
 
 def prefetch(official_ids: set[int]) -> None:
@@ -438,6 +450,7 @@ def update_roster(roster: dict, now: datetime) -> bool:
     print(f"== {name} ({len(config['players'])} players)")
     results = []
     for player in config["players"]:
+        inherit_account_ids(player)
         results.append(build_player(player, previous.get(player["id"]), config.get("clan_prefixes")))
     stale = [p["tag"] for p in results if p.get("stale")]
     if stale:
@@ -545,8 +558,17 @@ def missing_from(links: dict, names: dict[int, str]) -> bool:
 
 def main():
     now = datetime.now(timezone.utc)
+    # The master clan roster is the source of truth for account mappings.
+    # Country configs intentionally store only the AoE2Insights ID and status;
+    # inherit official IDs before prefetching and again when building each file.
+    global _master_players
+    master = load_json(ROOT / "config" / "players.json")
+    _master_players = {p["id"]: p for p in master.get("players", [])}
+
     # One batched lookup for everyone on every roster (shared players once)
     configs = [p for r in ROSTERS for p in load_json(r["config"])["players"]]
+    for player in configs:
+        inherit_account_ids(player)
     everyone = {official_id(p) for p in configs} - {None}
     prefetch(everyone | {p["1v1_from"] for p in configs if p.get("1v1_from")})
     links = refresh_links(now, "--links" in sys.argv[1:])
