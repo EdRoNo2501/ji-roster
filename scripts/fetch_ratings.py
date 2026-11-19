@@ -30,6 +30,8 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
+HISTORY_PATH = ROOT / 'docs' / 'data' / 'history.json'
+STATUS_PATH = ROOT / 'docs' / 'data' / 'status.json'
 
 # Each roster: player list in config/, output read directly by the live page.
 # Players with a "tag" in config use it; others get their name from the API.
@@ -556,6 +558,49 @@ def missing_from(links: dict, names: dict[int, str]) -> bool:
     return any(str(o) not in links.get("players", {}) for o in names)
 
 
+
+def update_history(now: datetime) -> None:
+    """Keep one daily 1v1-rating snapshot per player, for one year."""
+    data = load_json(HISTORY_PATH) if HISTORY_PATH.exists() else {"players": {}}
+    players = data.setdefault("players", {})
+    day = now.date().isoformat()
+    current = load_json(ROOT / "docs" / "data" / "roster.json").get("players", [])
+    cutoff = (now.date() - timedelta(days=365)).isoformat()
+    for p in current:
+        pid = str(p.get("profile_id"))
+        rating = p.get("cur_1v1")
+        if rating is None or p.get("stale"):
+            continue
+        entries = players.setdefault(pid, [])
+        point = {"date": day, "rating": int(rating)}
+        if entries and entries[-1].get("date") == day:
+            entries[-1] = point
+        else:
+            entries.append(point)
+        players[pid] = [entry for entry in entries if entry.get("date", "") >= cutoff]
+    data["updated_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    HISTORY_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def update_status(now: datetime) -> None:
+    """Write status metadata hourly to avoid unnecessary repository commits."""
+    old = load_json(STATUS_PATH) if STATUS_PATH.exists() else {}
+    previous = old.get("updated_at")
+    if previous:
+        try:
+            if now - datetime.fromisoformat(previous.replace("Z", "+00:00")) < timedelta(hours=1):
+                return
+        except ValueError:
+            pass
+    roster = load_json(ROOT / "docs" / "data" / "roster.json")
+    players = roster.get("players", [])
+    stale = sorted(p.get("tag", str(p.get("profile_id"))) for p in players if p.get("stale"))
+    status = {"updated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+               "status": "partial" if stale else "ok",
+               "players_checked": len(players), "stale_players": stale}
+    STATUS_PATH.write_text(json.dumps(status, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
 def main():
     now = datetime.now(timezone.utc)
     # The master clan roster is the source of truth for account mappings.
@@ -595,6 +640,8 @@ def main():
     if not ok:
         print("ERROR: a roster came back with no data at all — check selectors", file=sys.stderr)
         sys.exit(1)
+    update_history(now)
+    update_status(now)
 
 
 if __name__ == "__main__":
