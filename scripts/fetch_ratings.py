@@ -412,7 +412,7 @@ def fit_roster(baseline: dict, results: list) -> dict:
     added players are slotted in at the place they first appear (no NEW badge,
     and nobody shows a ▼ for being passed by them). Players back from inactive
     are slotted in the same way."""
-    ids = [str(p["profile_id"]) for p in results if p.get("member_status", "active") == "active" and not p.get("inactive")]
+    ids = [str(p["profile_id"]) for p in results if not p.get("inactive")]
     kept = sorted((k for k in baseline["ranks"] if k in ids), key=baseline["ranks"].get)
     for i, pid in enumerate(ids):
         if pid not in baseline["ranks"]:
