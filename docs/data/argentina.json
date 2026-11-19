@@ -1,20 +1,20 @@
 {
   "name": "Argentina",
-  "updated_at": "2026-11-19T21:26:41Z",
+  "updated_at": "2026-11-19T21:40:49Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
       "12989767": 1,
       "2057662": 2,
-      "13067703": 3,
-      "13222272": 4
+      "10369585": 3,
+      "13067703": 4,
+      "13222272": 5
     },
     "inactive": []
   },
   "players": [
     {
       "profile_id": 12989767,
-      "member_status": "active",
       "tag": "GORDAZO",
       "clan": "JAGR",
       "cur_1v1": 1635,
@@ -26,14 +26,13 @@
     },
     {
       "profile_id": 2057662,
-      "member_status": "active",
       "tag": "PIPO GOROSITO",
       "clan": "JAGR",
       "cur_1v1": 1421,
       "max_1v1": 1421,
-      "cur_tg": 1324,
+      "cur_tg": 1343,
       "max_tg": 1434,
-      "last_tg": "2026-11-18",
+      "last_tg": "2026-11-19",
       "last_1v1": "2026-11-08",
       "live": {
         "match": 522306840,
@@ -42,8 +41,18 @@
       }
     },
     {
+      "profile_id": 10369585,
+      "tag": "GastonWick",
+      "clan": "JAGR",
+      "cur_1v1": 1385,
+      "max_1v1": 1416,
+      "cur_tg": 1417,
+      "max_tg": 1451,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-09-19"
+    },
+    {
       "profile_id": 13067703,
-      "member_status": "active",
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
@@ -54,7 +63,6 @@
     },
     {
       "profile_id": 13222272,
-      "member_status": "active",
       "tag": "Dr. Xeneize",
       "clan": "JAGR",
       "cur_1v1": 995,
@@ -63,18 +71,6 @@
       "max_tg": 1206,
       "last_tg": "2026-10-24",
       "last_1v1": "2026-11-17"
-    },
-    {
-      "profile_id": 10369585,
-      "member_status": "inactive",
-      "tag": "GastonWick",
-      "clan": "JAGR",
-      "cur_1v1": 1385,
-      "max_1v1": 1416,
-      "cur_tg": 1417,
-      "max_tg": 1451,
-      "last_tg": "2026-11-18",
-      "last_1v1": "2026-09-19"
     }
   ],
   "show_top": 15

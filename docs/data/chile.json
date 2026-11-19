@@ -1,6 +1,6 @@
 {
   "name": "Chile",
-  "updated_at": "2026-11-19T18:12:25Z",
+  "updated_at": "2026-11-19T21:40:49Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {},
@@ -11,7 +11,6 @@
   "players": [
     {
       "profile_id": 2861536,
-      "member_status": "inactive",
       "tag": "Kriid",
       "clan": "JARG",
       "cur_1v1": 1125,

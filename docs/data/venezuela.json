@@ -1,18 +1,29 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-19T18:12:25Z",
+  "updated_at": "2026-11-19T21:40:49Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
-      "10608499": 1,
-      "13505523": 2
+      "13013041": 1,
+      "10608499": 2,
+      "13505523": 3
     },
     "inactive": []
   },
   "players": [
     {
+      "profile_id": 13013041,
+      "tag": "GoodByeWorld",
+      "clan": "JAGR",
+      "cur_1v1": 1309,
+      "max_1v1": 1341,
+      "cur_tg": 1443,
+      "max_tg": 1552,
+      "last_tg": "2026-11-15",
+      "last_1v1": "2026-09-20"
+    },
+    {
       "profile_id": 10608499,
-      "member_status": "active",
       "tag": "JAGR I Milanesito",
       "cur_1v1": 1223,
       "max_1v1": 1223,
@@ -23,7 +34,6 @@
     },
     {
       "profile_id": 13505523,
-      "member_status": "active",
       "tag": "Mazzei10",
       "clan": "JAGR",
       "cur_1v1": 1047,
@@ -32,18 +42,6 @@
       "max_tg": 1396,
       "last_tg": "2026-11-18",
       "last_1v1": "2026-11-07"
-    },
-    {
-      "profile_id": 13013041,
-      "member_status": "inactive",
-      "tag": "GoodByeWorld",
-      "clan": "JAGR",
-      "cur_1v1": 1309,
-      "max_1v1": 1341,
-      "cur_tg": 1443,
-      "max_tg": 1552,
-      "last_tg": "2026-11-15",
-      "last_1v1": "2026-09-20"
     }
   ],
   "show_top": 15

@@ -1,21 +1,22 @@
 {
   "name": "México",
-  "updated_at": "2026-11-19T18:12:25Z",
+  "updated_at": "2026-11-19T21:40:49Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
       "12359161": 1,
       "12950375": 2,
-      "13190355": 3,
-      "12953298": 4,
-      "4229230": 5
+      "13087608": 3,
+      "13190355": 4,
+      "12953298": 5,
+      "4229230": 6,
+      "9357272": 7
     },
     "inactive": []
   },
   "players": [
     {
       "profile_id": 12359161,
-      "member_status": "active",
       "tag": "Virus",
       "clan": "JAGR",
       "cur_1v1": 1791,
@@ -27,7 +28,6 @@
     },
     {
       "profile_id": 12950375,
-      "member_status": "active",
       "tag": "TheButterfly_Effect",
       "clan": "JAGR",
       "cur_1v1": 1357,
@@ -38,8 +38,18 @@
       "last_1v1": "2026-11-13"
     },
     {
+      "profile_id": 13087608,
+      "tag": "CIHUACOATL",
+      "clan": "JAGR",
+      "cur_1v1": 1218,
+      "max_1v1": 1218,
+      "cur_tg": 1330,
+      "max_tg": 1352,
+      "last_tg": "2026-11-05",
+      "last_1v1": "2026-08-29"
+    },
+    {
       "profile_id": 13190355,
-      "member_status": "active",
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
@@ -50,7 +60,6 @@
     },
     {
       "profile_id": 12953298,
-      "member_status": "active",
       "tag": "Arthur King MX",
       "clan": "JAGR",
       "cur_1v1": 1182,
@@ -62,7 +71,6 @@
     },
     {
       "profile_id": 4229230,
-      "member_status": "active",
       "tag": "xKensyt",
       "clan": "JAGR",
       "cur_1v1": 1171,
@@ -73,20 +81,7 @@
       "last_tg": "2026-10-13"
     },
     {
-      "profile_id": 13087608,
-      "member_status": "inactive",
-      "tag": "CIHUACOATL",
-      "clan": "JAGR",
-      "cur_1v1": 1218,
-      "max_1v1": 1218,
-      "cur_tg": 1330,
-      "max_tg": 1352,
-      "last_tg": "2026-11-05",
-      "last_1v1": "2026-08-29"
-    },
-    {
       "profile_id": 9357272,
-      "member_status": "inactive",
       "tag": "mauricio",
       "clan": "JAGR",
       "cur_1v1": 743,

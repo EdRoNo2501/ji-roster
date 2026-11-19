@@ -1,20 +1,20 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-19T21:26:41Z",
+  "updated_at": "2026-11-19T21:40:49Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
       "3964428": 1,
-      "12573559": 2,
-      "13026074": 3,
-      "12722759": 4
+      "1025121": 2,
+      "12573559": 3,
+      "13026074": 4,
+      "12722759": 5
     },
     "inactive": []
   },
   "players": [
     {
       "profile_id": 3964428,
-      "member_status": "active",
       "tag": "BkB",
       "clan": "JAGR",
       "cur_1v1": 1559,
@@ -25,8 +25,18 @@
       "last_1v1": "2026-11-02"
     },
     {
+      "profile_id": 1025121,
+      "tag": "Rojnar",
+      "clan": "JAGR",
+      "cur_1v1": 1533,
+      "max_1v1": 1533,
+      "cur_tg": 1427,
+      "max_tg": 1502,
+      "last_1v1": "2026-11-19",
+      "last_tg": "2026-11-18"
+    },
+    {
       "profile_id": 12573559,
-      "member_status": "active",
       "tag": "OLD BUST@",
       "clan": "JAGR",
       "cur_1v1": 1456,
@@ -38,7 +48,6 @@
     },
     {
       "profile_id": 13026074,
-      "member_status": "active",
       "tag": "Javi",
       "clan": "JAGR",
       "cur_1v1": 1303,
@@ -50,7 +59,6 @@
     },
     {
       "profile_id": 12722759,
-      "member_status": "active",
       "tag": "STYLORD",
       "clan": "JAGR",
       "cur_1v1": 1295,
@@ -59,18 +67,6 @@
       "max_tg": 1426,
       "last_1v1": "2026-11-19",
       "last_tg": "2026-11-14"
-    },
-    {
-      "profile_id": 1025121,
-      "member_status": "inactive",
-      "tag": "Rojnar",
-      "clan": "JAGR",
-      "cur_1v1": 1533,
-      "max_1v1": 1533,
-      "cur_tg": 1427,
-      "max_tg": 1502,
-      "last_1v1": "2026-11-19",
-      "last_tg": "2026-11-18"
     }
   ],
   "show_top": 15
