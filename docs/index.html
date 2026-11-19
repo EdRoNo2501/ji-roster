@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jaguares Imperiales — Clan Roster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Yuji+Mai&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+:root {
+  --ink: #0a0d14;
+  --navy-deep: #131a2b;
+  --gold: #c9a75f;
+  --gold-bright: #e6c988;
+  --gold-dim: #8a744a;
+  --foam: #ece6d2;
+  --muted: #7c8bab;
+  --move-up: #6aa877;
+  --move-down: #c06a5e;
+  --live: var(--ji-accent);       /* LIVE badge */
+  --live-text: 150, 218, 212;
+  --ji-accent: 196, 146, 55;  /* imperial gold accent */
+  --ji-tint: 196, 146, 55;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--ink);
+  color: var(--foam);
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+.poster {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  background:
+    radial-gradient(ellipse 900px 500px at 50% 0%, rgba(61,89,120,0.35), transparent 60%),
+    linear-gradient(180deg, #0d1220 0%, #131a2b 40%, #0d1220 100%);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 48px 32px 40px;
+}
+.frame { position: absolute; inset: 18px; border: 1.5px solid var(--gold-dim); pointer-events: none; }
+.frame::before { content: ""; position: absolute; inset: 8px; border: 1px solid rgba(201,167,95,0.35); }
+.header { display: flex; flex-direction: column; align-items: center; position: relative; z-index: 2; }
+/* The ring is a real border (not a box-shadow) and the logo a cover-sized
+   background (not object-fit) so the PNG export draws both correctly */
+.logo-ring {
+  width: 180px; height: 180px; border-radius: 50%; padding: 5px;
+  border: 1px solid rgba(201,167,95,0.4);
+  background: radial-gradient(circle at 50% 40%, rgba(230,201,136,0.25), rgba(230,201,136,0) 70%);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.55);
+}
+.logo { width: 100%; height: 100%; border-radius: 50%; background: url(assets/logo_JI.jpg) center / cover no-repeat; }
+.kanji-mark { font-family: 'Cinzel Decorative', serif; font-size: 12px; letter-spacing: 8px; color: var(--gold-dim); margin-top: 18px; }
+.title { font-family: 'Yuji Mai', serif; font-size: 64px; letter-spacing: 2px; color: var(--gold-bright); margin-top: 10px; text-shadow: 0 2px 24px rgba(230,201,136,0.25); }
+.subtitle { font-family: 'EB Garamond', serif; font-style: italic; font-size: 17px; letter-spacing: 3px; color: var(--muted); margin-top: 4px; }
+.rule { margin-top: 20px; width: 320px; height: 20px; }
+.tabs { display: flex; margin-top: 18px; border: 1px solid var(--gold-dim); border-radius: 3px; overflow: hidden; }
+.tab {
+  padding: 5px 22px; background: transparent; border: 0; cursor: pointer;
+  font-family: 'EB Garamond', serif; font-size: 15px; letter-spacing: 1px;
+  font-style: italic; font-weight: 500;  /* the italic face the page loads */
+  color: var(--muted); transition: color .15s, background .15s;
+}
+.tab + .tab { border-left: 1px solid var(--gold-dim); }
+.tab:hover { color: var(--gold); }
+.tab[aria-selected="true"] { color: var(--gold-bright); background: rgba(201,167,95,0.14); }
+.tab:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: -2px; }
+/* Page buttons under a long ranking (page_size), same look as the tabs */
+.pager { display: flex; width: fit-content; margin: 22px auto 0; border: 1px solid var(--gold-dim); border-radius: 3px; overflow: hidden; }
+.pager:empty { display: none; }
+.page-btn {
+  padding: 5px 22px; background: transparent; border: 0; cursor: pointer;
+  font-family: 'EB Garamond', serif; font-size: 15px; letter-spacing: 1px; font-style: italic; font-weight: 500;
+  color: var(--muted); transition: color .15s, background .15s;
+}
+.page-btn + .page-btn { border-left: 1px solid var(--gold-dim); }
+.page-btn:hover { color: var(--gold); }
+.page-btn[aria-current="true"] { color: var(--gold-bright); background: rgba(201,167,95,0.14); }
+.page-btn:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: -2px; }
+.roster { margin-top: 24px; width: 100%; position: relative; z-index: 2; }
+.col-headers, .row {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) repeat(4, 88px);
+  align-items: center;
+  column-gap: 4px;
+}
+.col-headers { padding: 0 10px 10px; row-gap: 4px; }
+.group-label { grid-row: 1; grid-column: span 2; font-family: 'EB Garamond', serif; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; text-align: center; padding-bottom: 4px; border-bottom: 1px solid rgba(201,167,95,0.35); }
+.group-label.g-1v1 { grid-column: 3 / span 2; color: var(--gold); }
+.group-label.g-tg { grid-column: 5 / span 2; color: var(--wave-blue-bright); }
+.col-headers .stat { grid-row: 2; }
+.h1 { grid-column: 3; } .h2 { grid-column: 4; } .h3 { grid-column: 5; } .h4 { grid-column: 6; }
+.row { padding: 16px 10px; position: relative; color: inherit; text-decoration: none; cursor: pointer; transition: background .15s; }
+.row:hover { background: rgba(201,167,95,0.07); }
+.row:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: -2px; }
+/* JI members on country rankings: imperial gold tint */
+.row.nw-member { background: rgba(var(--ji-tint), 0.13); }
+/* Inactive (no ranked 1v1 in 90 days or team game in 60, on any account): faded and gray. Colours
+   are overridden directly rather than with a grayscale filter, which the PNG
+   export doesn't support. */
+.row.inactive { opacity: 0.5; }
+.row.inactive .rank, .row.inactive .tag, .row.inactive .clan,
+.row.inactive .stat-num { color: var(--muted) !important; }
+.row.nw-member:hover { background: rgba(var(--ji-tint), 0.2); }
+.row.nw-member .clan { color: rgb(var(--ji-accent)); }
+.row:not(:last-child)::after {
+  content: ""; position: absolute; bottom: 0; left: 6%; right: 6%; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201,167,95,0.55), transparent);
+}
+.rank { font-family: 'Cinzel Decorative', serif; font-size: 22px; color: var(--gold-dim); text-align: center; position: relative; }
+/* Hangs below the rank numeral without changing row height, so rows with
+   and without a badge stay evenly spaced */
+.move { position: absolute; top: 100%; left: 0; right: 0; font-family: 'EB Garamond', serif; font-size: 12px; font-weight: 500; letter-spacing: 0.5px; line-height: 1; }
+.up { color: var(--move-up); }
+.down { color: var(--move-down); }
+.move.new { color: var(--gold); font-size: 8px; letter-spacing: 1px; }
+.who { padding-left: 10px; min-width: 0; display: flex; align-items: center; gap: 8px; }
+.tag { font-family: 'Yuji Mai', sans-serif; font-size: 22px; color: var(--foam); overflow-wrap: anywhere; min-width: 0; }
+/* LIVE badge next to the name of anyone in a game right now; opens the match */
+.live {
+  flex: none; display: inline-flex; align-items: center; gap: 4px;
+  padding: 2px 7px 2px 6px; border-radius: 999px;
+  border: 1px solid rgba(var(--live), 0.6); background: rgba(var(--live), 0.15);
+  color: rgb(var(--live-text)); font-family: 'EB Garamond', serif; font-size: 10px; font-weight: 500;
+  letter-spacing: 1.5px; line-height: 1.2; cursor: pointer; transition: background .15s;
+}
+.live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: rgb(var(--live)); animation: live-pulse 1.6s ease-in-out infinite; }
+.live:hover { background: rgba(var(--live), 0.3); }
+.live:focus-visible { outline: 2px solid rgb(var(--live-text)); outline-offset: 2px; }
+@keyframes live-pulse { 50% { opacity: 0.35; } }
+@media (prefers-reduced-motion: reduce) { .live::before { animation: none; } }
+/* Clan tag shown small before the name (México tab) */
+.clan { font-family: 'EB Garamond', serif; font-size: 13px; color: var(--muted); margin-right: 2px; letter-spacing: 0.5px; }
+.stat { text-align: center; }
+.stat-num { font-family: 'Yuji Mai', monospace; font-size: 24px; }
+.stat-num.s-1v1 { color: var(--gold-bright); }
+.stat-num.s-tg { color: var(--wave-blue-bright); }
+.stat-num.is-max { font-size: 18px; opacity: 0.7; }
+.stat-num.stale { opacity: 0.4; }
+.stat-label { font-family: 'EB Garamond', serif; font-size: 10px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; }
+.footer { margin-top: 32px; display: flex; flex-direction: column; align-items: center; position: relative; z-index: 2; }
+.footer-wave { width: 260px; height: 24px; opacity: 0.85; }
+.updated { font-family: 'EB Garamond', serif; font-size: 12px; color: var(--muted); margin-top: 12px; letter-spacing: 1px; text-align: center; }
+.action-btn {
+  margin-top: 12px; padding: 7px 18px;
+  font-family: 'EB Garamond', serif; font-size: 12px; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--gold); background: transparent; border: 1px solid var(--gold-dim); border-radius: 3px;
+  cursor: pointer; transition: color .15s, border-color .15s, background .15s;
+}
+.action-btn:hover:not(:disabled) { color: var(--gold-bright); border-color: var(--gold); background: rgba(201,167,95,0.08); }
+.action-btn:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 2px; }
+.action-btn:disabled { opacity: 0.5; cursor: default; }
+.action-msg { font-family: 'EB Garamond', serif; font-size: 12px; color: #d99; margin-top: 6px; min-height: 1em; }
+.error { font-family: 'EB Garamond', serif; color: #d99; text-align: center; padding: 40px; }
+/* Phone layout. Every rule is scoped to .poster:not(.exporting) so a PNG
+   export (which adds .exporting) always gets the desktop layout. */
+@media (max-width: 640px) {
+  body { padding: 0; }
+  .poster:not(.exporting) { border-radius: 0; padding: 26px 16px 22px; }
+  .poster:not(.exporting) .frame { inset: 8px; }
+  .poster:not(.exporting) .frame::before { inset: 4px; }
+
+  /* Compact header */
+  .poster:not(.exporting) .logo-ring { width: 110px; height: 110px; padding: 3px; box-shadow: 0 10px 30px rgba(0,0,0,0.55); }
+  .poster:not(.exporting) .kanji-mark { margin-top: 12px; font-size: 11px; letter-spacing: 6px; }
+  .poster:not(.exporting) .title { font-size: 40px; margin-top: 4px; }
+  .poster:not(.exporting) .subtitle { font-size: 13px; letter-spacing: 1.5px; text-align: center; }
+  .poster:not(.exporting) .rule { width: min(240px, 80%); margin-top: 12px; }
+  .poster:not(.exporting) .roster { margin-top: 14px; }
+
+  /* Rows: one line like desktop (same grid placement), with narrower
+     rating columns and text that scales with the screen width */
+  .poster:not(.exporting) .col-headers,
+  .poster:not(.exporting) .row { grid-template-columns: 20px minmax(0, 1fr) repeat(4, 12.5vw); column-gap: 2px; }
+  .poster:not(.exporting) .clan { font-size: 9px; margin-right: 0; letter-spacing: 0; }
+  .poster:not(.exporting) .tabs { margin-top: 12px; }
+  /* Four tabs must fit inside the frame on a 320px phone: share the width,
+     tighter spacing, never wrap a label */
+  .poster:not(.exporting) .tabs { width: 100%; max-width: 360px; }
+  .poster:not(.exporting) .tab { flex: 1 1 auto; padding: 4px 4px; font-size: clamp(11px, 3.6vw, 14px); letter-spacing: 0.5px; white-space: nowrap; }
+  .poster:not(.exporting) .pager { margin-top: 14px; width: 100%; max-width: 360px; }
+  .poster:not(.exporting) .page-btn { flex: 1 1 auto; padding: 4px 4px; font-size: clamp(11px, 3.6vw, 14px); letter-spacing: 0.5px; white-space: nowrap; }
+  .poster:not(.exporting) .col-headers { padding: 0 0 6px; }
+  .poster:not(.exporting) .group-label { font-size: 10px; letter-spacing: 1.5px; }
+  .poster:not(.exporting) .stat-label { font-size: 8px; letter-spacing: 0; }
+  .poster:not(.exporting) .row { padding: 11px 0; }
+  .poster:not(.exporting) .row:not(:last-child)::after { left: 0; right: 0; }
+  .poster:not(.exporting) .rank { font-size: 12px; text-align: left; }
+  .poster:not(.exporting) .move { font-size: 8px; letter-spacing: 0; }
+  .poster:not(.exporting) .move.new { font-size: 6px; }
+  .poster:not(.exporting) .who { padding-left: 4px; gap: 4px; }
+  .poster:not(.exporting) .live { font-size: 8px; letter-spacing: 0.5px; padding: 1px 4px 1px 3px; gap: 3px; }
+  .poster:not(.exporting) .live::before { width: 4px; height: 4px; }
+  /* "● 1v1" instead of "● LIVE 1v1": leaves room for the name */
+  .poster:not(.exporting) .live-word { display: none; }
+  /* Names stay on one line; "…" only if a very narrow phone can't fit one */
+  .poster:not(.exporting) .tag { font-size: clamp(13px, 4vw, 18px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  /* Last resort for very long names: two lines (max), set by fitNames() */
+  .poster:not(.exporting) .tag.wrap { white-space: normal; overflow-wrap: anywhere; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .poster:not(.exporting) .stat-num { font-size: clamp(13px, 4vw, 19px); }
+  .poster:not(.exporting) .stat-num.is-max { font-size: clamp(11px, 3.4vw, 15px); }
+
+  .poster:not(.exporting) .footer { margin-top: 18px; }
+  .poster:not(.exporting) .footer-wave { width: min(200px, 70%); }
+}
+/* While exporting a PNG: fixed desktop width, even on phones, so every
+   downloaded image looks the same. */
+.poster.exporting { width: 900px; max-width: none; flex-shrink: 0; }
+/* The image's subtitle names the ranking; drop the tab bar so it leaves no gap */
+.poster.exporting .tabs { display: none; }
+</style>
+</head>
+<body>
+<div class="poster" id="poster">
+  <div class="frame"></div>
+  <div class="header">
+    <div class="logo-ring"><div class="logo" role="img" aria-label="Jaguares Imperiales clan logo"></div></div>
+    <div class="kanji-mark">帝 国 の ジ ャ ガ ー</div>
+    <div class="title">Jaguares Imperiales</div>
+    <div class="subtitle" id="subtitle">Age of Empires II · Clan Roster</div>
+    <svg class="rule" viewBox="0 0 640 34">
+      <path d="M0,17 C90,-8 130,42 220,17 C280,0 300,34 320,17 C340,0 360,34 420,17 C510,-8 550,42 640,17"
+            fill="none" stroke="#c9a75f" stroke-width="2"/>
+    </svg>
+    <div class="tabs no-export" role="tablist" aria-label="Ranking">
+      <button type="button" role="tab" class="tab" data-tab="ji">Jaguares Imperiales</button>
+      <button type="button" role="tab" class="tab" data-tab="mexico">México</button>
+      <button type="button" role="tab" class="tab" data-tab="colombia">Colombia</button>
+      <button type="button" role="tab" class="tab" data-tab="peru">Perú</button>
+    </div>
+  </div>
+
+  <div class="roster" id="roster">
+    <div class="col-headers">
+      <div class="group-label g-1v1">1v1 ELO</div>
+      <div class="group-label g-tg">TG ELO</div>
+      <div class="stat h1"><div class="stat-label">Current</div></div>
+      <div class="stat h2"><div class="stat-label">Max</div></div>
+      <div class="stat h3"><div class="stat-label">Current</div></div>
+      <div class="stat h4"><div class="stat-label">Max</div></div>
+    </div>
+    <div id="rows"></div>
+    <div class="pager no-export" id="pager" aria-label="Ranking pages"></div>
+  </div>
+
+  <div class="footer">
+    <svg class="footer-wave" viewBox="0 0 500 40">
+      <path d="M0,20 C60,0 90,40 150,20 C210,0 240,40 300,20 C360,0 390,40 450,20 C470,12 480,20 500,16"
+            fill="none" stroke="#8a744a" stroke-width="1.5"/>
+    </svg>
+    <div class="updated" id="updated"></div>
+    <button class="action-btn no-export" id="download" type="button">Download PNG</button>
+    <div class="action-msg no-export" id="action-msg" role="status"></div>
+  </div>
+</div>
+
+<script>
+// Display order: current 1v1, max 1v1, current TG, max TG
+const COLUMNS = [
+  { field: 'cur_1v1', cls: 's-1v1' },
+  { field: 'max_1v1', cls: 's-1v1 is-max' },
+  { field: 'cur_tg',  cls: 's-tg' },
+  { field: 'max_tg',  cls: 's-tg is-max' },
+];
+
+// One entry per tab (each is refreshed by every update run, see ROSTERS in
+// scripts/fetch_ratings.py)
+const TABS = {
+  ji:       { file: 'data/roster.json',   subtitle: 'Age of Empires II · Jaguares Imperiales', png: 'ji-roster' },
+  mexico:   { file: 'data/mexico.json',   subtitle: 'Age of Empires II · México Ranking',   png: 'mexico-ranking' },
+  colombia: { file: 'data/colombia.json', subtitle: 'Age of Empires II · Colombia Ranking', png: 'colombia-ranking' },
+  peru:     { file: 'data/peru.json',     subtitle: 'Age of Empires II · Perú Ranking',     png: 'peru-ranking' },
+};
+let currentTab = 'ji';
+let currentPage = 1;      // tabs with page_size show one page of the ranking at a time
+let currentPageRange = '';  // e.g. "16-30", for the PNG filename
+let lastRender = null;    // [data, lastCheck], so switching pages needs no refetch
+let lastUpdatedAt = null;
+let loadSeq = 0;  // ignore responses from a tab the viewer has already left
+
+// "#mexico" or "#mexico-2" (page 2)
+function routeFromHash() {
+  const m = location.hash.slice(1).match(/^(.*?)(?:-(\d+))?$/);
+  return TABS[m[1]] ? { tab: m[1], page: Number(m[2]) || 1 } : { tab: 'ji', page: 1 };
+}
+function hashFor(tab, page) {
+  return tab === 'ji' ? '' : '#' + tab + (page > 1 ? '-' + page : '');
+}
+
+async function fetchRoster(file) {
+  // Query string sidesteps GitHub Pages' CDN cache (up to 10 min otherwise)
+  const res = await fetch(file + '?t=' + Date.now(), { cache: 'no-store' });
+  if (!res.ok) throw new Error(file + ' not found');
+  return res.json();
+}
+
+// Time of the last successful update-roster run, i.e. the last ratings check
+// (every run updates every tab). The data files only change when a rating
+// does, so their timestamps can lag far behind; GitHub's public API knows when
+// the job last ran. Unauthenticated limit is 60 requests/hour per visitor.
+const RUNS_URL = ''; // Set to your GitHub repo Actions endpoint after publishing.
+
+async function fetchLastCheck() {
+  try {
+    if (!RUNS_URL) return null;
+    const res = await fetch(RUNS_URL, { cache: 'no-store' });
+    if (!res.ok) return null;
+    const run = (await res.json()).workflow_runs?.[0];
+    return run ? new Date(run.updated_at) : null;
+  } catch {
+    return null;  // fall back to the data file's updated_at
+  }
+}
+
+async function loadTab(tab, page = 1) {
+  const seq = ++loadSeq;
+  currentTab = tab;
+  currentPage = page;
+  const cfg = TABS[tab];
+  document.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === tab)));
+  document.getElementById('subtitle').textContent = cfg.subtitle;
+  try {
+    const [data, lastCheck] = await Promise.all([fetchRoster(cfg.file), fetchLastCheck()]);
+    if (seq === loadSeq) render(data, lastCheck);
+  } catch (err) {
+    if (seq !== loadSeq) return;
+    document.getElementById('pager').innerHTML = '';
+    document.getElementById('rows').innerHTML =
+      '<div class="error">Couldn\'t load ranking data.<br>' + escapeHtml(err.message) + '</div>';
+  }
+}
+
+// html2canvas drops SVG content (the wave lines), whether inline or as an
+// SVG image, so for the export each one is drawn to a PNG and swapped in.
+// Returns a function that puts the originals back.
+function loadImage(src) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => reject(new Error('image failed to load'));
+    img.src = src;
+  });
+}
+
+async function swapSvgsForImages(root) {
+  const swaps = await Promise.all([...root.querySelectorAll('svg')].map(async svg => {
+    const r = svg.getBoundingClientRect();
+    const w = Math.round(r.width), h = Math.round(r.height), scale = 2;
+    svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    const src = await loadImage('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg.outerHTML));
+    const c = document.createElement('canvas');
+    c.width = w * scale; c.height = h * scale;
+    c.getContext('2d').drawImage(src, 0, 0, c.width, c.height);
+    const img = await loadImage(c.toDataURL('image/png'));
+    img.className = svg.getAttribute('class') || '';
+    img.style.cssText = `width:${w}px; height:${h}px; display:block;`;
+    svg.replaceWith(img);
+    return [svg, img];
+  }));
+  return () => swaps.forEach(([svg, img]) => img.replaceWith(svg));
+}
+
+// Adjust html2canvas's private copy of the page (the visible page is untouched):
+// the poster's top glow uses an "ellipse 900px 500px" gradient size that it
+// misplaces, so draw it with a separate layer whose box gives the same shape.
+function prepareExportClone(doc) {
+  const poster = doc.getElementById('poster');
+  poster.style.background = 'linear-gradient(180deg, #0d1220 0%, #131a2b 40%, #0d1220 100%)';
+  const glow = doc.createElement('div');
+  // 1800×500 box centred on the top edge: farthest-side radii = 900 × 500
+  glow.style.cssText = 'position:absolute; top:0; left:50%; width:1800px; height:500px; margin-left:-900px;'
+    + 'pointer-events:none; z-index:0;'
+    + 'background: radial-gradient(farthest-side at 50% 0%, rgba(61,89,120,0.35), transparent 60%);';
+  poster.prepend(glow);
+}
+
+async function downloadPoster() {
+  const btn = document.getElementById('download');
+  const msg = document.getElementById('action-msg');
+  const poster = document.getElementById('poster');
+  btn.disabled = true;
+  btn.textContent = 'Rendering…';
+  msg.textContent = '';
+  clearFit();  // the export uses the roomy desktop layout
+  poster.classList.add('exporting');
+  let restoreSvgs = () => {};
+  try {
+    await document.fonts.ready;
+    restoreSvgs = await swapSvgsForImages(poster);
+    // html2canvas draws the text itself with the fonts this page has already
+    // loaded. (The SVG-snapshot approach used before embedded the fonts into
+    // an image, which some phone browsers ignore, so PNGs fell back to
+    // default fonts.)
+    const canvas = await html2canvas(poster, {
+      scale: 2,
+      backgroundColor: '#0a0d14',
+      useCORS: true,
+      // Lay the copy out as a desktop window so the 900px export layout fits
+      windowWidth: Math.max(window.innerWidth, 1100),
+      scrollX: -window.scrollX,
+      scrollY: -window.scrollY,
+      // Leave the button and its message out of the image
+      ignoreElements: el => el.classList && el.classList.contains('no-export'),
+      onclone: prepareExportClone,
+    });
+    const dataUrl = canvas.toDataURL('image/png');
+    const a = document.createElement('a');
+    a.href = dataUrl;
+    a.download = TABS[currentTab].png + (currentPageRange ? '-' + currentPageRange : '') + '-' + new Date().toISOString().slice(0, 10) + '.png';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  } catch (err) {
+    msg.textContent = 'Couldn\'t create image — ' + (err && err.message || err);
+  } finally {
+    restoreSvgs();
+    poster.classList.remove('exporting');
+    fitNames();
+    btn.disabled = false;
+    btn.textContent = 'Download PNG';
+  }
+}
+
+function timeAgo(date) {
+  const mins = Math.round((Date.now() - date) / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return mins + ' min ago';
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return hours + (hours === 1 ? ' hour ago' : ' hours ago');
+  const days = Math.floor(hours / 24);
+  return days + (days === 1 ? ' day ago' : ' days ago');
+}
+
+function renderUpdated() {
+  if (!lastUpdatedAt) return;
+  const when = lastUpdatedAt.toLocaleString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  document.getElementById('updated').textContent = 'Last updated ' + when + ' · ' + timeAgo(lastUpdatedAt);
+}
+
+// Position change since the daily 08:00 Mexico City snapshot (baseline.ranks
+// maps profile ID -> position then). Nothing when unchanged or no snapshot yet.
+// LIVE badge for a player in a game right now (p.live from the update job).
+// The row is already a link to their profile and links can't nest, so this is
+// a span that behaves like a link (see the handler at the bottom).
+// aoe2insights profile ids equal official ids for accounts older than this
+// (checked up to ~10.7M; every mismatch seen so far is above 18M)
+const AOE2INSIGHTS_SAME_ID_BELOW = 12000000;
+const MATCH_URL = id => `https://www.aoe2companion.com/matches/${encodeURIComponent(id)}`;
+function liveBadge(p) {
+  if (!p.live) return '';
+  // p.live.account is set when they're playing on a linked account (smurf)
+  const where = p.live.account ? ` on ${p.live.account}` : '';
+  const tip = `In a game now${where} (${p.live.game}) · open match`;
+  // "LIVE 1v1", "LIVE 2v2", "LIVE FFA"… (format from the match's team sizes)
+  // (on phones just the dot and the format, see .live-word)
+  const label = p.live.format ? `<span class="live-word">LIVE </span>${escapeHtml(p.live.format)}` : 'LIVE';
+  return `<span class="live no-export" role="link" tabindex="0" data-match="${escapeHtml(String(p.live.match))}" title="${escapeHtml(tip).replace(/"/g, '&quot;')}">${label}</span>`;
+}
+
+function moveBadge(baseline, p, pos) {
+  if (!baseline || !baseline.ranks || p.inactive) return '';
+  const before = baseline.ranks[String(p.profile_id)] ?? baseline.ranks[p.tag];  // older snapshots used names
+  // Inactive at 8:00 and back since: no arrow (they had no rank to move from)
+  if (before == null && (baseline.inactive || []).includes(String(p.profile_id))) return '';
+  if (before == null) return '<span class="move new" title="New since 8:00 a.m.">NEW</span>';
+  const d = before - pos;
+  if (d > 0) return `<span class="move up" title="Up ${d} since 8:00 a.m.">▲${d}</span>`;
+  if (d < 0) return `<span class="move down" title="Down ${-d} since 8:00 a.m.">▼${-d}</span>`;
+  return '';
+}
+
+function render(data, lastCheck) {
+  lastRender = [data, lastCheck];
+  const rowsEl = document.getElementById('rows');
+  rowsEl.innerHTML = '';
+
+  // Country rankings list more players than they show (show_top); the rest
+  // are still tracked so they can climb in
+  // Inactive players (on none of their accounts a ranked 1v1 in 90 days or a
+  // ranked team game in 60) keep
+  // their place but don't count: no rank number, and show_top counts only
+  // active players (inactive ones in between are shown too, faded).
+  const shown = [];
+  let active = 0;
+  for (const p of data.players) {
+    if (!p.inactive) {
+      if (data.show_top && active >= data.show_top) break;
+      active++;
+    }
+    shown.push({ p, rank: p.inactive ? null : active });
+  }
+  while (shown.length && shown[shown.length - 1].p.inactive) shown.pop();  // none trailing after the last active
+  shown.filter(inPage(shown, data.page_size)).forEach(({ p, rank }) => {
+    // Each row links to the player's aoe2insights profile
+    const row = document.createElement('a');
+    row.className = 'row';
+    // Highlight Jaguares Imperiales on the country rankings (roster tab is JI)
+    if (currentTab !== 'ji' && p.clan === 'JI') row.classList.add('nw-member');
+    row.href = `https://www.aoe2insights.com/user/${encodeURIComponent(p.profile_id)}/`;
+    row.target = '_blank';
+    row.rel = 'noopener';
+    row.title = `Open ${(p.clan ? p.clan + ' | ' : '') + p.tag} on aoe2insights`;
+    if (p.via) {
+      // Shown on a linked account because the listed one went inactive. We
+      // only know that account's official id. Older accounts have the same id
+      // on aoe2insights; newer ones (official id above ~12M) don't, so those
+      // link aoe2companion, which uses official ids.
+      const site = p.via.id < AOE2INSIGHTS_SAME_ID_BELOW ? 'aoe2insights' : 'aoe2companion';
+      row.href = site === 'aoe2insights'
+        ? `https://www.aoe2insights.com/user/${encodeURIComponent(p.via.id)}/`
+        : `https://www.aoe2companion.com/players/${encodeURIComponent(p.via.id)}`;
+      const since = p.via.listed_last
+        ? ` since ${new Date(p.via.listed_last + 'T12:00:00Z').toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' })}`
+        : '';
+      row.title = `Open ${(p.clan ? p.clan + ' | ' : '') + p.tag} on ${site} · linked account (main account inactive${since})`;
+    }
+    if (p.inactive) {
+      row.classList.add('inactive');
+      row.title += p.last_seen
+        ? ` · Inactive: last ranked game on ${new Date(p.last_seen + 'T12:00:00Z').toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' })}`
+        : ' · Inactive: no ranked games found';
+    }
+    const rankLabel = rank ?? '—';
+    const clan = p.clan ? `<span class="clan">${escapeHtml(p.clan)}</span> ` : '';
+    row.innerHTML = `
+      <div class="rank"><span>${rankLabel}</span>${moveBadge(data.baseline, p, rank)}</div>
+      <div class="who">
+        <div class="tag">${clan}${escapeHtml(p.tag)}</div>${liveBadge(p)}
+      </div>
+      ${COLUMNS.map(c => `
+      <div class="stat">
+        <div class="stat-num ${c.cls} ${(p.stale || []).includes(c.field) ? 'stale' : ''}">${p[c.field] ?? '—'}</div>
+      </div>`).join('')}
+    `;
+    rowsEl.appendChild(row);
+  });
+  fitNames();
+  document.fonts.ready.then(fitNames);  // re-fit once the web fonts have loaded
+  renderPager(shown, data.page_size);
+
+  // Whichever is newer: last check, or last data change (covers API failures)
+  const changed = data.updated_at ? new Date(data.updated_at) : null;
+  lastUpdatedAt = [lastCheck, changed].filter(Boolean).sort((a, b) => b - a)[0] || null;
+  renderUpdated();
+}
+
+// Paging (page_size in the data): page k holds active ranks size·(k−1)+1 … size·k.
+// A faded inactive player sits on the page of the next active player, i.e.
+// where their place falls. Clamps currentPage to the pages that exist.
+function pageCount(shown, size) {
+  const active = shown.filter(s => s.rank != null).length;
+  return size ? Math.max(1, Math.ceil(active / size)) : 1;
+}
+function inPage(shown, size) {
+  if (!size) return () => true;
+  currentPage = Math.min(currentPage, pageCount(shown, size));
+  const pageOf = new Map();
+  let next = null;
+  for (let i = shown.length - 1; i >= 0; i--) {
+    if (shown[i].rank != null) next = Math.ceil(shown[i].rank / size);
+    pageOf.set(shown[i], next);
+  }
+  return s => pageOf.get(s) === currentPage;
+}
+function renderPager(shown, size) {
+  const pager = document.getElementById('pager');
+  pager.innerHTML = '';
+  currentPageRange = '';
+  const pages = pageCount(shown, size);
+  if (!size || pages < 2) return;
+  const active = shown.filter(s => s.rank != null).length;
+  for (let k = 1; k <= pages; k++) {
+    const range = `${size * (k - 1) + 1}–${Math.min(size * k, active)}`;
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'page-btn';
+    b.textContent = range;
+    b.setAttribute('aria-label', 'Ranks ' + range);
+    if (k === currentPage) {
+      b.setAttribute('aria-current', 'true');
+      currentPageRange = range.replace('–', '-');
+    }
+    b.addEventListener('click', () => {
+      if (k === currentPage) return;
+      currentPage = k;
+      history.pushState(null, '', hashFor(currentTab, k) || location.pathname + location.search);
+      render(...lastRender);
+      // The pager is under the list: bring the new page's first row into view
+      const roster = document.getElementById('roster');
+      if (roster.getBoundingClientRect().top < 0) roster.scrollIntoView({ block: 'start' });
+    });
+    pager.appendChild(b);
+  }
+}
+
+// On phones names are kept to one line. Long ones (e.g. "Ux'LobodeLaNieve")
+// are scaled down just enough to fit, never below 11px; "…" only after that.
+// Short names keep the normal size.
+const MIN_NAME_PX = 11;
+const NAME_SLACK_PX = 4;
+// Width of the text itself (scrollWidth never reports less than the box)
+function textWidth(el) {
+  const range = document.createRange();
+  range.selectNodeContents(el);
+  return range.getBoundingClientRect().width;
+}
+// Shrink one name to fit its box (never below MIN_NAME_PX); true if it fits.
+function shrinkToFit(t) {
+  t.style.fontSize = '';
+  // Aim a few px short of the edge: names that only just fit can still be
+  // cut off by small font-rendering differences between devices.
+  // A few passes: the clan tag has its own fixed size, so one proportional
+  // step can land slightly short.
+  const room = t.clientWidth - NAME_SLACK_PX;
+  for (let i = 0; i < 4 && textWidth(t) > room; i++) {
+    const px = parseFloat(getComputedStyle(t).fontSize);
+    if (px <= MIN_NAME_PX) break;
+    t.style.fontSize = Math.max(MIN_NAME_PX, Math.floor(px * room / textWidth(t) * 10) / 10 - 0.1) + 'px';
+  }
+  return textWidth(t) <= room;
+}
+function fitNames() {
+  document.querySelectorAll('.tag').forEach(t => {
+    t.style.fontSize = '';
+    t.classList.remove('wrap');
+    if (getComputedStyle(t).whiteSpace !== 'nowrap') return;  // phone layout only
+    if (shrinkToFit(t)) return;
+    // Still too long at the smallest size (e.g. "Alexander the conqueror"):
+    // let it wrap onto a second line rather than cut it off
+    if (/\s/.test(t.textContent.trim())) t.classList.add('wrap');
+  });
+}
+function clearFit() {
+  document.querySelectorAll('.tag').forEach(t => { t.style.fontSize = ''; t.classList.remove('wrap'); });
+}
+let fitTimer;
+window.addEventListener('resize', () => { clearTimeout(fitTimer); fitTimer = setTimeout(fitNames, 100); });
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+document.getElementById('download').addEventListener('click', downloadPoster);
+// A LIVE badge opens the match instead of the row's profile link
+function openLiveMatch(e) {
+  const badge = e.target.closest('.live');
+  if (!badge || (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ')) return;
+  e.preventDefault();
+  e.stopPropagation();
+  window.open(MATCH_URL(badge.dataset.match), '_blank', 'noopener');
+}
+document.getElementById('rows').addEventListener('click', openLiveMatch);
+document.getElementById('rows').addEventListener('keydown', openLiveMatch);
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
+  // The hash makes each tab linkable (…/ji-roster/#mexico); hashchange loads it
+  // (a tab always opens on its first page)
+  const hash = hashFor(b.dataset.tab, 1);
+  if (location.hash !== hash) history.pushState(null, '', hash || location.pathname + location.search);
+  loadTab(b.dataset.tab);
+}));
+window.addEventListener('popstate', () => {
+  const { tab, page } = routeFromHash();
+  if (tab === currentTab && lastRender) { currentPage = page; render(...lastRender); }
+  else loadTab(tab, page);
+});
+setInterval(renderUpdated, 30000);  // keep "X min ago" current
+const start = routeFromHash();
+loadTab(start.tab, start.page);
+</script>
+</body>
+</html>
