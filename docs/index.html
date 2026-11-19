@@ -493,20 +493,18 @@ function render(data, lastCheck) {
   const rowsEl = document.getElementById('rows');
   rowsEl.innerHTML = '';
 
-  // Country rankings list more players than they show (show_top); the rest
-  // are still tracked so they can climb in
-  // Inactive players (on none of their accounts a ranked 1v1 in 90 days or a
-  // ranked team game in 60) keep
-  // their place but don't count: no rank number, and show_top counts only
-  // active players (inactive ones in between are shown too, faded).
+  // The JI roster separates explicit clan membership from recent gameplay.
+  // Country leaderboards include only the active JI members configured for them.
+  const isClanRoster = currentTab === 'ji';
   const shown = [];
   let active = 0;
   for (const p of data.players) {
-    if (!p.inactive) {
+    const rankable = p.member_status !== 'inactive' && !p.inactive;
+    if (rankable) {
       if (data.show_top && active >= data.show_top) break;
       active++;
     }
-    shown.push({ p, rank: p.inactive ? null : active });
+    shown.push({ p, rank: rankable ? active : null });
   }
   if (!isClanRoster) while (shown.length && shown[shown.length - 1].p.inactive) shown.pop();  // country lists omit trailing inactive entries
   let lastMembershipSection = null;
