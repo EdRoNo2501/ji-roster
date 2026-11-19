@@ -2,19 +2,27 @@
   "name": "Argentina",
   "show_top": 15,
   "source": "aoe2insights.com",
-  "_players": "Only active Jaguares Imperiales members are included in these national competitive rankings.",
+  "_players": "All Jaguares Imperiales members from this country are included. Inactive clan members remain visible but are not ranked.",
   "players": [
     {
-      "id": 12989767
+      "id": 12989767,
+      "member_status": "active"
     },
     {
-      "id": 2057662
+      "id": 2057662,
+      "member_status": "active"
     },
     {
-      "id": 13067703
+      "id": 13067703,
+      "member_status": "active"
     },
     {
-      "id": 13222272
+      "id": 13222272,
+      "member_status": "active"
+    },
+    {
+      "id": 10369585,
+      "member_status": "inactive"
     }
   ]
 }
