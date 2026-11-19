@@ -2,9 +2,9 @@ name: Update JI roster
 
 on:
   schedule:
-    # Every 15 minutes, offset from :00 when GitHub's scheduler is busiest.
-    # GitHub may start scheduled runs late under load; that's expected.
-    - cron: "7,22,37,52 * * * *"
+    # Every 15 minutes, offset from :00 to avoid peak scheduling load.
+    # Changing this schedule can reactivate the scheduled workflow if it had stopped.
+    - cron: "5,20,35,50 * * * *"
   workflow_dispatch: {}  # lets you trigger it manually from the Actions tab
 
 permissions:
@@ -14,7 +14,6 @@ permissions:
 concurrency:
   group: update-roster
   cancel-in-progress: false
-
 jobs:
   update-roster:
     runs-on: ubuntu-latest
