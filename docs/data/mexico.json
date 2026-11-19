@@ -1,19 +1,65 @@
 {
   "name": "México",
-  "updated_at": "2026-11-19T05:00:37Z",
+  "updated_at": "2026-11-19T05:17:21Z",
   "baseline": {
     "taken_at": "2026-11-19T02:27:17Z",
     "ranks": {
-      "4229230": 1
+      "12359161": 1,
+      "12950375": 2,
+      "13190355": 3,
+      "12953298": 4,
+      "4229230": 5
     },
-    "inactive": [
-      "12359161",
-      "12950375",
-      "13190355",
-      "12953298"
-    ]
+    "inactive": []
   },
   "players": [
+    {
+      "profile_id": 12359161,
+      "member_status": "active",
+      "tag": "Virus",
+      "clan": "JAGR",
+      "cur_1v1": 1791,
+      "max_1v1": 1894,
+      "cur_tg": 1431,
+      "max_tg": 1638,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-11-19"
+    },
+    {
+      "profile_id": 12950375,
+      "member_status": "active",
+      "tag": "TheButterfly_Effect",
+      "clan": "JAGR",
+      "cur_1v1": 1357,
+      "max_1v1": 1401,
+      "cur_tg": 1369,
+      "max_tg": 1475,
+      "last_tg": "2026-10-26",
+      "last_1v1": "2026-11-13"
+    },
+    {
+      "profile_id": 13190355,
+      "member_status": "active",
+      "tag": "JAGR_Soyuncacahuate",
+      "cur_1v1": 1201,
+      "max_1v1": 1201,
+      "cur_tg": 1373,
+      "max_tg": 1408,
+      "last_1v1": "2026-11-16",
+      "last_tg": "2026-11-18"
+    },
+    {
+      "profile_id": 12953298,
+      "member_status": "active",
+      "tag": "Arthur King MX",
+      "clan": "JAGR",
+      "cur_1v1": 1182,
+      "max_1v1": 1356,
+      "cur_tg": 1186,
+      "max_tg": 1227,
+      "last_1v1": "2026-11-18",
+      "last_tg": "2026-11-10"
+    },
     {
       "profile_id": 4229230,
       "member_status": "active",
@@ -27,44 +73,16 @@
       "last_tg": "2026-10-13"
     },
     {
-      "profile_id": 12359161,
-      "member_status": "active",
-      "tag": "CrsShadow1727",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12950375,
-      "member_status": "active",
-      "tag": "steam-mm-2",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 13190355,
-      "member_status": "active",
-      "tag": "LpChagas01",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 12953298,
-      "member_status": "active",
-      "tag": "PUMAPSI",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "profile_id": 13087608,
+      "member_status": "inactive",
+      "tag": "CIHUACOATL",
+      "clan": "JAGR",
+      "cur_1v1": 1218,
+      "max_1v1": 1218,
+      "cur_tg": 1330,
+      "max_tg": 1352,
+      "last_tg": "2026-11-05",
+      "last_1v1": "2026-08-29"
     },
     {
       "profile_id": 9357272,
@@ -77,16 +95,6 @@
       "max_tg": 963,
       "last_tg": "2026-11-01",
       "last_1v1": "2026-10-19"
-    },
-    {
-      "profile_id": 13087608,
-      "member_status": "inactive",
-      "tag": "MUCHMORE 7",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
     }
   ],
   "show_top": 15

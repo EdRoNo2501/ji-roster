@@ -1,14 +1,13 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-19T05:00:37Z",
+  "updated_at": "2026-11-19T05:17:21Z",
   "baseline": {
     "taken_at": "2026-11-19T02:27:17Z",
     "ranks": {
-      "10608499": 1
+      "10608499": 1,
+      "13505523": 2
     },
-    "inactive": [
-      "13505523"
-    ]
+    "inactive": []
   },
   "players": [
     {
@@ -25,22 +24,26 @@
     {
       "profile_id": 13505523,
       "member_status": "active",
-      "tag": "fSu22",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "tag": "Mazzei10",
+      "clan": "JAGR",
+      "cur_1v1": 1047,
+      "max_1v1": 1064,
+      "cur_tg": 1306,
+      "max_tg": 1396,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-11-07"
     },
     {
       "profile_id": 13013041,
       "member_status": "inactive",
-      "tag": "Myknivess",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "tag": "GoodByeWorld",
+      "clan": "JAGR",
+      "cur_1v1": 1309,
+      "max_1v1": 1341,
+      "cur_tg": 1443,
+      "max_tg": 1552,
+      "last_tg": "2026-11-15",
+      "last_1v1": "2026-09-20"
     }
   ],
   "show_top": 15

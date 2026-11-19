@@ -1,21 +1,32 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-19T05:00:37Z",
+  "updated_at": "2026-11-19T05:17:21Z",
   "baseline": {
     "taken_at": "2026-11-19T02:27:17Z",
     "ranks": {
-      "1981408": 1,
-      "1835814": 2
+      "12876939": 1,
+      "1981408": 2,
+      "13258119": 3,
+      "1835814": 4,
+      "12831320": 5,
+      "13081631": 6,
+      "12820653": 7
     },
-    "inactive": [
-      "12876939",
-      "13258119",
-      "12831320",
-      "13081631",
-      "12820653"
-    ]
+    "inactive": []
   },
   "players": [
+    {
+      "profile_id": 12876939,
+      "member_status": "active",
+      "tag": "DesNoguns",
+      "clan": "JAGR",
+      "cur_1v1": 1610,
+      "max_1v1": 1652,
+      "cur_tg": 1361,
+      "max_tg": 1570,
+      "last_1v1": "2026-11-18",
+      "last_tg": "2026-11-19"
+    },
     {
       "profile_id": 1981408,
       "member_status": "active",
@@ -27,6 +38,18 @@
       "max_tg": 1419,
       "last_tg": "2026-09-24",
       "last_1v1": "2026-11-12"
+    },
+    {
+      "profile_id": 13258119,
+      "member_status": "active",
+      "tag": "juankof",
+      "clan": "JAGR",
+      "cur_1v1": 1376,
+      "max_1v1": 1439,
+      "cur_tg": 1381,
+      "max_tg": 1483,
+      "last_1v1": "2026-10-30",
+      "last_tg": "2026-11-15"
     },
     {
       "profile_id": 1835814,
@@ -41,54 +64,40 @@
       "last_tg": "2026-11-17"
     },
     {
-      "profile_id": 12876939,
-      "member_status": "active",
-      "tag": "Ravens91120",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
-      "profile_id": 13258119,
-      "member_status": "active",
-      "tag": "GUNT0TENREDNECK",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
-    },
-    {
       "profile_id": 12831320,
       "member_status": "active",
-      "tag": "Knobi Kenobi471",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "tag": "HIPERYON",
+      "clan": "JAGR",
+      "cur_1v1": 1145,
+      "max_1v1": 1213,
+      "cur_tg": 1279,
+      "max_tg": 1415,
+      "last_1v1": "2026-10-26",
+      "last_tg": "2026-10-25"
     },
     {
       "profile_id": 13081631,
       "member_status": "active",
-      "tag": "Pillzbee",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "tag": "Cacique",
+      "clan": "JAGR",
+      "cur_1v1": 940,
+      "max_1v1": 985,
+      "cur_tg": 1144,
+      "max_tg": 1144,
+      "last_tg": "2026-11-15",
+      "last_1v1": "2026-11-02"
     },
     {
       "profile_id": 12820653,
       "member_status": "active",
-      "tag": "TomLitts",
-      "cur_1v1": null,
-      "max_1v1": null,
-      "cur_tg": null,
-      "max_tg": null,
-      "inactive": true
+      "tag": "Ojimenezg87",
+      "clan": "JAGR",
+      "cur_1v1": 825,
+      "max_1v1": 1040,
+      "cur_tg": 1122,
+      "max_tg": 1122,
+      "last_1v1": "2026-11-18",
+      "last_tg": "2026-10-24"
     }
   ],
   "show_top": 15
