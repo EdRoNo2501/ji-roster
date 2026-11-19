@@ -35,7 +35,7 @@ STATUS_PATH = ROOT / 'docs' / 'data' / 'status.json'
 
 # Each roster: player list in config/, output read directly by the live page.
 # Players with a "tag" in config use it; others get their name from the API.
-# Every roster updates on every run (the cron-job.org timer fires every 5 min).
+# Every roster is checked on every run (GitHub Actions is scheduled every 5 min).
 ROSTERS = [
     {"config": ROOT / "config" / "players.json", "output": ROOT / "docs" / "data" / "roster.json"},
     *[
