@@ -1,6 +1,6 @@
 {
   "name": "Uruguay",
-  "updated_at": "2026-11-19T02:27:17Z",
+  "updated_at": "2026-11-19T05:00:37Z",
   "baseline": {
     "taken_at": "2026-11-19T02:27:17Z",
     "ranks": {
@@ -11,6 +11,7 @@
   "players": [
     {
       "profile_id": 10037286,
+      "member_status": "active",
       "tag": "Quaa",
       "clan": "JAGR",
       "cur_1v1": 1431,

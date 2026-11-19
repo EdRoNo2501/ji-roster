@@ -1,0 +1,24 @@
+{
+  "name": "Costa Rica",
+  "updated_at": "2026-11-19T05:00:37Z",
+  "baseline": {
+    "taken_at": "2026-11-19T05:00:37Z",
+    "ranks": {},
+    "inactive": []
+  },
+  "players": [
+    {
+      "profile_id": 761809,
+      "member_status": "inactive",
+      "tag": "TheMoePlay",
+      "clan": "JAGR",
+      "cur_1v1": 1266,
+      "max_1v1": 1267,
+      "cur_tg": 1379,
+      "max_tg": 1482,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-06-24"
+    }
+  ],
+  "show_top": 15
+}

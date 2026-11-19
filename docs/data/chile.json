@@ -1,0 +1,28 @@
+{
+  "name": "Chile",
+  "updated_at": "2026-11-19T05:00:37Z",
+  "baseline": {
+    "taken_at": "2026-11-19T05:00:37Z",
+    "ranks": {},
+    "inactive": [
+      "2861536"
+    ]
+  },
+  "players": [
+    {
+      "profile_id": 2861536,
+      "member_status": "inactive",
+      "tag": "Kriid",
+      "clan": "JARG",
+      "cur_1v1": 1125,
+      "max_1v1": 1180,
+      "cur_tg": 1189,
+      "max_tg": 1343,
+      "last_tg": "2026-06-27",
+      "last_1v1": "2026-02-24",
+      "inactive": true,
+      "last_seen": "2026-06-27"
+    }
+  ],
+  "show_top": 15
+}

@@ -1,6 +1,6 @@
 # Linked accounts
 
-Generated 2026-11-19T04:46:31Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
+Generated 2026-11-19T05:00:37Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
 Used to show players LIVE when they play on any of their accounts. Ratings are RM 1v1.
 
 ## Jaguares Imperiales
@@ -59,6 +59,8 @@ Used to show players LIVE when they play on any of their accounts. Ratings are R
 | LpChagas01 | — |
 | PUMAPSI | — |
 | JAGR | xKensyt | — |
+| JAGR | mauricio | — |
+| 13087608 | — |
 
 ## Argentina
 
@@ -68,6 +70,7 @@ Used to show players LIVE when they play on any of their accounts. Ratings are R
 | JAGR | PIPO GOROSITO | — |
 | Spud4395 | — |
 | Hotpocket0331 | — |
+| JAGR | GastonWick | — |
 
 ## Perú
 
@@ -77,6 +80,7 @@ Used to show players LIVE when they play on any of their accounts. Ratings are R
 | CRACKDEPOT | — |
 | GivenSumo8403 | — |
 | zzCangye | — |
+| JAGR | Rojnar | Rojnar (1482), Gustav_123433 (—), Dante (—, 2 links away) |
 
 ## Venezuela
 
@@ -84,9 +88,22 @@ Used to show players LIVE when they play on any of their accounts. Ratings are R
 |---|---|
 | JAGR I Milanesito | — |
 | fSu22 | — |
+| 13013041 | — |
 
 ## Uruguay
 
 | Player | Linked accounts |
 |---|---|
 | JAGR | Quaa | — |
+
+## Chile
+
+| Player | Linked accounts |
+|---|---|
+| JAGR | Kriid | — |
+
+## Costa Rica
+
+| Player | Linked accounts |
+|---|---|
+| JAGR | Themoeplay | — |

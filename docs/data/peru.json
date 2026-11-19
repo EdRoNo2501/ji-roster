@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-19T04:26:04Z",
+  "updated_at": "2026-11-19T05:00:37Z",
   "baseline": {
     "taken_at": "2026-11-19T02:27:17Z",
     "ranks": {
@@ -15,6 +15,7 @@
   "players": [
     {
       "profile_id": 3964428,
+      "member_status": "active",
       "tag": "BkB",
       "clan": "JAGR",
       "cur_1v1": 1559,
@@ -26,6 +27,7 @@
     },
     {
       "profile_id": 12573559,
+      "member_status": "active",
       "tag": "CRACKDEPOT",
       "cur_1v1": null,
       "max_1v1": null,
@@ -35,6 +37,7 @@
     },
     {
       "profile_id": 13026074,
+      "member_status": "active",
       "tag": "GivenSumo8403",
       "cur_1v1": null,
       "max_1v1": null,
@@ -44,12 +47,25 @@
     },
     {
       "profile_id": 12722759,
+      "member_status": "active",
       "tag": "zzCangye",
       "cur_1v1": null,
       "max_1v1": null,
       "cur_tg": null,
       "max_tg": null,
       "inactive": true
+    },
+    {
+      "profile_id": 1025121,
+      "member_status": "inactive",
+      "tag": "Rojnar",
+      "clan": "JAGR",
+      "cur_1v1": 1505,
+      "max_1v1": 1513,
+      "cur_tg": 1427,
+      "max_tg": 1502,
+      "last_1v1": "2026-10-03",
+      "last_tg": "2026-11-18"
     }
   ],
   "show_top": 15
