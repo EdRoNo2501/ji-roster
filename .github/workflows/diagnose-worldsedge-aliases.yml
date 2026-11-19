@@ -10,13 +10,11 @@ jobs:
   lookup-aliases:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repo
+      - name: Check out selected workflow branch
         uses: actions/checkout@v4
-        with:
-          ref: main
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Resolve roster aliases (read-only)
+      - name: Resolve roster aliases individually (read-only)
         run: python scripts/diagnose_worldsedge_aliases.py
