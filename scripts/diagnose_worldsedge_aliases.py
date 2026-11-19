@@ -23,8 +23,8 @@ def alias_candidates(tag):
     """Return the exact configured tag and a possible bare in-game name."""
     tag = " ".join((tag or "").split())
     candidates = [tag] if tag else []
-    bare = re.sub(r"^\\[JAGR\\]\\s*", "", tag, flags=re.IGNORECASE)
-    bare = re.sub(r"^JAGR\\s*(?:\\|\\s*|I\\s+|_)?", "", bare, flags=re.IGNORECASE)
+    bare = re.sub(r"^\[JAGR\]\s*", "", tag, flags=re.IGNORECASE)
+    bare = re.sub(r"^JAGR\s*(?:\|\s*|I\s+|_)?", "", bare, flags=re.IGNORECASE)
     bare = bare.strip()
     if bare and bare not in candidates:
         candidates.append(bare)
@@ -57,7 +57,7 @@ def main():
 
     for start in range(0, len(aliases), BATCH_SIZE):
         batch = aliases[start:start + BATCH_SIZE]
-        print(f"\\n=== alias lookup {start + 1}-{start + len(batch)} ===")
+        print(f"\n=== alias lookup {start + 1}-{start + len(batch)} ===")
         data = request_aliases(batch)
         profiles = data.get("profiles", [])
         by_alias = {}
