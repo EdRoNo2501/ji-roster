@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-19T18:12:25Z",
+  "updated_at": "2026-11-19T21:26:41Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
@@ -62,17 +62,12 @@
       "member_status": "active",
       "country": "Colombia",
       "tag": "JAGR | DesNoguns",
-      "cur_1v1": 1610,
+      "cur_1v1": 1624,
       "max_1v1": 1652,
       "cur_tg": 1361,
       "max_tg": 1570,
       "last_1v1": "2026-11-19",
-      "last_tg": "2026-11-19",
-      "live": {
-        "match": 522269635,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-19"
     },
     {
       "profile_id": 3964428,
@@ -132,7 +127,12 @@
       "cur_tg": 1324,
       "max_tg": 1434,
       "last_tg": "2026-11-18",
-      "last_1v1": "2026-11-08"
+      "last_1v1": "2026-11-08",
+      "live": {
+        "match": 522306840,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13258119,
@@ -159,6 +159,18 @@
       "last_1v1": "2026-11-13"
     },
     {
+      "profile_id": 1835814,
+      "member_status": "active",
+      "country": "Colombia",
+      "tag": "JAGR | Luigi-gb",
+      "cur_1v1": 1308,
+      "max_1v1": 1375,
+      "cur_tg": 1353,
+      "max_tg": 1398,
+      "last_1v1": "2026-11-19",
+      "last_tg": "2026-11-17"
+    },
+    {
       "profile_id": 13026074,
       "member_status": "active",
       "country": "Perú",
@@ -171,27 +183,15 @@
       "last_1v1": "2026-11-01"
     },
     {
-      "profile_id": 1835814,
-      "member_status": "active",
-      "country": "Colombia",
-      "tag": "JAGR | Luigi-gb",
-      "cur_1v1": 1289,
-      "max_1v1": 1375,
-      "cur_tg": 1353,
-      "max_tg": 1398,
-      "last_1v1": "2026-11-19",
-      "last_tg": "2026-11-17"
-    },
-    {
       "profile_id": 12722759,
       "member_status": "active",
       "country": "Perú",
       "tag": "JAGR | STYLORD",
-      "cur_1v1": 1279,
+      "cur_1v1": 1295,
       "max_1v1": 1470,
       "cur_tg": 1297,
       "max_tg": 1426,
-      "last_1v1": "2026-11-17",
+      "last_1v1": "2026-11-19",
       "last_tg": "2026-11-14"
     },
     {
@@ -319,11 +319,11 @@
       "member_status": "inactive",
       "country": "Perú",
       "tag": "JAGR | Rojnar",
-      "cur_1v1": 1505,
-      "max_1v1": 1513,
+      "cur_1v1": 1533,
+      "max_1v1": 1533,
       "cur_tg": 1427,
       "max_tg": 1502,
-      "last_1v1": "2026-10-03",
+      "last_1v1": "2026-11-19",
       "last_tg": "2026-11-18"
     },
     {

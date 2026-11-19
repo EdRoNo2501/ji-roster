@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-19T18:12:25Z",
+  "updated_at": "2026-11-19T21:26:41Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
@@ -53,11 +53,11 @@
       "member_status": "active",
       "tag": "STYLORD",
       "clan": "JAGR",
-      "cur_1v1": 1279,
+      "cur_1v1": 1295,
       "max_1v1": 1470,
       "cur_tg": 1297,
       "max_tg": 1426,
-      "last_1v1": "2026-11-17",
+      "last_1v1": "2026-11-19",
       "last_tg": "2026-11-14"
     },
     {
@@ -65,11 +65,11 @@
       "member_status": "inactive",
       "tag": "Rojnar",
       "clan": "JAGR",
-      "cur_1v1": 1505,
-      "max_1v1": 1513,
+      "cur_1v1": 1533,
+      "max_1v1": 1533,
       "cur_tg": 1427,
       "max_tg": 1502,
-      "last_1v1": "2026-10-03",
+      "last_1v1": "2026-11-19",
       "last_tg": "2026-11-18"
     }
   ],
