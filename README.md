@@ -6,7 +6,7 @@ A live clan roster and country leaderboards for **Jaguares Imperiales (JI)**. Ra
 
 ```text
 config/players.json                 JI members (profile IDs, display tags, countries)
-config/{mexico,colombia,peru}.json  Country leaderboard configuration
+config/{colombia,mexico,argentina,peru,venezuela,uruguay}.json  National rankings
 scripts/fetch_ratings.py           Fetches ratings and writes docs/data/*.json
 scripts/links.py                    Builds linked-account data
 docs/index.html                     Static roster and leaderboard page
@@ -16,16 +16,16 @@ docs/assets/logo_JI.jpg              Official Jaguares Imperiales clan logo
 
 ## Before publishing
 
-1. Add the clan's real members to `config/players.json`. The starter file intentionally has an empty roster; no player IDs or members have been fabricated.
-2. Review the country ranking lists in `config/mexico.json`, `config/colombia.json`, and `config/peru.json`. These are retained from the source project and are independent country leaderboards—not JI member lists.
-3. The official Jaguares Imperiales logo is installed in `docs/assets/logo_JI.jpg` and used by the page.
-4. Set up a new GitHub repository (suggested name: `ji-roster`) and push this project.
+1. The 30 members supplied for Jaguares Imperiales are registered in `config/players.json`, with their country and explicit `member_status` (`active` or `inactive`).
+2. The clan roster shows active members first and inactive members in a separate section. Gameplay inactivity (based on recent ranked games) is tracked independently and does not alter clan membership status.
+3. The six national ranking files contain only the 23 members marked active: Colombia, México, Argentina, Perú, Venezuela, and Uruguay. Chile and Costa Rica remain represented in the clan roster but do not have a national ranking until they have active members.
+4. The official Jaguares Imperiales logo is installed in `docs/assets/logo_JI.jpg` and used by the page.
 
 ## First run
 
 Run from the repository root: `python scripts/fetch_ratings.py`. This uses Python's standard library. It fetches configured players and updates `docs/data/`.
 
-The country leaderboards are kept configurable in JSON. To populate or refresh their data, check the corresponding configs and run the fetch script.
+The six national leaderboards are kept configurable in JSON. Each one contains the active JI members from that country; the fetch script updates them alongside the clan roster.
 
 ## GitHub Pages
 
@@ -51,4 +51,4 @@ The stats API is unofficially documented and may change. The code preserves prio
 - Clan roster: `config/players.json` → `players`
 - Country rankings: respective files in `config/`
 - Design: `docs/index.html` (colors, fonts, layout)
-- Emblem: `docs/assets/logo_JI.svg`
+- Emblem: `docs/assets/logo_JI.jpg`
