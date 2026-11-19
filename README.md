@@ -6,7 +6,7 @@ A live clan roster and country leaderboards for **Jaguares Imperiales (JI)**. Ra
 
 ```text
 config/players.json                 JI members (profile IDs, display tags, countries)
-config/{colombia,mexico,argentina,peru,venezuela,uruguay}.json  National rankings
+config/*.json                      Clan and national rosters by country
 scripts/fetch_ratings.py           Fetches ratings and writes docs/data/*.json
 scripts/links.py                    Builds linked-account data
 docs/index.html                     Static roster and leaderboard page
@@ -18,14 +18,14 @@ docs/assets/logo_JI.jpg              Official Jaguares Imperiales clan logo
 
 1. The 30 members supplied for Jaguares Imperiales are registered in `config/players.json`, with their country and explicit `member_status` (`active` or `inactive`).
 2. The clan roster shows active members first and inactive members in a separate section. Gameplay inactivity (based on recent ranked games) is tracked independently and does not alter clan membership status.
-3. The six national ranking files contain only the 23 members marked active: Colombia, México, Argentina, Perú, Venezuela, and Uruguay. Chile and Costa Rica remain represented in the clan roster but do not have a national ranking until they have active members.
+3. The national rosters include every JI member from Colombia, México, Argentina, Perú, Venezuela, Uruguay, Chile, and Costa Rica. Active members are listed first and ranked; inactive clan members remain visible in a separate section without a competitive rank.
 4. The official Jaguares Imperiales logo is installed in `docs/assets/logo_JI.jpg` and used by the page.
 
 ## First run
 
 Run from the repository root: `python scripts/fetch_ratings.py`. This uses Python's standard library. It fetches configured players and updates `docs/data/`.
 
-The six national leaderboards are kept configurable in JSON. Each one contains the active JI members from that country; the fetch script updates them alongside the clan roster.
+The national rosters are kept configurable in JSON. Each one contains all JI members from that country, with active and inactive membership status; the fetch script updates them alongside the clan roster.
 
 ## GitHub Pages
 

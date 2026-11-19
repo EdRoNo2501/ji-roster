@@ -2,10 +2,11 @@
   "name": "Uruguay",
   "show_top": 15,
   "source": "aoe2insights.com",
-  "_players": "Only active Jaguares Imperiales members are included in these national competitive rankings.",
+  "_players": "All Jaguares Imperiales members from this country are included. Inactive clan members remain visible but are not ranked.",
   "players": [
     {
-      "id": 10037286
+      "id": 10037286,
+      "member_status": "active"
     }
   ]
 }

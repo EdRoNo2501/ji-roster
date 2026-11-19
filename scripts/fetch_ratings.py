@@ -38,7 +38,7 @@ ROSTERS = [
     {"config": ROOT / "config" / "players.json", "output": ROOT / "docs" / "data" / "roster.json"},
     *[
         {"config": ROOT / "config" / f"{country}.json", "output": ROOT / "docs" / "data" / f"{country}.json"}
-        for country in ("colombia", "mexico", "argentina", "peru", "venezuela", "uruguay")
+        for country in ("colombia", "mexico", "argentina", "peru", "venezuela", "uruguay", "chile", "costa_rica")
     ],
 ]
 
@@ -445,15 +445,14 @@ def update_roster(roster: dict, now: datetime) -> bool:
 
     # The clan roster has two explicit membership sections. Within each section,
     # sort by current 1v1 ELO; national leaderboards remain pure country rankings.
-    if config.get("clan_name"):
-        results.sort(key=lambda p: (
-            p.get("member_status") != "active",
-            p["cur_1v1"] is None,
-            -(p["cur_1v1"] or 0),
-            -(p["max_1v1"] or 0),
-        ))
-    else:
-        results.sort(key=lambda p: (p["cur_1v1"] is None, -(p["cur_1v1"] or 0), -(p["max_1v1"] or 0)))
+    # Keep active clan members first and inactive members visible below them
+    # on both the full clan roster and each national roster.
+    results.sort(key=lambda p: (
+        p.get("member_status", "active") != "active",
+        p["cur_1v1"] is None,
+        -(p["cur_1v1"] or 0),
+        -(p["max_1v1"] or 0),
+    ))
 
     baseline = next_baseline(prev_output, results, now)
 

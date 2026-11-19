@@ -2,22 +2,35 @@
   "name": "México",
   "show_top": 15,
   "source": "aoe2insights.com",
-  "_players": "Only active Jaguares Imperiales members are included in these national competitive rankings.",
+  "_players": "All Jaguares Imperiales members from this country are included. Inactive clan members remain visible but are not ranked.",
   "players": [
     {
-      "id": 12359161
+      "id": 12359161,
+      "member_status": "active"
     },
     {
-      "id": 12950375
+      "id": 12950375,
+      "member_status": "active"
     },
     {
-      "id": 13190355
+      "id": 13190355,
+      "member_status": "active"
     },
     {
-      "id": 12953298
+      "id": 12953298,
+      "member_status": "active"
     },
     {
-      "id": 4229230
+      "id": 4229230,
+      "member_status": "active"
+    },
+    {
+      "id": 9357272,
+      "member_status": "inactive"
+    },
+    {
+      "id": 13087608,
+      "member_status": "inactive"
     }
   ]
 }

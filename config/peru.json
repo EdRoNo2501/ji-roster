@@ -2,19 +2,27 @@
   "name": "Perú",
   "show_top": 15,
   "source": "aoe2insights.com",
-  "_players": "Only active Jaguares Imperiales members are included in these national competitive rankings.",
+  "_players": "All Jaguares Imperiales members from this country are included. Inactive clan members remain visible but are not ranked.",
   "players": [
     {
-      "id": 3964428
+      "id": 3964428,
+      "member_status": "active"
     },
     {
-      "id": 12573559
+      "id": 12573559,
+      "member_status": "active"
     },
     {
-      "id": 13026074
+      "id": 13026074,
+      "member_status": "active"
     },
     {
-      "id": 12722759
+      "id": 12722759,
+      "member_status": "active"
+    },
+    {
+      "id": 1025121,
+      "member_status": "inactive"
     }
   ]
 }
