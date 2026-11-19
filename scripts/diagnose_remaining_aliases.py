@@ -79,6 +79,20 @@ def summarize(data):
 
 def main():
     print("Read-only diagnostic. No config, roster, or generated data is modified.")
+
+    # Resolve TheButterfly_Effect from the SteamID64 supplied by the clan member.
+    steam_id = "76561199761396048"
+    try:
+        status, data = request_stats("profile_names", [f"/steam/{steam_id}"])
+        print(json.dumps({
+            "lookup_type": "steam_id64",
+            "query": steam_id,
+            "http_status": status,
+            **summarize(data),
+        }, ensure_ascii=False))
+    except (HTTPError, URLError, TimeoutError, ValueError) as exc:
+        print(json.dumps({"lookup_type": "steam_id64", "query": steam_id, "error": str(exc)}))
+    time.sleep(0.5)
     for player, details in TARGETS.items():
         print(f"\\n===== {player} (AoE2Insights ID {details['aoe2insights_id']}) =====")
         for alias in details["aliases"]:
