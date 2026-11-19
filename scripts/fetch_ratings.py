@@ -374,7 +374,8 @@ def next_baseline(prev_output: dict, results: list, now: datetime) -> dict:
     so a player renaming doesn't show up as NEW.
     """
     baseline = prev_output.get("baseline")
-    taken = datetime.fromisoformat(baseline["taken_at"].replace("Z", "+00:00")) if baseline else None
+    taken_at = baseline.get("taken_at") if isinstance(baseline, dict) else None
+    taken = datetime.fromisoformat(taken_at.replace("Z", "+00:00")) if taken_at else None
     if taken and taken >= last_baseline_time(now):
         return fit_roster(migrate_baseline_keys(baseline, prev_output.get("players") or results), results)
     order = prev_output.get("players") or results
