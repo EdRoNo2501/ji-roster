@@ -59,7 +59,7 @@ body {
 .title { font-family: 'Yuji Mai', serif; font-size: 64px; letter-spacing: 2px; color: var(--gold-bright); margin-top: 10px; text-shadow: 0 2px 24px rgba(230,201,136,0.25); }
 .subtitle { font-family: 'EB Garamond', serif; font-style: italic; font-size: 17px; letter-spacing: 3px; color: var(--muted); margin-top: 4px; }
 .rule { margin-top: 20px; width: 320px; height: 20px; }
-.tabs { display: flex; margin-top: 18px; border: 1px solid var(--gold-dim); border-radius: 3px; overflow: hidden; }
+.tabs { display: flex; flex-wrap: wrap; margin-top: 18px; border: 1px solid var(--gold-dim); border-radius: 3px; overflow: hidden; }
 .tab {
   padding: 5px 22px; background: transparent; border: 0; cursor: pointer;
   font-family: 'EB Garamond', serif; font-size: 15px; letter-spacing: 1px;
@@ -508,7 +508,7 @@ function render(data, lastCheck) {
     }
     shown.push({ p, rank: p.inactive ? null : active });
   }
-  while (shown.length && shown[shown.length - 1].p.inactive) shown.pop();  // none trailing after the last active
+  if (!isClanRoster) while (shown.length && shown[shown.length - 1].p.inactive) shown.pop();  // country lists omit trailing inactive entries
   let lastMembershipSection = null;
   shown.filter(inPage(shown, data.page_size)).forEach(({ p, rank }) => {
     if (isClanRoster && p.member_status !== lastMembershipSection) {
