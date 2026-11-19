@@ -398,7 +398,7 @@ def next_baseline(prev_output: dict, results: list, now: datetime) -> dict:
 def snapshot(order: list, now: datetime) -> dict:
     """Rank snapshot: active players numbered 1..n in order; inactive players
     get no rank (listed separately, so the page shows no arrow for them)."""
-    active = [p for p in order if p.get("member_status", "active") == "active" and not p.get("inactive")]
+    active = [p for p in order if not p.get("inactive")]
     return {
         "taken_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "ranks": {str(p["profile_id"]): i + 1 for i, p in enumerate(active)},
@@ -456,12 +456,10 @@ def update_roster(roster: dict, now: datetime) -> bool:
     if stale:
         print(f"  {len(stale)} kept last known values: {stale}")
 
-    # The clan roster has two explicit membership sections. Within each section,
-    # sort by current 1v1 ELO; national leaderboards remain pure country rankings.
-    # Keep active clan members first and inactive members visible below them
-    # on both the full clan roster and each national roster.
+    # Sort automatically active players first, then inactive players; within
+    # each group, sort by current 1v1 ELO.
     results.sort(key=lambda p: (
-        p.get("member_status", "active") != "active",
+        p.get("inactive", False),
         p["cur_1v1"] is None,
         -(p["cur_1v1"] or 0),
         -(p["max_1v1"] or 0),
