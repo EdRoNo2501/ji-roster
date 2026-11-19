@@ -6,7 +6,7 @@
 <title>Jaguares Imperiales — Clan Roster</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Yuji+Mai&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <style>
 :root {
@@ -56,8 +56,8 @@ body {
 }
 .logo { width: 100%; height: 100%; border-radius: 50%; background: url(assets/logo_JI.jpg) center / cover no-repeat; }
 .kanji-mark { font-family: 'Cinzel Decorative', serif; font-size: 12px; letter-spacing: 8px; color: var(--gold-dim); margin-top: 18px; }
-.title { font-family: 'Yuji Mai', serif; font-size: 64px; letter-spacing: 2px; color: var(--gold-bright); margin-top: 10px; text-shadow: 0 2px 24px rgba(230,201,136,0.25); }
-.subtitle { font-family: 'EB Garamond', serif; font-style: italic; font-size: 17px; letter-spacing: 3px; color: var(--muted); margin-top: 4px; }
+.title { font-family: 'Cinzel', serif; font-size: 64px; letter-spacing: 2px; color: var(--gold-bright); margin-top: 10px; text-shadow: 0 2px 24px rgba(230,201,136,0.25); }
+.subtitle { font-family: 'Inter', sans-serif; font-style: italic; font-size: 17px; letter-spacing: 3px; color: var(--muted); margin-top: 4px; }
 .rule { margin-top: 20px; width: 320px; height: 20px; }
 .tabs { display: flex; flex-wrap: wrap; margin-top: 18px; border: 1px solid var(--gold-dim); border-radius: 3px; overflow: hidden; }
 .tab {
@@ -128,7 +128,7 @@ body {
 .down { color: var(--move-down); }
 .move.new { color: var(--gold); font-size: 8px; letter-spacing: 1px; }
 .who { padding-left: 10px; min-width: 0; display: flex; align-items: center; gap: 8px; }
-.tag { font-family: 'Yuji Mai', sans-serif; font-size: 22px; color: var(--foam); overflow-wrap: anywhere; min-width: 0; }
+.tag { font-family: 'Inter', sans-serif; font-size: 22px; color: var(--foam); overflow-wrap: anywhere; min-width: 0; }
 /* LIVE badge next to the name of anyone in a game right now; opens the match */
 .live {
   flex: none; display: inline-flex; align-items: center; gap: 4px;
@@ -145,7 +145,7 @@ body {
 /* Clan tag shown small before the name (México tab) */
 .clan { font-family: 'EB Garamond', serif; font-size: 13px; color: var(--muted); margin-right: 2px; letter-spacing: 0.5px; }
 .stat { text-align: center; }
-.stat-num { font-family: 'Yuji Mai', monospace; font-size: 24px; }
+.stat-num { font-family: 'Inter', sans-serif; font-size: 24px; }
 .stat-num.s-1v1 { color: var(--gold-bright); }
 .stat-num.s-tg { color: var(--wave-blue-bright); }
 .stat-num.is-max { font-size: 18px; opacity: 0.7; }
@@ -220,7 +220,164 @@ body {
    downloaded image looks the same. */
 .poster.exporting { width: 900px; max-width: none; flex-shrink: 0; }
 /* The image's subtitle names the ranking; drop the tab bar so it leaves no gap */
-.poster.exporting .tabs { display: none; }
+ .poster.exporting .tabs { display: none; }
+
+/* Jaguares Imperiales visual identity: readable typography, obsidian, gold and
+   a restrained crimson accent inspired by the clan emblem. */
+:root {
+  --ink: #080a0f;
+  --navy-deep: #111827;
+  --gold: #d2a94f;
+  --gold-bright: #f0d58e;
+  --gold-dim: #80652f;
+  --foam: #f1eee6;
+  --muted: #a2a8b4;
+  --ji-accent: 204, 153, 58;
+  --ji-tint: 204, 153, 58;
+  --wave-blue-bright: #b9c5d8;
+}
+body {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(112, 30, 36, .22), transparent 42%),
+    #080a0f;
+  font-family: 'Inter', sans-serif;
+}
+.poster {
+  border: 1px solid rgba(210,169,79,.38);
+  background:
+    radial-gradient(ellipse 900px 500px at 50% 0%, rgba(112,30,36,.25), transparent 62%),
+    linear-gradient(180deg, #101722 0%, #151b27 48%, #0b0e15 100%);
+  box-shadow: 0 24px 80px rgba(0,0,0,.48);
+}
+.frame { border-color: rgba(210,169,79,.72); }
+.frame::before { border-color: rgba(210,169,79,.22); }
+.logo-ring {
+  border: 2px solid rgba(210,169,79,.75);
+  background: linear-gradient(145deg, rgba(112,30,36,.34), rgba(210,169,79,.12));
+}
+.kanji-mark { font-family: 'Cinzel', serif; letter-spacing: 5px; color: #b88f4b; }
+.title {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: clamp(34px, 6vw, 56px);
+  letter-spacing: 1px;
+  line-height: 1.15;
+  text-align: center;
+  text-shadow: 0 3px 22px rgba(210,169,79,.18);
+}
+.subtitle {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.tab, .page-btn {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+  border-color: rgba(210,169,79,.5);
+  background: rgba(5,8,13,.35);
+}
+.tab {
+  min-width: 0;
+  padding: 9px 8px;
+  font-size: 12px;
+  line-height: 1.35;
+  white-space: normal;
+  border-bottom: 1px solid rgba(210,169,79,.2);
+}
+.tab + .tab { border-left: 1px solid rgba(210,169,79,.2); }
+.tab[data-tab="ji"] { grid-column: span 2; }
+.tab[aria-selected="true"] {
+  color: #fff0c4;
+  background: linear-gradient(135deg, rgba(112,30,36,.72), rgba(170,119,43,.25));
+  box-shadow: inset 0 -2px 0 var(--gold);
+}
+.group-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.stat-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -.25px;
+}
+.rank {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+}
+.stat-num {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.row { border-radius: 3px; }
+.row.ji-member { background: rgba(204,153,58,.10); }
+.row.ji-member:hover { background: rgba(204,153,58,.17); }
+.row.member-inactive { opacity: .48; }
+.row.inactive { opacity: .36; }
+.section-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #e4c77f;
+  background: linear-gradient(90deg, transparent, rgba(112,30,36,.20), transparent);
+}
+.roster-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin: 15px auto 0;
+  color: var(--muted);
+  font: 11px 'Inter', sans-serif;
+}
+.legend-active, .legend-inactive {
+  width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+}
+.legend-active { background: #d2a94f; }
+.legend-inactive { background: #7b8492; margin-left: 8px; }
+.action-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-color: rgba(210,169,79,.6);
+}
+.footer-wave { opacity: .65; }
+@media (max-width: 640px) {
+  .poster:not(.exporting) .tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: none;
+  }
+  .poster:not(.exporting) .tab {
+    padding: 7px 4px;
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+  .poster:not(.exporting) .tab[data-tab="ji"] { grid-column: span 3; }
+  .poster:not(.exporting) .tag { font-family: 'Inter', sans-serif; font-weight: 600; }
+  .poster:not(.exporting) .title { font-size: clamp(29px, 9vw, 40px); }
+  .poster:not(.exporting) .subtitle { font-size: 10px; letter-spacing: 1px; }
+  .poster:not(.exporting) .roster-legend { font-size: 9px; }
+}
+
 </style>
 </head>
 <body>
@@ -243,6 +400,8 @@ body {
       <button type="button" role="tab" class="tab" data-tab="peru">Perú</button>
       <button type="button" role="tab" class="tab" data-tab="venezuela">Venezuela</button>
       <button type="button" role="tab" class="tab" data-tab="uruguay">Uruguay</button>
+      <button type="button" role="tab" class="tab" data-tab="chile">Chile</button>
+      <button type="button" role="tab" class="tab" data-tab="costa_rica">Costa Rica</button>
     </div>
   </div>
 
@@ -256,6 +415,7 @@ body {
       <div class="stat h4"><div class="stat-label">Max</div></div>
     </div>
     <div id="rows"></div>
+    <div class="roster-legend no-export"><span class="legend-active"></span> Activo <span class="legend-inactive"></span> Inactivo en el clan</div>
     <div class="pager no-export" id="pager" aria-label="Ranking pages"></div>
   </div>
 
@@ -289,6 +449,8 @@ const TABS = {
   peru:     { file: 'data/peru.json',     subtitle: 'Age of Empires II · Perú Ranking',     png: 'peru-ranking' },
   venezuela:{ file: 'data/venezuela.json',subtitle: 'Age of Empires II · Venezuela Ranking',png: 'venezuela-ranking' },
   uruguay:  { file: 'data/uruguay.json',  subtitle: 'Age of Empires II · Uruguay Ranking',  png: 'uruguay-ranking' },
+  chile:    { file: 'data/chile.json',    subtitle: 'Age of Empires II · Chile Ranking',    png: 'chile-ranking' },
+  costa_rica:{ file: 'data/costa_rica.json', subtitle: 'Age of Empires II · Costa Rica Ranking', png: 'costa-rica-ranking' },
 };
 let currentTab = 'ji';
 let currentPage = 1;      // tabs with page_size show one page of the ranking at a time
@@ -506,15 +668,14 @@ function render(data, lastCheck) {
     }
     shown.push({ p, rank: rankable ? active : null });
   }
-  if (!isClanRoster) while (shown.length && shown[shown.length - 1].p.inactive) shown.pop();  // country lists omit trailing inactive entries
   let lastMembershipSection = null;
   shown.filter(inPage(shown, data.page_size)).forEach(({ p, rank }) => {
-    if (isClanRoster && p.member_status !== lastMembershipSection) {
+    if ((p.member_status || 'active') !== lastMembershipSection) {
       const heading = document.createElement('div');
       heading.className = 'section-heading';
       heading.textContent = p.member_status === 'inactive'
-        ? 'Inactivos en Ranked 1v1'
-        : 'Activos en Ranked 1v1';
+        ? 'Integrantes inactivos'
+        : 'Integrantes activos';
       rowsEl.appendChild(heading);
       lastMembershipSection = p.member_status;
     }
@@ -523,7 +684,7 @@ function render(data, lastCheck) {
     row.className = 'row';
     // Highlight Jaguares Imperiales on the country rankings (roster tab is JI)
     if (currentTab === 'ji') row.classList.add('ji-member');
-    if (isClanRoster && p.member_status === 'inactive') row.classList.add('member-inactive');
+    if (p.member_status === 'inactive') row.classList.add('member-inactive');
     row.href = `https://www.aoe2insights.com/user/${encodeURIComponent(p.profile_id)}/`;
     row.target = '_blank';
     row.rel = 'noopener';
