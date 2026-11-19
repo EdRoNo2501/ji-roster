@@ -1,8 +1,8 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-19T05:17:21Z",
+  "updated_at": "2026-11-19T18:12:25Z",
   "baseline": {
-    "taken_at": "2026-11-19T02:27:17Z",
+    "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
       "3964428": 1,
       "12573559": 2,
@@ -29,11 +29,11 @@
       "member_status": "active",
       "tag": "OLD BUST@",
       "clan": "JAGR",
-      "cur_1v1": 1426,
+      "cur_1v1": 1456,
       "max_1v1": 1620,
       "cur_tg": 1061,
       "max_tg": 1075,
-      "last_1v1": "2026-11-18",
+      "last_1v1": "2026-11-19",
       "last_tg": "2026-11-13"
     },
     {

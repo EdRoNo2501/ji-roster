@@ -1,8 +1,8 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-19T04:46:31Z",
+  "updated_at": "2026-11-19T18:12:25Z",
   "baseline": {
-    "taken_at": "2026-11-19T02:27:17Z",
+    "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
       "12359161": 1,
       "12989767": 2,
@@ -29,9 +29,7 @@
       "12820653": 23
     },
     "inactive": [
-      "2861536",
-      "13087608",
-      "13013041"
+      "2861536"
     ]
   },
   "players": [
@@ -68,8 +66,13 @@
       "max_1v1": 1652,
       "cur_tg": 1361,
       "max_tg": 1570,
-      "last_1v1": "2026-11-18",
-      "last_tg": "2026-11-19"
+      "last_1v1": "2026-11-19",
+      "last_tg": "2026-11-19",
+      "live": {
+        "match": 522269635,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 3964428,
@@ -82,6 +85,18 @@
       "max_tg": 1721,
       "last_tg": "2026-11-19",
       "last_1v1": "2026-11-02"
+    },
+    {
+      "profile_id": 12573559,
+      "member_status": "active",
+      "country": "Perú",
+      "tag": "JAGR | OLD BUST@",
+      "cur_1v1": 1456,
+      "max_1v1": 1620,
+      "cur_tg": 1061,
+      "max_tg": 1075,
+      "last_1v1": "2026-11-19",
+      "last_tg": "2026-11-13"
     },
     {
       "profile_id": 1981408,
@@ -106,18 +121,6 @@
       "max_tg": 1409,
       "last_tg": "2026-11-18",
       "last_1v1": "2026-11-16"
-    },
-    {
-      "profile_id": 12573559,
-      "member_status": "active",
-      "country": "Perú",
-      "tag": "JAGR | OLD BUST@",
-      "cur_1v1": 1426,
-      "max_1v1": 1620,
-      "cur_tg": 1061,
-      "max_tg": 1075,
-      "last_1v1": "2026-11-18",
-      "last_tg": "2026-11-13"
     },
     {
       "profile_id": 2057662,
@@ -156,18 +159,6 @@
       "last_1v1": "2026-11-13"
     },
     {
-      "profile_id": 1835814,
-      "member_status": "active",
-      "country": "Colombia",
-      "tag": "JAGR | Luigi-gb",
-      "cur_1v1": 1307,
-      "max_1v1": 1375,
-      "cur_tg": 1353,
-      "max_tg": 1398,
-      "last_1v1": "2026-11-19",
-      "last_tg": "2026-11-17"
-    },
-    {
       "profile_id": 13026074,
       "member_status": "active",
       "country": "Perú",
@@ -178,6 +169,18 @@
       "max_tg": 1313,
       "last_tg": "2026-11-16",
       "last_1v1": "2026-11-01"
+    },
+    {
+      "profile_id": 1835814,
+      "member_status": "active",
+      "country": "Colombia",
+      "tag": "JAGR | Luigi-gb",
+      "cur_1v1": 1289,
+      "max_1v1": 1375,
+      "cur_tg": 1353,
+      "max_tg": 1398,
+      "last_1v1": "2026-11-19",
+      "last_tg": "2026-11-17"
     },
     {
       "profile_id": 12722759,
