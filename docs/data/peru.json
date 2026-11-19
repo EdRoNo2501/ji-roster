@@ -1,10 +1,56 @@
 {
   "name": "Perú",
-  "updated_at": null,
+  "updated_at": "2026-11-19T02:27:17Z",
   "baseline": {
-    "taken_at": null,
-    "ranks": {},
-    "inactive": []
+    "taken_at": "2026-11-19T02:27:17Z",
+    "ranks": {
+      "3964428": 1
+    },
+    "inactive": [
+      "12573559",
+      "13026074",
+      "12722759"
+    ]
   },
-  "players": []
+  "players": [
+    {
+      "profile_id": 3964428,
+      "tag": "BkB",
+      "clan": "JAGR",
+      "cur_1v1": 1559,
+      "max_1v1": 1676,
+      "cur_tg": 1521,
+      "max_tg": 1721,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-11-02"
+    },
+    {
+      "profile_id": 12573559,
+      "tag": "CRACKDEPOT",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 13026074,
+      "tag": "GivenSumo8403",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 12722759,
+      "tag": "zzCangye",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    }
+  ],
+  "show_top": 15
 }

@@ -1,0 +1,56 @@
+{
+  "name": "Argentina",
+  "updated_at": "2026-11-19T02:27:17Z",
+  "baseline": {
+    "taken_at": "2026-11-19T02:27:17Z",
+    "ranks": {
+      "2057662": 1
+    },
+    "inactive": [
+      "12989767",
+      "13067703",
+      "13222272"
+    ]
+  },
+  "players": [
+    {
+      "profile_id": 2057662,
+      "tag": "PIPO GOROSITO",
+      "clan": "JAGR",
+      "cur_1v1": 1421,
+      "max_1v1": 1421,
+      "cur_tg": 1324,
+      "max_tg": 1434,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-11-08"
+    },
+    {
+      "profile_id": 12989767,
+      "tag": "SmoKin Roche88",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 13067703,
+      "tag": "Spud4395",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 13222272,
+      "tag": "Hotpocket0331",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    }
+  ],
+  "show_top": 15
+}

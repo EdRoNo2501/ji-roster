@@ -1,0 +1,35 @@
+{
+  "name": "Venezuela",
+  "updated_at": "2026-11-19T02:27:17Z",
+  "baseline": {
+    "taken_at": "2026-11-19T02:27:17Z",
+    "ranks": {
+      "10608499": 1
+    },
+    "inactive": [
+      "13505523"
+    ]
+  },
+  "players": [
+    {
+      "profile_id": 10608499,
+      "tag": "JAGR I Milanesito",
+      "cur_1v1": 1223,
+      "max_1v1": 1223,
+      "cur_tg": 1285,
+      "max_tg": 1296,
+      "last_tg": "2026-11-10",
+      "last_1v1": "2026-11-17"
+    },
+    {
+      "profile_id": 13505523,
+      "tag": "fSu22",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    }
+  ],
+  "show_top": 15
+}

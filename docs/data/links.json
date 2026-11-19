@@ -1,4 +1,156 @@
 {
-  "updated_at": null,
-  "players": {}
+ "updated_at": "2026-11-19T02:27:17Z",
+ "players": {
+  "12359161": {
+   "name": "JAGR | Virus",
+   "accounts": []
+  },
+  "12989767": {
+   "name": "[JAGR] GORDAZO",
+   "accounts": []
+  },
+  "12876939": {
+   "name": "JAGR | DesNoguns",
+   "accounts": []
+  },
+  "3964428": {
+   "name": "JAGR | BkB",
+   "accounts": []
+  },
+  "10037286": {
+   "name": "JAGR | Quaa",
+   "accounts": []
+  },
+  "1981408": {
+   "name": "JAGR | Herol",
+   "accounts": [
+    {
+     "id": 21558098,
+     "hops": 1,
+     "name": "JAGR|HEROL2.0",
+     "rating": 1179,
+     "last": "2025-05-31"
+    }
+   ]
+  },
+  "12573559": {
+   "name": "JAGR | OLD BUST@",
+   "accounts": []
+  },
+  "2057662": {
+   "name": "JAGR | PIPO GOROSITO",
+   "accounts": []
+  },
+  "13258119": {
+   "name": "JAGR | juankof",
+   "accounts": []
+  },
+  "12950375": {
+   "name": "JAGR | TheButterfly_Effect",
+   "accounts": []
+  },
+  "1835814": {
+   "name": "JAGR | Luigi-gb",
+   "accounts": []
+  },
+  "13026074": {
+   "name": "JAGR | Javi",
+   "accounts": []
+  },
+  "12722759": {
+   "name": "JAGR | STYLORD",
+   "accounts": []
+  },
+  "10608499": {
+   "name": "JAGR I Milanesito",
+   "accounts": []
+  },
+  "13190355": {
+   "name": "JAGR_Soyuncacahuate",
+   "accounts": []
+  },
+  "12953298": {
+   "name": "JAGR | Arthur King MX",
+   "accounts": []
+  },
+  "4229230": {
+   "name": "JAGR | xKensyt",
+   "accounts": []
+  },
+  "13067703": {
+   "name": "JAGR fran",
+   "accounts": []
+  },
+  "12831320": {
+   "name": "JAGR | HIPERYON",
+   "accounts": []
+  },
+  "13505523": {
+   "name": "JAGR | Mazzei10",
+   "accounts": []
+  },
+  "13222272": {
+   "name": "JAGR | Dr. Xeneize",
+   "accounts": []
+  },
+  "13081631": {
+   "name": "JAGR | Cacique",
+   "accounts": []
+  },
+  "12820653": {
+   "name": "JAGR | Ojimenezg87",
+   "accounts": []
+  },
+  "1025121": {
+   "name": "JAGR | Rojnar",
+   "accounts": [
+    {
+     "id": 5754241,
+     "hops": 1,
+     "name": "Rojnar",
+     "rating": 1482,
+     "last": "2026-11-15"
+    },
+    {
+     "id": 26266138,
+     "hops": 1,
+     "name": "Gustav_123433",
+     "rating": null,
+     "last": null
+    },
+    {
+     "id": 5807507,
+     "hops": 2,
+     "name": "Dante",
+     "rating": null,
+     "last": null
+    }
+   ]
+  },
+  "761809": {
+   "name": "JAGR | Themoeplay",
+   "accounts": []
+  },
+  "2861536": {
+   "name": "JAGR | Kriid",
+   "accounts": []
+  },
+  "9357272": {
+   "name": "JAGR | mauricio",
+   "accounts": []
+  },
+  "13087608": {
+   "name": "JAGR | CIHUACOATL",
+   "accounts": []
+  },
+  "10369585": {
+   "name": "JAGR | GastonWick",
+   "accounts": []
+  },
+  "13013041": {
+   "name": "JAGR | GoodByeWorld",
+   "accounts": []
+  }
+ },
+ "ambiguous": []
 }

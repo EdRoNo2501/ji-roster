@@ -1,0 +1,25 @@
+{
+  "name": "Uruguay",
+  "updated_at": "2026-11-19T02:27:17Z",
+  "baseline": {
+    "taken_at": "2026-11-19T02:27:17Z",
+    "ranks": {
+      "10037286": 1
+    },
+    "inactive": []
+  },
+  "players": [
+    {
+      "profile_id": 10037286,
+      "tag": "Quaa",
+      "clan": "JAGR",
+      "cur_1v1": 1431,
+      "max_1v1": 1433,
+      "cur_tg": 1269,
+      "max_tg": 1409,
+      "last_tg": "2026-11-18",
+      "last_1v1": "2026-11-16"
+    }
+  ],
+  "show_top": 15
+}

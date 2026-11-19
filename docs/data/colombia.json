@@ -1,10 +1,88 @@
 {
   "name": "Colombia",
-  "updated_at": null,
+  "updated_at": "2026-11-19T02:27:17Z",
   "baseline": {
-    "taken_at": null,
-    "ranks": {},
-    "inactive": []
+    "taken_at": "2026-11-19T02:27:17Z",
+    "ranks": {
+      "1981408": 1,
+      "1835814": 2
+    },
+    "inactive": [
+      "12876939",
+      "13258119",
+      "12831320",
+      "13081631",
+      "12820653"
+    ]
   },
-  "players": []
+  "players": [
+    {
+      "profile_id": 1981408,
+      "tag": "Herol",
+      "clan": "JAGR",
+      "cur_1v1": 1431,
+      "max_1v1": 1494,
+      "cur_tg": 1296,
+      "max_tg": 1419,
+      "last_tg": "2026-09-24",
+      "last_1v1": "2026-11-12"
+    },
+    {
+      "profile_id": 1835814,
+      "tag": "Luigi-gb",
+      "clan": "JAGR",
+      "cur_1v1": 1307,
+      "max_1v1": 1375,
+      "cur_tg": 1353,
+      "max_tg": 1398,
+      "last_1v1": "2026-11-19",
+      "last_tg": "2026-11-17"
+    },
+    {
+      "profile_id": 12876939,
+      "tag": "Ravens91120",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 13258119,
+      "tag": "GUNT0TENREDNECK",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 12831320,
+      "tag": "Knobi Kenobi471",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 13081631,
+      "tag": "Pillzbee",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    },
+    {
+      "profile_id": 12820653,
+      "tag": "TomLitts",
+      "cur_1v1": null,
+      "max_1v1": null,
+      "cur_tg": null,
+      "max_tg": null,
+      "inactive": true
+    }
+  ],
+  "show_top": 15
 }
