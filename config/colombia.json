@@ -5,32 +5,25 @@
   "_players": "All Jaguares Imperiales members from this country are included. Inactive clan members remain visible but are not ranked.",
   "players": [
     {
-      "id": 12876939,
-      "member_status": "active"
+      "id": 12876939
     },
     {
-      "id": 1981408,
-      "member_status": "active"
+      "id": 1981408
     },
     {
-      "id": 13258119,
-      "member_status": "active"
+      "id": 13258119
     },
     {
-      "id": 1835814,
-      "member_status": "active"
+      "id": 1835814
     },
     {
-      "id": 12831320,
-      "member_status": "active"
+      "id": 12831320
     },
     {
-      "id": 13081631,
-      "member_status": "active"
+      "id": 13081631
     },
     {
-      "id": 12820653,
-      "member_status": "active"
+      "id": 12820653
     }
   ]
 }
