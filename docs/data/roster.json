@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-19T21:40:49Z",
+  "updated_at": "2026-11-20T02:02:45Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
@@ -43,12 +43,17 @@
       "profile_id": 12359161,
       "country": "México",
       "tag": "JAGR | Virus",
-      "cur_1v1": 1791,
+      "cur_1v1": 1819,
       "max_1v1": 1894,
       "cur_tg": 1431,
       "max_tg": 1638,
       "last_tg": "2026-11-18",
-      "last_1v1": "2026-11-19"
+      "last_1v1": "2026-11-20",
+      "live": {
+        "match": 522352220,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 12989767,
@@ -59,7 +64,12 @@
       "cur_tg": 1508,
       "max_tg": 1508,
       "last_tg": "2026-11-15",
-      "last_1v1": "2026-11-17"
+      "last_1v1": "2026-11-17",
+      "live": {
+        "match": 522351441,
+        "game": "Unranked",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 12876939,
@@ -78,10 +88,15 @@
       "tag": "JAGR | BkB",
       "cur_1v1": 1559,
       "max_1v1": 1676,
-      "cur_tg": 1541,
+      "cur_tg": 1499,
       "max_tg": 1721,
-      "last_tg": "2026-11-19",
-      "last_1v1": "2026-11-02"
+      "last_tg": "2026-11-20",
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 522353800,
+        "game": "Team Random Map",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 1025121,
@@ -89,20 +104,20 @@
       "tag": "JAGR | Rojnar",
       "cur_1v1": 1533,
       "max_1v1": 1533,
-      "cur_tg": 1427,
+      "cur_tg": 1418,
       "max_tg": 1502,
       "last_1v1": "2026-11-19",
-      "last_tg": "2026-11-18"
+      "last_tg": "2026-11-20"
     },
     {
       "profile_id": 12573559,
       "country": "Perú",
       "tag": "JAGR | OLD BUST@",
-      "cur_1v1": 1456,
+      "cur_1v1": 1466,
       "max_1v1": 1620,
       "cur_tg": 1061,
       "max_tg": 1075,
-      "last_1v1": "2026-11-19",
+      "last_1v1": "2026-11-20",
       "last_tg": "2026-11-13"
     },
     {
@@ -122,9 +137,9 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1431,
       "max_1v1": 1433,
-      "cur_tg": 1269,
+      "cur_tg": 1225,
       "max_tg": 1409,
-      "last_tg": "2026-11-18",
+      "last_tg": "2026-11-19",
       "last_1v1": "2026-11-16"
     },
     {
@@ -133,15 +148,10 @@
       "tag": "JAGR | PIPO GOROSITO",
       "cur_1v1": 1421,
       "max_1v1": 1421,
-      "cur_tg": 1343,
+      "cur_tg": 1269,
       "max_tg": 1434,
-      "last_tg": "2026-11-19",
-      "last_1v1": "2026-11-08",
-      "live": {
-        "match": 522306840,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-20",
+      "last_1v1": "2026-11-08"
     },
     {
       "profile_id": 10369585,
@@ -149,10 +159,15 @@
       "tag": "JAGR | GastonWick",
       "cur_1v1": 1385,
       "max_1v1": 1416,
-      "cur_tg": 1417,
+      "cur_tg": 1366,
       "max_tg": 1451,
-      "last_tg": "2026-11-18",
-      "last_1v1": "2026-09-19"
+      "last_tg": "2026-11-20",
+      "last_1v1": "2026-09-19",
+      "live": {
+        "match": 522353800,
+        "game": "Team Random Map",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 13258119,
@@ -185,7 +200,12 @@
       "cur_tg": 1443,
       "max_tg": 1552,
       "last_tg": "2026-11-15",
-      "last_1v1": "2026-09-20"
+      "last_1v1": "2026-09-20",
+      "live": {
+        "match": 522351802,
+        "game": "Unranked",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 1835814,
@@ -240,7 +260,12 @@
       "cur_tg": 1285,
       "max_tg": 1296,
       "last_tg": "2026-11-10",
-      "last_1v1": "2026-11-17"
+      "last_1v1": "2026-11-17",
+      "live": {
+        "match": 522351802,
+        "game": "Unranked",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 13087608,
@@ -259,10 +284,10 @@
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
-      "cur_tg": 1373,
+      "cur_tg": 1319,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-18"
+      "last_tg": "2026-11-19"
     },
     {
       "profile_id": 12953298,
@@ -292,10 +317,15 @@
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
-      "cur_tg": 1401,
+      "cur_tg": 1353,
       "max_tg": 1446,
-      "last_tg": "2026-11-17",
-      "last_1v1": "2026-11-11"
+      "last_tg": "2026-11-20",
+      "last_1v1": "2026-11-11",
+      "live": {
+        "match": 522353800,
+        "game": "Team Random Map",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 12831320,
@@ -339,7 +369,12 @@
       "cur_tg": 1144,
       "max_tg": 1144,
       "last_tg": "2026-11-15",
-      "last_1v1": "2026-11-02"
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 522353057,
+        "game": "Quick Play 1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 12820653,
@@ -356,12 +391,12 @@
       "profile_id": 9357272,
       "country": "México",
       "tag": "JAGR | mauricio",
-      "cur_1v1": 743,
+      "cur_1v1": 761,
       "max_1v1": 808,
       "cur_tg": 944,
       "max_tg": 963,
       "last_tg": "2026-11-01",
-      "last_1v1": "2026-10-19"
+      "last_1v1": "2026-11-20"
     },
     {
       "profile_id": 2861536,

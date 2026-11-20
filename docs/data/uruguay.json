@@ -1,6 +1,6 @@
 {
   "name": "Uruguay",
-  "updated_at": "2026-11-19T21:40:49Z",
+  "updated_at": "2026-11-20T02:02:45Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
@@ -15,9 +15,9 @@
       "clan": "JAGR",
       "cur_1v1": 1431,
       "max_1v1": 1433,
-      "cur_tg": 1269,
+      "cur_tg": 1225,
       "max_tg": 1409,
-      "last_tg": "2026-11-18",
+      "last_tg": "2026-11-19",
       "last_1v1": "2026-11-16"
     }
   ],

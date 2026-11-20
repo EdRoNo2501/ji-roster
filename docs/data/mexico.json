@@ -1,6 +1,6 @@
 {
   "name": "México",
-  "updated_at": "2026-11-19T21:40:49Z",
+  "updated_at": "2026-11-20T02:02:45Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
@@ -19,12 +19,17 @@
       "profile_id": 12359161,
       "tag": "Virus",
       "clan": "JAGR",
-      "cur_1v1": 1791,
+      "cur_1v1": 1819,
       "max_1v1": 1894,
       "cur_tg": 1431,
       "max_tg": 1638,
       "last_tg": "2026-11-18",
-      "last_1v1": "2026-11-19"
+      "last_1v1": "2026-11-20",
+      "live": {
+        "match": 522352220,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 12950375,
@@ -53,10 +58,10 @@
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
-      "cur_tg": 1373,
+      "cur_tg": 1319,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-18"
+      "last_tg": "2026-11-19"
     },
     {
       "profile_id": 12953298,
@@ -84,12 +89,12 @@
       "profile_id": 9357272,
       "tag": "mauricio",
       "clan": "JAGR",
-      "cur_1v1": 743,
+      "cur_1v1": 761,
       "max_1v1": 808,
       "cur_tg": 944,
       "max_tg": 963,
       "last_tg": "2026-11-01",
-      "last_1v1": "2026-10-19"
+      "last_1v1": "2026-11-20"
     }
   ],
   "show_top": 15

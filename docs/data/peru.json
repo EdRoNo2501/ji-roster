@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-19T21:40:49Z",
+  "updated_at": "2026-11-20T02:02:45Z",
   "baseline": {
     "taken_at": "2026-11-19T18:12:25Z",
     "ranks": {
@@ -19,10 +19,15 @@
       "clan": "JAGR",
       "cur_1v1": 1559,
       "max_1v1": 1676,
-      "cur_tg": 1541,
+      "cur_tg": 1499,
       "max_tg": 1721,
-      "last_tg": "2026-11-19",
-      "last_1v1": "2026-11-02"
+      "last_tg": "2026-11-20",
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 522353800,
+        "game": "Team Random Map",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 1025121,
@@ -30,20 +35,20 @@
       "clan": "JAGR",
       "cur_1v1": 1533,
       "max_1v1": 1533,
-      "cur_tg": 1427,
+      "cur_tg": 1418,
       "max_tg": 1502,
       "last_1v1": "2026-11-19",
-      "last_tg": "2026-11-18"
+      "last_tg": "2026-11-20"
     },
     {
       "profile_id": 12573559,
       "tag": "OLD BUST@",
       "clan": "JAGR",
-      "cur_1v1": 1456,
+      "cur_1v1": 1466,
       "max_1v1": 1620,
       "cur_tg": 1061,
       "max_tg": 1075,
-      "last_1v1": "2026-11-19",
+      "last_1v1": "2026-11-20",
       "last_tg": "2026-11-13"
     },
     {
