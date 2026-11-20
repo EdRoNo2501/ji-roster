@@ -1,6 +1,6 @@
 {
   "name": "México",
-  "updated_at": "2026-11-20T14:00:19Z",
+  "updated_at": "2026-11-20T19:05:10Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -19,7 +19,7 @@
       "profile_id": 12359161,
       "tag": "Virus",
       "clan": "JAGR",
-      "cur_1v1": 1805,
+      "cur_1v1": 1821,
       "max_1v1": 1894,
       "cur_tg": 1431,
       "max_tg": 1638,
@@ -56,7 +56,12 @@
       "cur_tg": 1319,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-19"
+      "last_tg": "2026-11-19",
+      "live": {
+        "match": 522490623,
+        "game": "Team Random Map",
+        "format": "2v2"
+      }
     },
     {
       "profile_id": 12953298,
