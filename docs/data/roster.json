@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-20T23:40:13Z",
+  "updated_at": "2026-11-20T23:45:12Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -111,6 +111,17 @@
       "last_1v1": "2026-11-12"
     },
     {
+      "profile_id": 10037286,
+      "country": "Uruguay",
+      "tag": "JAGR | Quaa",
+      "cur_1v1": 1428,
+      "max_1v1": 1433,
+      "cur_tg": 1246,
+      "max_tg": 1409,
+      "last_tg": "2026-11-20",
+      "last_1v1": "2026-11-20"
+    },
+    {
       "profile_id": 2057662,
       "country": "Argentina",
       "tag": "JAGR | PIPO GOROSITO",
@@ -120,22 +131,6 @@
       "max_tg": 1434,
       "last_tg": "2026-11-20",
       "last_1v1": "2026-11-08"
-    },
-    {
-      "profile_id": 10037286,
-      "country": "Uruguay",
-      "tag": "JAGR | Quaa",
-      "cur_1v1": 1413,
-      "max_1v1": 1433,
-      "cur_tg": 1246,
-      "max_tg": 1409,
-      "last_tg": "2026-11-20",
-      "last_1v1": "2026-11-20",
-      "live": {
-        "match": 522545753,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
     },
     {
       "profile_id": 12573559,
