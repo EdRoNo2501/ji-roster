@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-20T23:50:18Z",
+  "updated_at": "2026-11-20T23:55:20Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -51,22 +51,6 @@
       "last_1v1": "2026-11-20"
     },
     {
-      "profile_id": 12876939,
-      "country": "Colombia",
-      "tag": "JAGR | DesNoguns",
-      "cur_1v1": 1643,
-      "max_1v1": 1652,
-      "cur_tg": 1361,
-      "max_tg": 1570,
-      "last_1v1": "2026-11-20",
-      "last_tg": "2026-11-19",
-      "live": {
-        "match": 522549037,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 12989767,
       "country": "Argentina",
       "tag": "[JAGR] GORDAZO",
@@ -76,6 +60,22 @@
       "max_tg": 1508,
       "last_tg": "2026-11-15",
       "last_1v1": "2026-11-17"
+    },
+    {
+      "profile_id": 12876939,
+      "country": "Colombia",
+      "tag": "JAGR | DesNoguns",
+      "cur_1v1": 1630,
+      "max_1v1": 1652,
+      "cur_tg": 1361,
+      "max_tg": 1570,
+      "last_1v1": "2026-11-20",
+      "last_tg": "2026-11-19",
+      "live": {
+        "match": 522552168,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 3964428,
