@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-21T19:40:17Z",
+  "updated_at": "2026-11-21T20:00:24Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -45,15 +45,10 @@
       "tag": "JAGR | Virus",
       "cur_1v1": 1865,
       "max_1v1": 1894,
-      "cur_tg": 1431,
+      "cur_tg": 1447,
       "max_tg": 1638,
-      "last_tg": "2026-11-18",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522745568,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-21",
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 12989767,
@@ -72,15 +67,10 @@
       "tag": "JAGR | DesNoguns",
       "cur_1v1": 1614,
       "max_1v1": 1652,
-      "cur_tg": 1361,
+      "cur_tg": 1379,
       "max_tg": 1570,
       "last_1v1": "2026-11-21",
-      "last_tg": "2026-11-19",
-      "live": {
-        "match": 522745568,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-21"
     },
     {
       "profile_id": 3964428,
@@ -88,15 +78,10 @@
       "tag": "JAGR | BkB",
       "cur_1v1": 1559,
       "max_1v1": 1676,
-      "cur_tg": 1462,
+      "cur_tg": 1477,
       "max_tg": 1721,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-02",
-      "live": {
-        "match": 522745568,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-02"
     },
     {
       "profile_id": 1025121,
@@ -137,15 +122,10 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1412,
       "max_1v1": 1433,
-      "cur_tg": 1220,
+      "cur_tg": 1205,
       "max_tg": 1409,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522749300,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 12573559,
@@ -307,15 +287,10 @@
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
-      "cur_tg": 1373,
+      "cur_tg": 1353,
       "max_tg": 1446,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-11",
-      "live": {
-        "match": 522749300,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 12831320,
@@ -334,15 +309,10 @@
       "tag": "JAGR | Mazzei10",
       "cur_1v1": 1045,
       "max_1v1": 1064,
-      "cur_tg": 1277,
+      "cur_tg": 1260,
       "max_tg": 1396,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522749300,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 13222272,
