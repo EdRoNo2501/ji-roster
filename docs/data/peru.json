@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-21T02:50:13Z",
+  "updated_at": "2026-11-21T02:55:11Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -19,7 +19,7 @@
       "clan": "JAGR",
       "cur_1v1": 1559,
       "max_1v1": 1676,
-      "cur_tg": 1487,
+      "cur_tg": 1500,
       "max_tg": 1721,
       "last_tg": "2026-11-21",
       "last_1v1": "2026-11-02"

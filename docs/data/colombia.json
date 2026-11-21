@@ -1,6 +1,6 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-21T02:50:13Z",
+  "updated_at": "2026-11-21T02:55:11Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -65,7 +65,7 @@
       "clan": "JAGR",
       "cur_1v1": 1145,
       "max_1v1": 1213,
-      "cur_tg": 1265,
+      "cur_tg": 1286,
       "max_tg": 1415,
       "last_1v1": "2026-10-26",
       "last_tg": "2026-11-21"
