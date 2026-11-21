@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-20T14:00:19Z",
+  "updated_at": "2026-11-21T00:05:21Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -41,7 +41,12 @@
       "cur_tg": 1306,
       "max_tg": 1396,
       "last_tg": "2026-11-18",
-      "last_1v1": "2026-11-07"
+      "last_1v1": "2026-11-07",
+      "live": {
+        "match": 522553676,
+        "game": "Team Random Map",
+        "format": "2v2"
+      }
     }
   ],
   "show_top": 15
