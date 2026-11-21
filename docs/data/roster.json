@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-21T23:15:11Z",
+  "updated_at": "2026-11-21T23:30:14Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -81,12 +81,7 @@
       "cur_tg": 1477,
       "max_tg": 1721,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-02",
-      "live": {
-        "match": 522793682,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-02"
     },
     {
       "profile_id": 1025121,
@@ -97,12 +92,7 @@
       "cur_tg": 1415,
       "max_tg": 1502,
       "last_1v1": "2026-11-19",
-      "last_tg": "2026-11-21",
-      "live": {
-        "match": 522793682,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-21"
     },
     {
       "profile_id": 1981408,
@@ -157,12 +147,7 @@
       "cur_tg": 1416,
       "max_tg": 1451,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-09-19",
-      "live": {
-        "match": 522793682,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-09-19"
     },
     {
       "profile_id": 13258119,
@@ -272,12 +257,7 @@
       "cur_tg": 1328,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-21",
-      "live": {
-        "match": 522793682,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-21"
     },
     {
       "profile_id": 12953298,
@@ -310,12 +290,7 @@
       "cur_tg": 1356,
       "max_tg": 1446,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-11",
-      "live": {
-        "match": 522793682,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 12831320,
@@ -337,12 +312,7 @@
       "cur_tg": 1278,
       "max_tg": 1396,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522793682,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 13222272,
