@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-21T03:15:13Z",
+  "updated_at": "2026-11-21T03:25:11Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -83,15 +83,10 @@
       "tag": "JAGR | BkB",
       "cur_1v1": 1559,
       "max_1v1": 1676,
-      "cur_tg": 1500,
+      "cur_tg": 1482,
       "max_tg": 1721,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-02",
-      "live": {
-        "match": 522582901,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-02"
     },
     {
       "profile_id": 1025121,
@@ -179,12 +174,7 @@
       "cur_tg": 1369,
       "max_tg": 1475,
       "last_tg": "2026-10-26",
-      "last_1v1": "2026-11-13",
-      "live": {
-        "match": 522585887,
-        "game": "Quick Play 1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-13"
     },
     {
       "profile_id": 1835814,
@@ -302,15 +292,10 @@
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
-      "cur_tg": 1389,
+      "cur_tg": 1373,
       "max_tg": 1446,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-11",
-      "live": {
-        "match": 522582901,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 12831320,
@@ -318,15 +303,10 @@
       "tag": "JAGR | HIPERYON",
       "cur_1v1": 1145,
       "max_1v1": 1213,
-      "cur_tg": 1286,
+      "cur_tg": 1273,
       "max_tg": 1415,
       "last_1v1": "2026-10-26",
-      "last_tg": "2026-11-21",
-      "live": {
-        "match": 522582901,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-21"
     },
     {
       "profile_id": 13505523,
