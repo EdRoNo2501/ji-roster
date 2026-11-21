@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-21T22:35:11Z",
+  "updated_at": "2026-11-21T22:45:12Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -43,14 +43,14 @@
       "profile_id": 12359161,
       "country": "México",
       "tag": "JAGR | Virus",
-      "cur_1v1": 1865,
+      "cur_1v1": 1855,
       "max_1v1": 1894,
       "cur_tg": 1447,
       "max_tg": 1638,
       "last_tg": "2026-11-21",
       "last_1v1": "2026-11-21",
       "live": {
-        "match": 522785765,
+        "match": 522790413,
         "game": "1v1 Random Map",
         "format": "1v1"
       }
