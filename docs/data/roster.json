@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-21T19:25:16Z",
+  "updated_at": "2026-11-21T19:35:10Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -137,15 +137,10 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1412,
       "max_1v1": 1433,
-      "cur_tg": 1234,
+      "cur_tg": 1220,
       "max_tg": 1409,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522741056,
-        "game": "Team Random Map",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 12573559,
@@ -329,15 +324,10 @@
       "tag": "JAGR | Mazzei10",
       "cur_1v1": 1045,
       "max_1v1": 1064,
-      "cur_tg": 1293,
+      "cur_tg": 1277,
       "max_tg": 1396,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522741056,
-        "game": "Team Random Map",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 13222272,
