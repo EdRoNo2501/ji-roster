@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-21T22:30:14Z",
+  "updated_at": "2026-11-21T22:35:11Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -70,17 +70,12 @@
       "profile_id": 12876939,
       "country": "Colombia",
       "tag": "JAGR | DesNoguns",
-      "cur_1v1": 1597,
+      "cur_1v1": 1619,
       "max_1v1": 1652,
       "cur_tg": 1379,
       "max_tg": 1570,
       "last_1v1": "2026-11-21",
-      "last_tg": "2026-11-21",
-      "live": {
-        "match": 522781209,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-21"
     },
     {
       "profile_id": 3964428,
@@ -162,7 +157,12 @@
       "cur_tg": 1402,
       "max_tg": 1451,
       "last_tg": "2026-11-20",
-      "last_1v1": "2026-09-19"
+      "last_1v1": "2026-09-19",
+      "live": {
+        "match": 522788164,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13258119,
@@ -272,7 +272,12 @@
       "cur_tg": 1311,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-21"
+      "last_tg": "2026-11-21",
+      "live": {
+        "match": 522788164,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 12953298,
@@ -305,7 +310,12 @@
       "cur_tg": 1340,
       "max_tg": 1446,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-11"
+      "last_1v1": "2026-11-11",
+      "live": {
+        "match": 522788164,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 12831320,
@@ -327,7 +337,12 @@
       "cur_tg": 1259,
       "max_tg": 1396,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21"
+      "last_1v1": "2026-11-21",
+      "live": {
+        "match": 522788164,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13222272,
