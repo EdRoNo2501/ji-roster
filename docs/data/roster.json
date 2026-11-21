@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-21T02:55:11Z",
+  "updated_at": "2026-11-21T03:00:17Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -86,7 +86,12 @@
       "cur_tg": 1500,
       "max_tg": 1721,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-02"
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 522582901,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 1025121,
@@ -295,7 +300,12 @@
       "cur_tg": 1389,
       "max_tg": 1446,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-11"
+      "last_1v1": "2026-11-11",
+      "live": {
+        "match": 522582901,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 12831320,
@@ -306,7 +316,12 @@
       "cur_tg": 1286,
       "max_tg": 1415,
       "last_1v1": "2026-10-26",
-      "last_tg": "2026-11-21"
+      "last_tg": "2026-11-21",
+      "live": {
+        "match": 522582901,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13505523,
