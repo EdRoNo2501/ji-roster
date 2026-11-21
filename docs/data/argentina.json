@@ -1,6 +1,6 @@
 {
   "name": "Argentina",
-  "updated_at": "2026-11-21T21:55:09Z",
+  "updated_at": "2026-11-21T22:30:14Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -51,15 +51,10 @@
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
-      "cur_tg": 1360,
+      "cur_tg": 1340,
       "max_tg": 1446,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-11",
-      "live": {
-        "match": 522780136,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 13222272,
