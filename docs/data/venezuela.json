@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-21T21:25:09Z",
+  "updated_at": "2026-11-21T21:50:12Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -38,7 +38,7 @@
       "clan": "JAGR",
       "cur_1v1": 1045,
       "max_1v1": 1064,
-      "cur_tg": 1288,
+      "cur_tg": 1276,
       "max_tg": 1396,
       "last_tg": "2026-11-21",
       "last_1v1": "2026-11-21",
