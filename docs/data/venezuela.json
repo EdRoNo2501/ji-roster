@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-21T02:15:19Z",
+  "updated_at": "2026-11-21T02:40:12Z",
   "baseline": {
     "taken_at": "2026-11-20T14:00:19Z",
     "ranks": {
@@ -36,17 +36,12 @@
       "profile_id": 13505523,
       "tag": "Mazzei10",
       "clan": "JAGR",
-      "cur_1v1": 1030,
+      "cur_1v1": 1045,
       "max_1v1": 1064,
       "cur_tg": 1293,
       "max_tg": 1396,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522575713,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-21"
     }
   ],
   "show_top": 15
