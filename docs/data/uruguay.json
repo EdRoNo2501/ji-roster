@@ -1,6 +1,6 @@
 {
   "name": "Uruguay",
-  "updated_at": "2026-11-21T20:35:17Z",
+  "updated_at": "2026-11-21T21:10:12Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -15,15 +15,10 @@
       "clan": "JAGR",
       "cur_1v1": 1412,
       "max_1v1": 1433,
-      "cur_tg": 1221,
+      "cur_tg": 1237,
       "max_tg": 1409,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 522761806,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-21"
     }
   ],
   "show_top": 15
