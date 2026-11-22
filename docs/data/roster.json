@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-22T02:25:14Z",
+  "updated_at": "2026-11-22T02:45:11Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -78,7 +78,7 @@
       "tag": "JAGR | BkB",
       "cur_1v1": 1559,
       "max_1v1": 1676,
-      "cur_tg": 1474,
+      "cur_tg": 1484,
       "max_tg": 1721,
       "last_tg": "2026-11-22",
       "last_1v1": "2026-11-02",
@@ -94,7 +94,7 @@
       "tag": "JAGR | Rojnar",
       "cur_1v1": 1533,
       "max_1v1": 1533,
-      "cur_tg": 1418,
+      "cur_tg": 1430,
       "max_tg": 1502,
       "last_1v1": "2026-11-19",
       "last_tg": "2026-11-22",
@@ -297,7 +297,7 @@
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
-      "cur_tg": 1331,
+      "cur_tg": 1346,
       "max_tg": 1446,
       "last_tg": "2026-11-22",
       "last_1v1": "2026-11-11",
