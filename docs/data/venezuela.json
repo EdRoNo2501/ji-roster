@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-22T19:05:12Z",
+  "updated_at": "2026-11-22T19:40:12Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -27,15 +27,10 @@
       "tag": "JAGR I Milanesito",
       "cur_1v1": 1223,
       "max_1v1": 1223,
-      "cur_tg": 1362,
-      "max_tg": 1362,
+      "cur_tg": 1375,
+      "max_tg": 1375,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 522999970,
-        "game": "Team Random Map",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 13505523,
