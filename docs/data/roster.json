@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-22T01:05:10Z",
+  "updated_at": "2026-11-22T01:10:12Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -155,10 +155,10 @@
       "tag": "JAGR | juankof",
       "cur_1v1": 1376,
       "max_1v1": 1439,
-      "cur_tg": 1381,
+      "cur_tg": 1400,
       "max_tg": 1483,
       "last_1v1": "2026-10-30",
-      "last_tg": "2026-11-15",
+      "last_tg": "2026-11-22",
       "live": {
         "match": 522812179,
         "game": "Team Random Map",
