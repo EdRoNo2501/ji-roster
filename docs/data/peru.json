@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-22T20:25:10Z",
+  "updated_at": "2026-11-22T20:30:14Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -22,7 +22,12 @@
       "cur_tg": 1531,
       "max_tg": 1721,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-02"
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 523022407,
+        "game": "Team Random Map",
+        "format": "2v2"
+      }
     },
     {
       "profile_id": 1025121,
@@ -57,15 +62,10 @@
       "clan": "JAGR",
       "cur_1v1": 1303,
       "max_1v1": 1303,
-      "cur_tg": 1239,
+      "cur_tg": 1226,
       "max_tg": 1313,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-01",
-      "live": {
-        "match": 523017510,
-        "game": "Team Random Map",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-01"
     },
     {
       "profile_id": 12722759,
