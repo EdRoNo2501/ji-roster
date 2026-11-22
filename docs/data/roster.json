@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-22T17:20:15Z",
+  "updated_at": "2026-11-22T17:30:14Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -198,22 +198,6 @@
       "last_tg": "2026-11-17"
     },
     {
-      "profile_id": 12722759,
-      "country": "Perú",
-      "tag": "JAGR | STYLORD",
-      "cur_1v1": 1315,
-      "max_1v1": 1470,
-      "cur_tg": 1297,
-      "max_tg": 1426,
-      "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-14",
-      "live": {
-        "match": 522973802,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 13013041,
       "country": "Venezuela",
       "tag": "JAGR | GoodByeWorld",
@@ -234,6 +218,17 @@
       "max_tg": 1313,
       "last_tg": "2026-11-16",
       "last_1v1": "2026-11-01"
+    },
+    {
+      "profile_id": 12722759,
+      "country": "Perú",
+      "tag": "JAGR | STYLORD",
+      "cur_1v1": 1300,
+      "max_1v1": 1470,
+      "cur_tg": 1297,
+      "max_tg": 1426,
+      "last_1v1": "2026-11-22",
+      "last_tg": "2026-11-14"
     },
     {
       "profile_id": 761809,
