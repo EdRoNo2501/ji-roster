@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-21T23:55:10Z",
+  "updated_at": "2026-11-22T00:00:16Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -41,7 +41,12 @@
       "cur_tg": 1297,
       "max_tg": 1396,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21"
+      "last_1v1": "2026-11-21",
+      "live": {
+        "match": 522803708,
+        "game": "Team Empire Wars",
+        "format": "4v4"
+      }
     }
   ],
   "show_top": 15
