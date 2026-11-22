@@ -1,6 +1,6 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-22T18:40:13Z",
+  "updated_at": "2026-11-22T19:25:18Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -41,17 +41,12 @@
       "profile_id": 13258119,
       "tag": "juankof",
       "clan": "JAGR",
-      "cur_1v1": 1360,
+      "cur_1v1": 1375,
       "max_1v1": 1439,
       "cur_tg": 1400,
       "max_tg": 1483,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-22",
-      "live": {
-        "match": 522994055,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-22"
     },
     {
       "profile_id": 1835814,
