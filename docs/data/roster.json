@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-22T01:50:11Z",
+  "updated_at": "2026-11-22T01:55:11Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -160,22 +160,6 @@
       "last_1v1": "2026-09-19"
     },
     {
-      "profile_id": 13258119,
-      "country": "Colombia",
-      "tag": "JAGR | juankof",
-      "cur_1v1": 1359,
-      "max_1v1": 1439,
-      "cur_tg": 1400,
-      "max_tg": 1483,
-      "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-22",
-      "live": {
-        "match": 522822141,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 12950375,
       "country": "México",
       "tag": "JAGR | TheButterfly_Effect",
@@ -185,6 +169,22 @@
       "max_tg": 1475,
       "last_tg": "2026-10-26",
       "last_1v1": "2026-11-13"
+    },
+    {
+      "profile_id": 13258119,
+      "country": "Colombia",
+      "tag": "JAGR | juankof",
+      "cur_1v1": 1346,
+      "max_1v1": 1439,
+      "cur_tg": 1400,
+      "max_tg": 1483,
+      "last_1v1": "2026-11-22",
+      "last_tg": "2026-11-22",
+      "live": {
+        "match": 522823126,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 1835814,
