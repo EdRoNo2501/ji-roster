@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-22T16:45:12Z",
+  "updated_at": "2026-11-22T16:49:28Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -86,7 +86,12 @@
       "cur_tg": 1491,
       "max_tg": 1721,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-02"
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 522967927,
+        "game": "Team Random Map",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 1025121,
@@ -136,7 +141,12 @@
       "cur_tg": 1211,
       "max_tg": 1409,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-21"
+      "last_1v1": "2026-11-21",
+      "live": {
+        "match": 522967927,
+        "game": "Team Random Map",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 12573559,
@@ -194,6 +204,17 @@
       "last_tg": "2026-11-17"
     },
     {
+      "profile_id": 12722759,
+      "country": "Perú",
+      "tag": "JAGR | STYLORD",
+      "cur_1v1": 1315,
+      "max_1v1": 1470,
+      "cur_tg": 1297,
+      "max_tg": 1426,
+      "last_1v1": "2026-11-22",
+      "last_tg": "2026-11-14"
+    },
+    {
       "profile_id": 13013041,
       "country": "Venezuela",
       "tag": "JAGR | GoodByeWorld",
@@ -221,22 +242,6 @@
       }
     },
     {
-      "profile_id": 12722759,
-      "country": "Perú",
-      "tag": "JAGR | STYLORD",
-      "cur_1v1": 1297,
-      "max_1v1": 1470,
-      "cur_tg": 1297,
-      "max_tg": 1426,
-      "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-14",
-      "live": {
-        "match": 522963276,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 761809,
       "country": "Costa Rica",
       "tag": "JAGR | Themoeplay",
@@ -256,7 +261,12 @@
       "cur_tg": 1299,
       "max_tg": 1299,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-17"
+      "last_1v1": "2026-11-17",
+      "live": {
+        "match": 522967927,
+        "game": "Team Random Map",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 13087608,
