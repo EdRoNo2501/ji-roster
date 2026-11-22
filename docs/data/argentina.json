@@ -1,6 +1,6 @@
 {
   "name": "Argentina",
-  "updated_at": "2026-11-22T00:00:16Z",
+  "updated_at": "2026-11-22T00:30:15Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -44,12 +44,7 @@
       "cur_tg": 1431,
       "max_tg": 1451,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-09-19",
-      "live": {
-        "match": 522803708,
-        "game": "Team Empire Wars",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-09-19"
     },
     {
       "profile_id": 13067703,
