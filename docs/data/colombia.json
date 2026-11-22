@@ -1,6 +1,6 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-22T05:35:15Z",
+  "updated_at": "2026-11-22T05:50:12Z",
   "baseline": {
     "taken_at": "2026-11-21T14:00:17Z",
     "ranks": {
@@ -85,17 +85,12 @@
       "profile_id": 12820653,
       "tag": "Ojimenezg87",
       "clan": "JAGR",
-      "cur_1v1": 808,
+      "cur_1v1": 792,
       "max_1v1": 1040,
       "cur_tg": 1122,
       "max_tg": 1122,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-10-24",
-      "live": {
-        "match": 522857135,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-10-24"
     }
   ],
   "show_top": 15
