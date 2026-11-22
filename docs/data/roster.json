@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-22T23:20:12Z",
+  "updated_at": "2026-11-22T23:25:10Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -48,7 +48,12 @@
       "cur_tg": 1447,
       "max_tg": 1638,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-22"
+      "last_1v1": "2026-11-22",
+      "live": {
+        "match": 523059581,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 12989767,
@@ -70,17 +75,12 @@
       "profile_id": 12876939,
       "country": "Colombia",
       "tag": "JAGR | DesNoguns",
-      "cur_1v1": 1620,
+      "cur_1v1": 1635,
       "max_1v1": 1652,
       "cur_tg": 1354,
       "max_tg": 1570,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-22",
-      "live": {
-        "match": 523056417,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-22"
     },
     {
       "profile_id": 3964428,
@@ -102,7 +102,12 @@
       "cur_tg": 1453,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-22"
+      "last_tg": "2026-11-22",
+      "live": {
+        "match": 523059581,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 2057662,
@@ -234,7 +239,12 @@
       "cur_tg": 1379,
       "max_tg": 1482,
       "last_tg": "2026-11-18",
-      "last_1v1": "2026-06-24"
+      "last_1v1": "2026-06-24",
+      "live": {
+        "match": 523059581,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 10608499,
@@ -267,7 +277,12 @@
       "cur_tg": 1312,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-22"
+      "last_tg": "2026-11-22",
+      "live": {
+        "match": 523059581,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 12953298,
@@ -300,7 +315,12 @@
       "cur_tg": 1346,
       "max_tg": 1446,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-11"
+      "last_1v1": "2026-11-11",
+      "live": {
+        "match": 523059581,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 12831320,
@@ -322,7 +342,12 @@
       "cur_tg": 1296,
       "max_tg": 1396,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-21"
+      "last_1v1": "2026-11-21",
+      "live": {
+        "match": 523059581,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 13222272,
