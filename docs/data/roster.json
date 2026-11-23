@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T18:45:13Z",
+  "updated_at": "2026-11-23T19:25:10Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -81,29 +81,18 @@
       "cur_tg": 1466,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-23",
-      "live": {
-        "match": 523211439,
-        "game": "Team Random Map",
-        "format": "4v4",
-        "account": "Rojnar"
-      }
+      "last_tg": "2026-11-23"
     },
     {
       "profile_id": 3964428,
       "country": "Perú",
       "tag": "JAGR | BkB",
-      "cur_1v1": 1509,
+      "cur_1v1": 1495,
       "max_1v1": 1676,
       "cur_tg": 1521,
       "max_tg": 1721,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523211049,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 12573559,
