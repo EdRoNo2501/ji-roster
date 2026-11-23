@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-23T17:35:11Z",
+  "updated_at": "2026-11-23T17:40:13Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -13,22 +13,6 @@
     "inactive": []
   },
   "players": [
-    {
-      "profile_id": 3964428,
-      "tag": "BkB",
-      "clan": "JAGR",
-      "cur_1v1": 1559,
-      "max_1v1": 1676,
-      "cur_tg": 1508,
-      "max_tg": 1721,
-      "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-02",
-      "live": {
-        "match": 523194325,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
     {
       "profile_id": 1025121,
       "tag": "Rojnar",
@@ -44,6 +28,22 @@
         "game": "Team Random Map",
         "format": "2v2",
         "account": "Rojnar"
+      }
+    },
+    {
+      "profile_id": 3964428,
+      "tag": "BkB",
+      "clan": "JAGR",
+      "cur_1v1": 1541,
+      "max_1v1": 1676,
+      "cur_tg": 1521,
+      "max_tg": 1721,
+      "last_tg": "2026-11-23",
+      "last_1v1": "2026-11-23",
+      "live": {
+        "match": 523199483,
+        "game": "Team Random Map",
+        "format": "2v2"
       }
     },
     {
