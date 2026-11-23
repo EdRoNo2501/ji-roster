@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T00:00:16Z",
+  "updated_at": "2026-11-23T00:05:10Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -338,17 +338,12 @@
       "profile_id": 13222272,
       "country": "Argentina",
       "tag": "JAGR | Dr. Xeneize",
-      "cur_1v1": 995,
+      "cur_1v1": 1009,
       "max_1v1": 1079,
       "cur_tg": 1043,
       "max_tg": 1206,
       "last_tg": "2026-10-24",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523062685,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 13081631,
