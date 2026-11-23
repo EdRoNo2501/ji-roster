@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T02:30:15Z",
+  "updated_at": "2026-11-23T02:42:51Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -143,22 +143,6 @@
       "last_tg": "2026-11-13"
     },
     {
-      "profile_id": 1981408,
-      "country": "Colombia",
-      "tag": "JAGR | Herol",
-      "cur_1v1": 1399,
-      "max_1v1": 1494,
-      "cur_tg": 1296,
-      "max_tg": 1419,
-      "last_tg": "2026-09-24",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523088399,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 10369585,
       "country": "Argentina",
       "tag": "JAGR | GastonWick",
@@ -168,6 +152,17 @@
       "max_tg": 1451,
       "last_tg": "2026-11-22",
       "last_1v1": "2026-09-19"
+    },
+    {
+      "profile_id": 1981408,
+      "country": "Colombia",
+      "tag": "JAGR | Herol",
+      "cur_1v1": 1383,
+      "max_1v1": 1494,
+      "cur_tg": 1296,
+      "max_tg": 1419,
+      "last_tg": "2026-09-24",
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 13258119,
