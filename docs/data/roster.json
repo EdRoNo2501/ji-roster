@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T17:25:11Z",
+  "updated_at": "2026-11-23T17:30:17Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -109,17 +109,12 @@
       "profile_id": 12573559,
       "country": "Perú",
       "tag": "JAGR | OLD BUST@",
-      "cur_1v1": 1437,
+      "cur_1v1": 1452,
       "max_1v1": 1620,
       "cur_tg": 1061,
       "max_tg": 1075,
       "last_1v1": "2026-11-23",
-      "last_tg": "2026-11-13",
-      "live": {
-        "match": 523193345,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-13"
     },
     {
       "profile_id": 2057662,
