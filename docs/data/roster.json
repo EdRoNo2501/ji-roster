@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T01:05:10Z",
+  "updated_at": "2026-11-23T01:10:13Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -325,7 +325,7 @@
       "last_tg": "2026-10-24",
       "last_1v1": "2026-11-23",
       "live": {
-        "match": 523072642,
+        "match": 523076824,
         "game": "1v1 Random Map",
         "format": "1v1"
       }
