@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-23T15:40:21Z",
+  "updated_at": "2026-11-23T15:50:14Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -20,7 +20,13 @@
       "cur_tg": 1459,
       "max_tg": 1552,
       "last_tg": "2026-11-20",
-      "last_1v1": "2026-09-20"
+      "last_1v1": "2026-09-20",
+      "live": {
+        "match": 523179676,
+        "game": "Team Random Map",
+        "format": "4v4",
+        "account": "GoodByeWorld"
+      }
     },
     {
       "profile_id": 10608499,
