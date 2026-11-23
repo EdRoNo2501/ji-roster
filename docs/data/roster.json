@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T20:00:20Z",
+  "updated_at": "2026-11-23T20:30:14Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -43,14 +43,14 @@
       "profile_id": 12359161,
       "country": "México",
       "tag": "JAGR | Virus",
-      "cur_1v1": 1809,
+      "cur_1v1": 1798,
       "max_1v1": 1894,
       "cur_tg": 1447,
       "max_tg": 1638,
       "last_tg": "2026-11-21",
       "last_1v1": "2026-11-23",
       "live": {
-        "match": 523225683,
+        "match": 523234486,
         "game": "1v1 Random Map",
         "format": "1v1"
       }
@@ -94,15 +94,10 @@
       "tag": "JAGR | BkB",
       "cur_1v1": 1495,
       "max_1v1": 1676,
-      "cur_tg": 1521,
+      "cur_tg": 1509,
       "max_tg": 1721,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523227777,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 12573559,
@@ -264,15 +259,10 @@
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
-      "cur_tg": 1329,
+      "cur_tg": 1311,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-23",
-      "live": {
-        "match": 523226109,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-23"
     },
     {
       "profile_id": 12953298,
