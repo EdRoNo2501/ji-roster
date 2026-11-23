@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T02:42:51Z",
+  "updated_at": "2026-11-23T02:50:13Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -43,17 +43,28 @@
       "profile_id": 12359161,
       "country": "México",
       "tag": "JAGR | Virus",
-      "cur_1v1": 1850,
+      "cur_1v1": 1838,
       "max_1v1": 1894,
       "cur_tg": 1447,
       "max_tg": 1638,
       "last_tg": "2026-11-21",
       "last_1v1": "2026-11-23",
       "live": {
-        "match": 523088963,
+        "match": 523093121,
         "game": "1v1 Random Map",
         "format": "1v1"
       }
+    },
+    {
+      "profile_id": 12876939,
+      "country": "Colombia",
+      "tag": "JAGR | DesNoguns",
+      "cur_1v1": 1652,
+      "max_1v1": 1652,
+      "cur_tg": 1366,
+      "max_tg": 1570,
+      "last_1v1": "2026-11-23",
+      "last_tg": "2026-11-23"
     },
     {
       "profile_id": 12989767,
@@ -64,28 +75,7 @@
       "cur_tg": 1508,
       "max_tg": 1508,
       "last_tg": "2026-11-15",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523086393,
-        "game": "Unranked",
-        "format": "4v4"
-      }
-    },
-    {
-      "profile_id": 12876939,
-      "country": "Colombia",
-      "tag": "JAGR | DesNoguns",
-      "cur_1v1": 1635,
-      "max_1v1": 1652,
-      "cur_tg": 1366,
-      "max_tg": 1570,
-      "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-23",
-      "live": {
-        "match": 523089351,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 3964428,
