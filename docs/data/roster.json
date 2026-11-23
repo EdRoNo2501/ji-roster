@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T20:30:14Z",
+  "updated_at": "2026-11-23T20:35:10Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -86,7 +86,12 @@
       "cur_tg": 1466,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-23"
+      "last_tg": "2026-11-23",
+      "live": {
+        "match": 523234117,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 3964428,
@@ -97,7 +102,12 @@
       "cur_tg": 1509,
       "max_tg": 1721,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-23"
+      "last_1v1": "2026-11-23",
+      "live": {
+        "match": 523234117,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 12573559,
@@ -130,7 +140,12 @@
       "cur_tg": 1285,
       "max_tg": 1409,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-21"
+      "last_1v1": "2026-11-21",
+      "live": {
+        "match": 523234117,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 10369585,
@@ -174,7 +189,12 @@
       "cur_tg": 1384,
       "max_tg": 1475,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-13"
+      "last_1v1": "2026-11-13",
+      "live": {
+        "match": 523234117,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 1835814,
@@ -229,7 +249,12 @@
       "cur_tg": 1394,
       "max_tg": 1482,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-06-24"
+      "last_1v1": "2026-06-24",
+      "live": {
+        "match": 523234117,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 10608499,
@@ -262,7 +287,12 @@
       "cur_tg": 1311,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-23"
+      "last_tg": "2026-11-23",
+      "live": {
+        "match": 523234117,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 12953298,
