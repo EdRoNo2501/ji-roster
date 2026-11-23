@@ -1,6 +1,6 @@
 {
   "name": "Argentina",
-  "updated_at": "2026-11-23T00:35:09Z",
+  "updated_at": "2026-11-23T00:45:11Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -65,7 +65,12 @@
       "cur_tg": 1043,
       "max_tg": 1206,
       "last_tg": "2026-10-24",
-      "last_1v1": "2026-11-23"
+      "last_1v1": "2026-11-23",
+      "live": {
+        "match": 523072642,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     }
   ],
   "show_top": 15
