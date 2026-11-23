@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T03:45:13Z",
+  "updated_at": "2026-11-23T03:50:10Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -54,17 +54,12 @@
       "profile_id": 12876939,
       "country": "Colombia",
       "tag": "JAGR | DesNoguns",
-      "cur_1v1": 1652,
-      "max_1v1": 1652,
+      "cur_1v1": 1665,
+      "max_1v1": 1665,
       "cur_tg": 1366,
       "max_tg": 1570,
       "last_1v1": "2026-11-23",
-      "last_tg": "2026-11-23",
-      "live": {
-        "match": 523096985,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-23"
     },
     {
       "profile_id": 12989767,
