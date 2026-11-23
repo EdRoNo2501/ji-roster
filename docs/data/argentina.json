@@ -1,6 +1,6 @@
 {
   "name": "Argentina",
-  "updated_at": "2026-11-23T23:05:12Z",
+  "updated_at": "2026-11-23T23:15:12Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -17,17 +17,12 @@
       "profile_id": 12989767,
       "tag": "GORDAZO",
       "clan": "JAGR",
-      "cur_1v1": 1635,
+      "cur_1v1": 1649,
       "max_1v1": 1739,
       "cur_tg": 1488,
       "max_tg": 1508,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523261197,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 2057662,
@@ -49,7 +44,12 @@
       "cur_tg": 1449,
       "max_tg": 1451,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-09-19"
+      "last_1v1": "2026-09-19",
+      "live": {
+        "match": 523264435,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 13067703,
@@ -59,7 +59,12 @@
       "cur_tg": 1346,
       "max_tg": 1446,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-11"
+      "last_1v1": "2026-11-11",
+      "live": {
+        "match": 523264435,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     },
     {
       "profile_id": 13222272,
