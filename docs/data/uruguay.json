@@ -1,6 +1,6 @@
 {
   "name": "Uruguay",
-  "updated_at": "2026-11-23T20:50:12Z",
+  "updated_at": "2026-11-23T20:55:11Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -18,7 +18,12 @@
       "cur_tg": 1285,
       "max_tg": 1409,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-21"
+      "last_1v1": "2026-11-21",
+      "live": {
+        "match": 523239248,
+        "game": "Unranked",
+        "format": "3v3"
+      }
     }
   ],
   "show_top": 15
