@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T00:30:21Z",
+  "updated_at": "2026-11-23T00:35:09Z",
   "baseline": {
     "taken_at": "2026-11-22T14:00:17Z",
     "ranks": {
@@ -94,15 +94,10 @@
       "tag": "JAGR | Rojnar",
       "cur_1v1": 1548,
       "max_1v1": 1548,
-      "cur_tg": 1453,
+      "cur_tg": 1466,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-22",
-      "live": {
-        "match": 523065946,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-23"
     },
     {
       "profile_id": 2057662,
@@ -176,15 +171,10 @@
       "tag": "JAGR | TheButterfly_Effect",
       "cur_1v1": 1357,
       "max_1v1": 1401,
-      "cur_tg": 1369,
+      "cur_tg": 1384,
       "max_tg": 1475,
-      "last_tg": "2026-10-26",
-      "last_1v1": "2026-11-13",
-      "live": {
-        "match": 523065946,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-23",
+      "last_1v1": "2026-11-13"
     },
     {
       "profile_id": 1835814,
@@ -236,15 +226,10 @@
       "tag": "JAGR | Themoeplay",
       "cur_1v1": 1266,
       "max_1v1": 1267,
-      "cur_tg": 1379,
+      "cur_tg": 1394,
       "max_tg": 1482,
-      "last_tg": "2026-11-18",
-      "last_1v1": "2026-06-24",
-      "live": {
-        "match": 523065946,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-23",
+      "last_1v1": "2026-06-24"
     },
     {
       "profile_id": 10608499,
@@ -274,15 +259,10 @@
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
-      "cur_tg": 1312,
+      "cur_tg": 1329,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-22",
-      "live": {
-        "match": 523065946,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-23"
     },
     {
       "profile_id": 12953298,
@@ -343,17 +323,12 @@
       "profile_id": 13222272,
       "country": "Argentina",
       "tag": "JAGR | Dr. Xeneize",
-      "cur_1v1": 1009,
+      "cur_1v1": 1027,
       "max_1v1": 1079,
       "cur_tg": 1043,
       "max_tg": 1206,
       "last_tg": "2026-10-24",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523067032,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 13081631,
@@ -364,7 +339,12 @@
       "cur_tg": 1144,
       "max_tg": 1144,
       "last_tg": "2026-11-15",
-      "last_1v1": "2026-11-02"
+      "last_1v1": "2026-11-02",
+      "live": {
+        "match": 523071727,
+        "game": "Quick Play 1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 12820653,
