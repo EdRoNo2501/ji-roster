@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-24T22:15:12Z",
+  "updated_at": "2026-11-24T22:25:11Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -43,9 +43,9 @@
       "last_tg": "2026-11-24",
       "last_1v1": "2026-11-21",
       "live": {
-        "match": 523451406,
-        "game": "Unranked",
-        "format": "4v4"
+        "match": 523454030,
+        "game": "1v1 Random Map",
+        "format": "1v1"
       }
     }
   ],
