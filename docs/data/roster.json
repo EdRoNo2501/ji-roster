@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-24T22:40:18Z",
+  "updated_at": "2026-11-24T22:55:11Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -86,12 +86,7 @@
       "cur_tg": 1425,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-24",
-      "live": {
-        "match": 523454360,
-        "game": "Unranked",
-        "format": "2v2"
-      }
+      "last_tg": "2026-11-24"
     },
     {
       "profile_id": 3964428,
@@ -179,12 +174,7 @@
       "cur_tg": 1398,
       "max_tg": 1475,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-13",
-      "live": {
-        "match": 523454360,
-        "game": "Unranked",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-13"
     },
     {
       "profile_id": 1835814,
@@ -272,12 +262,7 @@
       "cur_tg": 1347,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-24",
-      "live": {
-        "match": 523454360,
-        "game": "Unranked",
-        "format": "2v2"
-      }
+      "last_tg": "2026-11-24"
     },
     {
       "profile_id": 12953298,
@@ -310,12 +295,7 @@
       "cur_tg": 1361,
       "max_tg": 1446,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-11",
-      "live": {
-        "match": 523454360,
-        "game": "Unranked",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 12831320,
@@ -332,17 +312,12 @@
       "profile_id": 13505523,
       "country": "Venezuela",
       "tag": "JAGR | Mazzei10",
-      "cur_1v1": 1045,
+      "cur_1v1": 1061,
       "max_1v1": 1064,
       "cur_tg": 1343,
       "max_tg": 1396,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 523454030,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-24"
     },
     {
       "profile_id": 13222272,
