@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-24T20:05:12Z",
+  "updated_at": "2026-11-24T20:45:13Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -30,12 +30,7 @@
       "cur_tg": 1382,
       "max_tg": 1412,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523426487,
-        "game": "Unranked",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 13505523,
