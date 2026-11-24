@@ -1,6 +1,6 @@
 {
   "name": "México",
-  "updated_at": "2026-11-24T03:20:13Z",
+  "updated_at": "2026-11-24T03:30:14Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -19,7 +19,7 @@
       "profile_id": 12359161,
       "tag": "Virus",
       "clan": "JAGR",
-      "cur_1v1": 1803,
+      "cur_1v1": 1824,
       "max_1v1": 1894,
       "cur_tg": 1447,
       "max_tg": 1638,
