@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-24T20:05:12Z",
+  "updated_at": "2026-11-24T20:10:13Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -71,17 +71,12 @@
       "profile_id": 12722759,
       "tag": "STYLORD",
       "clan": "JAGR",
-      "cur_1v1": 1284,
+      "cur_1v1": 1268,
       "max_1v1": 1470,
       "cur_tg": 1311,
       "max_tg": 1426,
-      "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-22",
-      "live": {
-        "match": 523424056,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-24",
+      "last_tg": "2026-11-22"
     }
   ],
   "show_top": 15
