@@ -1,6 +1,6 @@
 # Linked accounts
 
-Generated 2026-11-23T14:00:17Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
+Generated 2026-11-24T14:00:18Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
 Used to show players LIVE when they play on any of their accounts. Ratings are RM 1v1.
 
 ## Jaguares Imperiales
@@ -36,7 +36,7 @@ Used to show players LIVE when they play on any of their accounts. Ratings are R
 | JAGR | mauricio | — |
 | JAGR | CIHUACOATL | — |
 | JAGR | GastonWick | — |
-| JAGR | GoodByeWorld | GoodByeWorld (1278) |
+| JAGR | GoodByeWorld | GoodByeWorld (1295) |
 
 ## Colombia
 
