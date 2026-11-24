@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-24T03:40:13Z",
+  "updated_at": "2026-11-24T04:00:17Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -360,17 +360,12 @@
       "profile_id": 12820653,
       "country": "Colombia",
       "tag": "JAGR | Ojimenezg87",
-      "cur_1v1": 793,
+      "cur_1v1": 776,
       "max_1v1": 1040,
       "cur_tg": 1122,
       "max_tg": 1122,
       "last_1v1": "2026-11-24",
-      "last_tg": "2026-10-24",
-      "live": {
-        "match": 523305590,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-10-24"
     },
     {
       "profile_id": 9357272,
