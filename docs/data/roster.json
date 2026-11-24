@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-23T23:50:11Z",
+  "updated_at": "2026-11-24T00:00:17Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -81,12 +81,7 @@
       "cur_tg": 1466,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-23",
-      "live": {
-        "match": 523271263,
-        "game": "Team Empire Wars",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-23"
     },
     {
       "profile_id": 3964428,
@@ -97,12 +92,7 @@
       "cur_tg": 1493,
       "max_tg": 1721,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523271263,
-        "game": "Team Empire Wars",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 12573559,
@@ -146,12 +136,7 @@
       "cur_tg": 1449,
       "max_tg": 1451,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-09-19",
-      "live": {
-        "match": 523271263,
-        "game": "Team Empire Wars",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-09-19"
     },
     {
       "profile_id": 1981408,
@@ -305,12 +290,7 @@
       "cur_tg": 1346,
       "max_tg": 1446,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-11",
-      "live": {
-        "match": 523271263,
-        "game": "Team Empire Wars",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 12831320,
