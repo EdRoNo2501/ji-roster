@@ -1,6 +1,6 @@
 {
   "name": "Argentina",
-  "updated_at": "2026-11-24T22:55:11Z",
+  "updated_at": "2026-11-24T23:00:16Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -44,7 +44,12 @@
       "cur_tg": 1449,
       "max_tg": 1451,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-09-19"
+      "last_1v1": "2026-09-19",
+      "live": {
+        "match": 523459763,
+        "game": "Unranked",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13067703,
@@ -54,7 +59,12 @@
       "cur_tg": 1361,
       "max_tg": 1446,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-11"
+      "last_1v1": "2026-11-11",
+      "live": {
+        "match": 523459763,
+        "game": "Unranked",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13222272,
