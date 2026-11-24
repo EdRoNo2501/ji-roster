@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-24T01:25:10Z",
+  "updated_at": "2026-11-24T01:40:13Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -59,7 +59,12 @@
       "cur_tg": 1389,
       "max_tg": 1570,
       "last_1v1": "2026-11-23",
-      "last_tg": "2026-11-23"
+      "last_tg": "2026-11-23",
+      "live": {
+        "match": 523287761,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 12989767,
@@ -70,12 +75,7 @@
       "cur_tg": 1488,
       "max_tg": 1508,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523281314,
-        "game": "Unranked",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 1025121,
@@ -196,7 +196,13 @@
       "cur_tg": 1459,
       "max_tg": 1552,
       "last_tg": "2026-11-20",
-      "last_1v1": "2026-09-20"
+      "last_1v1": "2026-09-20",
+      "live": {
+        "match": 523287544,
+        "game": "Team Random Map",
+        "format": "4v4",
+        "account": "GoodByeWorld"
+      }
     },
     {
       "profile_id": 13026074,
@@ -237,10 +243,15 @@
       "tag": "JAGR I Milanesito",
       "cur_1v1": 1223,
       "max_1v1": 1223,
-      "cur_tg": 1344,
+      "cur_tg": 1357,
       "max_tg": 1375,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-17"
+      "last_1v1": "2026-11-17",
+      "live": {
+        "match": 523287544,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13087608,
@@ -314,10 +325,15 @@
       "tag": "JAGR | Mazzei10",
       "cur_1v1": 1045,
       "max_1v1": 1064,
-      "cur_tg": 1329,
+      "cur_tg": 1343,
       "max_tg": 1396,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-21"
+      "last_1v1": "2026-11-21",
+      "live": {
+        "match": 523287544,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13222272,
