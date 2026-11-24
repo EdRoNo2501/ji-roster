@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-24T01:40:13Z",
+  "updated_at": "2026-11-24T01:45:13Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -198,7 +198,7 @@
       "last_tg": "2026-11-20",
       "last_1v1": "2026-09-20",
       "live": {
-        "match": 523287544,
+        "match": 523288980,
         "game": "Team Random Map",
         "format": "4v4",
         "account": "GoodByeWorld"
@@ -248,7 +248,7 @@
       "last_tg": "2026-11-24",
       "last_1v1": "2026-11-17",
       "live": {
-        "match": 523287544,
+        "match": 523288980,
         "game": "Team Random Map",
         "format": "4v4"
       }
@@ -328,12 +328,7 @@
       "cur_tg": 1343,
       "max_tg": 1396,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 523287544,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 13222272,
