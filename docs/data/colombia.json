@@ -1,6 +1,6 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-24T02:30:16Z",
+  "updated_at": "2026-11-24T03:00:17Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -21,12 +21,12 @@
       "clan": "JAGR",
       "cur_1v1": 1681,
       "max_1v1": 1681,
-      "cur_tg": 1391,
+      "cur_tg": 1374,
       "max_tg": 1570,
       "last_1v1": "2026-11-23",
       "last_tg": "2026-11-24",
       "live": {
-        "match": 523295847,
+        "match": 523300723,
         "game": "Team Random Map",
         "format": "4v4"
       }
