@@ -1,6 +1,6 @@
 {
   "name": "México",
-  "updated_at": "2026-11-24T02:35:09Z",
+  "updated_at": "2026-11-24T02:55:09Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -19,17 +19,12 @@
       "profile_id": 12359161,
       "tag": "Virus",
       "clan": "JAGR",
-      "cur_1v1": 1837,
+      "cur_1v1": 1825,
       "max_1v1": 1894,
       "cur_tg": 1447,
       "max_tg": 1638,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-24",
-      "live": {
-        "match": 523296633,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-24"
     },
     {
       "profile_id": 12950375,
@@ -78,17 +73,12 @@
       "profile_id": 4229230,
       "tag": "xKensyt",
       "clan": "JAGR",
-      "cur_1v1": 1171,
+      "cur_1v1": 1154,
       "max_1v1": 1171,
       "cur_tg": 1051,
       "max_tg": 1127,
-      "last_1v1": "2026-11-19",
-      "last_tg": "2026-10-13",
-      "live": {
-        "match": 523293959,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-24",
+      "last_tg": "2026-10-13"
     },
     {
       "profile_id": 9357272,

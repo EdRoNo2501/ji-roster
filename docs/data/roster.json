@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-24T02:35:09Z",
+  "updated_at": "2026-11-24T02:55:09Z",
   "baseline": {
     "taken_at": "2026-11-23T14:00:17Z",
     "ranks": {
@@ -43,17 +43,12 @@
       "profile_id": 12359161,
       "country": "México",
       "tag": "JAGR | Virus",
-      "cur_1v1": 1837,
+      "cur_1v1": 1825,
       "max_1v1": 1894,
       "cur_tg": 1447,
       "max_tg": 1638,
       "last_tg": "2026-11-21",
-      "last_1v1": "2026-11-24",
-      "live": {
-        "match": 523296633,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-24"
     },
     {
       "profile_id": 12876939,
@@ -198,15 +193,10 @@
       "tag": "JAGR | GoodByeWorld",
       "cur_1v1": 1309,
       "max_1v1": 1341,
-      "cur_tg": 1475,
+      "cur_tg": 1491,
       "max_tg": 1552,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-09-20",
-      "live": {
-        "match": 523296277,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-09-20"
     },
     {
       "profile_id": 13026074,
@@ -247,15 +237,10 @@
       "tag": "JAGR I Milanesito",
       "cur_1v1": 1223,
       "max_1v1": 1223,
-      "cur_tg": 1394,
-      "max_tg": 1394,
+      "cur_tg": 1412,
+      "max_tg": 1412,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523296277,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 13087608,
@@ -291,22 +276,6 @@
       "last_tg": "2026-11-10"
     },
     {
-      "profile_id": 4229230,
-      "country": "México",
-      "tag": "JAGR | xKensyt",
-      "cur_1v1": 1171,
-      "max_1v1": 1171,
-      "cur_tg": 1051,
-      "max_tg": 1127,
-      "last_1v1": "2026-11-19",
-      "last_tg": "2026-10-13",
-      "live": {
-        "match": 523293959,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 13067703,
       "country": "Argentina",
       "tag": "JAGR fran",
@@ -316,6 +285,17 @@
       "max_tg": 1446,
       "last_tg": "2026-11-22",
       "last_1v1": "2026-11-11"
+    },
+    {
+      "profile_id": 4229230,
+      "country": "México",
+      "tag": "JAGR | xKensyt",
+      "cur_1v1": 1154,
+      "max_1v1": 1171,
+      "cur_tg": 1051,
+      "max_tg": 1127,
+      "last_1v1": "2026-11-24",
+      "last_tg": "2026-10-13"
     },
     {
       "profile_id": 12831320,
