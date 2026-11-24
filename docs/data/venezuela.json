@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-24T18:15:13Z",
+  "updated_at": "2026-11-24T18:50:12Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -17,30 +17,20 @@
       "clan": "JAGR",
       "cur_1v1": 1309,
       "max_1v1": 1341,
-      "cur_tg": 1490,
+      "cur_tg": 1471,
       "max_tg": 1552,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-09-20",
-      "live": {
-        "match": 523407358,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-09-20"
     },
     {
       "profile_id": 10608499,
       "tag": "JAGR I Milanesito",
       "cur_1v1": 1223,
       "max_1v1": 1223,
-      "cur_tg": 1359,
+      "cur_tg": 1345,
       "max_tg": 1412,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523407358,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 13505523,
