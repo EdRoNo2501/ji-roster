@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-24T19:00:19Z",
+  "updated_at": "2026-11-24T19:25:11Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -78,15 +78,10 @@
       "tag": "JAGR | Rojnar",
       "cur_1v1": 1548,
       "max_1v1": 1548,
-      "cur_tg": 1396,
+      "cur_tg": 1412,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-24",
-      "live": {
-        "match": 523415472,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-24"
     },
     {
       "profile_id": 3964428,
@@ -127,15 +122,10 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1412,
       "max_1v1": 1433,
-      "cur_tg": 1285,
+      "cur_tg": 1304,
       "max_tg": 1409,
-      "last_tg": "2026-11-22",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 523415472,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-24",
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 10369585,
@@ -198,15 +188,10 @@
       "tag": "JAGR | GoodByeWorld",
       "cur_1v1": 1309,
       "max_1v1": 1341,
-      "cur_tg": 1471,
+      "cur_tg": 1485,
       "max_tg": 1552,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-09-20",
-      "live": {
-        "match": 523415472,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-09-20"
     },
     {
       "profile_id": 13026074,
@@ -247,15 +232,10 @@
       "tag": "JAGR I Milanesito",
       "cur_1v1": 1223,
       "max_1v1": 1223,
-      "cur_tg": 1345,
+      "cur_tg": 1363,
       "max_tg": 1412,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523415472,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 13087608,
