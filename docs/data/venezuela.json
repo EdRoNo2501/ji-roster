@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-25T00:40:14Z",
+  "updated_at": "2026-11-25T01:05:10Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -27,9 +27,9 @@
       "tag": "JAGR I Milanesito",
       "cur_1v1": 1223,
       "max_1v1": 1223,
-      "cur_tg": 1382,
+      "cur_tg": 1399,
       "max_tg": 1412,
-      "last_tg": "2026-11-24",
+      "last_tg": "2026-11-25",
       "last_1v1": "2026-11-17",
       "live": {
         "match": 523474827,
@@ -43,9 +43,9 @@
       "clan": "JAGR",
       "cur_1v1": 1061,
       "max_1v1": 1064,
-      "cur_tg": 1343,
+      "cur_tg": 1361,
       "max_tg": 1396,
-      "last_tg": "2026-11-24",
+      "last_tg": "2026-11-25",
       "last_1v1": "2026-11-24",
       "live": {
         "match": 523474827,
