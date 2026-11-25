@@ -1,6 +1,6 @@
 {
   "name": "Costa Rica",
-  "updated_at": "2026-11-25T20:45:12Z",
+  "updated_at": "2026-11-25T21:15:19Z",
   "baseline": {
     "taken_at": "2026-11-25T14:00:20Z",
     "ranks": {
@@ -20,7 +20,7 @@
       "last_tg": "2026-11-23",
       "last_1v1": "2026-06-24",
       "live": {
-        "match": 523632457,
+        "match": 523636574,
         "game": "Unranked",
         "format": "3v3"
       }
