@@ -1,6 +1,6 @@
 {
   "name": "Costa Rica",
-  "updated_at": "2026-11-25T22:00:18Z",
+  "updated_at": "2026-11-25T22:30:14Z",
   "baseline": {
     "taken_at": "2026-11-25T14:00:20Z",
     "ranks": {
@@ -18,12 +18,7 @@
       "cur_tg": 1394,
       "max_tg": 1482,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-06-24",
-      "live": {
-        "match": 523645780,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-06-24"
     }
   ],
   "show_top": 15
