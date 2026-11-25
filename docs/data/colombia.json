@@ -1,6 +1,6 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-25T17:45:15Z",
+  "updated_at": "2026-11-25T18:15:14Z",
   "baseline": {
     "taken_at": "2026-11-25T14:00:20Z",
     "ranks": {
@@ -19,17 +19,12 @@
       "profile_id": 12876939,
       "tag": "DesNoguns",
       "clan": "JAGR",
-      "cur_1v1": 1667,
+      "cur_1v1": 1653,
       "max_1v1": 1699,
       "cur_tg": 1413,
       "max_tg": 1570,
       "last_1v1": "2026-11-25",
-      "last_tg": "2026-11-25",
-      "live": {
-        "match": 523599624,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-25"
     },
     {
       "profile_id": 1981408,
