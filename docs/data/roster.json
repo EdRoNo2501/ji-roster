@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-25T00:20:13Z",
+  "updated_at": "2026-11-25T00:35:11Z",
   "baseline": {
     "taken_at": "2026-11-24T14:00:18Z",
     "ranks": {
@@ -81,12 +81,7 @@
       "cur_tg": 1425,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-24",
-      "live": {
-        "match": 523468008,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-24"
     },
     {
       "profile_id": 3964428,
@@ -111,10 +106,21 @@
       "last_1v1": "2026-11-08"
     },
     {
+      "profile_id": 10037286,
+      "country": "Uruguay",
+      "tag": "JAGR | Quaa",
+      "cur_1v1": 1412,
+      "max_1v1": 1433,
+      "cur_tg": 1324,
+      "max_tg": 1409,
+      "last_tg": "2026-11-24",
+      "last_1v1": "2026-11-21"
+    },
+    {
       "profile_id": 12573559,
       "country": "Perú",
       "tag": "JAGR | OLD BUST@",
-      "cur_1v1": 1417,
+      "cur_1v1": 1401,
       "max_1v1": 1620,
       "cur_tg": 1061,
       "max_tg": 1075,
@@ -127,22 +133,6 @@
       }
     },
     {
-      "profile_id": 10037286,
-      "country": "Uruguay",
-      "tag": "JAGR | Quaa",
-      "cur_1v1": 1412,
-      "max_1v1": 1433,
-      "cur_tg": 1324,
-      "max_tg": 1409,
-      "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 523468008,
-        "game": "Unranked",
-        "format": "4v4"
-      }
-    },
-    {
       "profile_id": 10369585,
       "country": "Argentina",
       "tag": "JAGR | GastonWick",
@@ -151,12 +141,7 @@
       "cur_tg": 1449,
       "max_tg": 1451,
       "last_tg": "2026-11-22",
-      "last_1v1": "2026-09-19",
-      "live": {
-        "match": 523468008,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-09-19"
     },
     {
       "profile_id": 1981408,
@@ -255,12 +240,7 @@
       "cur_tg": 1382,
       "max_tg": 1412,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-17",
-      "live": {
-        "match": 523468008,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-17"
     },
     {
       "profile_id": 13087608,
@@ -315,12 +295,7 @@
       "cur_tg": 1361,
       "max_tg": 1446,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-11",
-      "live": {
-        "match": 523468008,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-11"
     },
     {
       "profile_id": 12831320,
@@ -342,12 +317,7 @@
       "cur_tg": 1343,
       "max_tg": 1396,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-24",
-      "live": {
-        "match": 523468008,
-        "game": "Unranked",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-24"
     },
     {
       "profile_id": 13222272,
