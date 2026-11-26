@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-26T17:45:12Z",
+  "updated_at": "2026-11-26T18:00:17Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -106,10 +106,15 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1430,
       "max_1v1": 1433,
-      "cur_tg": 1308,
+      "cur_tg": 1325,
       "max_tg": 1409,
       "last_tg": "2026-11-26",
-      "last_1v1": "2026-11-26"
+      "last_1v1": "2026-11-26",
+      "live": {
+        "match": 523799258,
+        "game": "Team Random Map",
+        "format": "2v2"
+      }
     },
     {
       "profile_id": 2057662,
@@ -123,36 +128,15 @@
       "last_1v1": "2026-11-08"
     },
     {
-      "profile_id": 1981408,
-      "country": "Colombia",
-      "tag": "JAGR | Herol",
-      "cur_1v1": 1399,
-      "max_1v1": 1494,
-      "cur_tg": 1296,
-      "max_tg": 1419,
-      "last_tg": "2026-09-24",
-      "last_1v1": "2026-11-26",
-      "live": {
-        "match": 523793359,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 12573559,
       "country": "Perú",
       "tag": "JAGR | OLD BUST@",
-      "cur_1v1": 1386,
+      "cur_1v1": 1402,
       "max_1v1": 1620,
       "cur_tg": 1061,
       "max_tg": 1075,
       "last_1v1": "2026-11-26",
-      "last_tg": "2026-11-13",
-      "live": {
-        "match": 523794134,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-11-13"
     },
     {
       "profile_id": 10369585,
@@ -164,6 +148,17 @@
       "max_tg": 1451,
       "last_tg": "2026-11-26",
       "last_1v1": "2026-09-19"
+    },
+    {
+      "profile_id": 1981408,
+      "country": "Colombia",
+      "tag": "JAGR | Herol",
+      "cur_1v1": 1383,
+      "max_1v1": 1494,
+      "cur_tg": 1296,
+      "max_tg": 1419,
+      "last_tg": "2026-09-24",
+      "last_1v1": "2026-11-26"
     },
     {
       "profile_id": 13258119,
