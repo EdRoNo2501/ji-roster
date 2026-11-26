@@ -1,6 +1,6 @@
 {
   "name": "Venezuela",
-  "updated_at": "2026-11-26T00:00:18Z",
+  "updated_at": "2026-11-26T00:30:15Z",
   "baseline": {
     "taken_at": "2026-11-25T14:00:20Z",
     "ranks": {
@@ -17,15 +17,10 @@
       "clan": "JAGR",
       "cur_1v1": 1309,
       "max_1v1": 1341,
-      "cur_tg": 1489,
+      "cur_tg": 1471,
       "max_tg": 1552,
-      "last_tg": "2026-11-25",
-      "last_1v1": "2026-09-20",
-      "live": {
-        "match": 523665519,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-26",
+      "last_1v1": "2026-09-20"
     },
     {
       "profile_id": 10608499,
@@ -43,15 +38,10 @@
       "clan": "JAGR",
       "cur_1v1": 1061,
       "max_1v1": 1064,
-      "cur_tg": 1361,
+      "cur_tg": 1346,
       "max_tg": 1396,
-      "last_tg": "2026-11-25",
-      "last_1v1": "2026-11-24",
-      "live": {
-        "match": 523665519,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-26",
+      "last_1v1": "2026-11-24"
     }
   ],
   "show_top": 15
