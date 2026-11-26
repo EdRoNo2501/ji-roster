@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-26T16:45:12Z",
+  "updated_at": "2026-11-26T17:00:17Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -24,9 +24,9 @@
       "last_1v1": "2026-11-22",
       "last_tg": "2026-11-26",
       "live": {
-        "match": 523785902,
+        "match": 523788596,
         "game": "Team Random Map",
-        "format": "2v2",
+        "format": "3v3",
         "account": "Rojnar"
       }
     },
