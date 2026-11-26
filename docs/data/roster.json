@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-26T23:30:14Z",
+  "updated_at": "2026-11-26T23:45:11Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -185,14 +185,14 @@
       "profile_id": 1835814,
       "country": "Colombia",
       "tag": "JAGR | Luigi-gb",
-      "cur_1v1": 1340,
+      "cur_1v1": 1323,
       "max_1v1": 1375,
       "cur_tg": 1353,
       "max_tg": 1398,
       "last_1v1": "2026-11-26",
       "last_tg": "2026-11-17",
       "live": {
-        "match": 523854353,
+        "match": 523856999,
         "game": "1v1 Random Map",
         "format": "1v1"
       }
