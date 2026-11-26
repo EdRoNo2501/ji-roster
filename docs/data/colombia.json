@@ -1,6 +1,6 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-26T22:30:15Z",
+  "updated_at": "2026-11-26T22:45:12Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -52,14 +52,14 @@
       "profile_id": 1835814,
       "tag": "Luigi-gb",
       "clan": "JAGR",
-      "cur_1v1": 1323,
+      "cur_1v1": 1339,
       "max_1v1": 1375,
       "cur_tg": 1353,
       "max_tg": 1398,
-      "last_1v1": "2026-11-20",
+      "last_1v1": "2026-11-26",
       "last_tg": "2026-11-17",
       "live": {
-        "match": 523846946,
+        "match": 523848454,
         "game": "1v1 Random Map",
         "format": "1v1"
       }
