@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-26T02:45:12Z",
+  "updated_at": "2026-11-26T03:00:18Z",
   "baseline": {
     "taken_at": "2026-11-25T14:00:20Z",
     "ranks": {
@@ -56,15 +56,10 @@
       "tag": "JAGR | DesNoguns",
       "cur_1v1": 1653,
       "max_1v1": 1699,
-      "cur_tg": 1394,
+      "cur_tg": 1407,
       "max_tg": 1570,
       "last_1v1": "2026-11-25",
-      "last_tg": "2026-11-26",
-      "live": {
-        "match": 523687052,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-26"
     },
     {
       "profile_id": 12989767,
@@ -77,7 +72,7 @@
       "last_tg": "2026-11-23",
       "last_1v1": "2026-11-23",
       "live": {
-        "match": 523684088,
+        "match": 523690453,
         "game": "Unranked",
         "format": "4v4"
       }
@@ -105,6 +100,17 @@
       "last_1v1": "2026-11-23"
     },
     {
+      "profile_id": 10037286,
+      "country": "Uruguay",
+      "tag": "JAGR | Quaa",
+      "cur_1v1": 1430,
+      "max_1v1": 1433,
+      "cur_tg": 1324,
+      "max_tg": 1409,
+      "last_tg": "2026-11-24",
+      "last_1v1": "2026-11-26"
+    },
+    {
       "profile_id": 2057662,
       "country": "Argentina",
       "tag": "JAGR | PIPO GOROSITO",
@@ -116,22 +122,6 @@
       "last_1v1": "2026-11-08"
     },
     {
-      "profile_id": 10037286,
-      "country": "Uruguay",
-      "tag": "JAGR | Quaa",
-      "cur_1v1": 1412,
-      "max_1v1": 1433,
-      "cur_tg": 1324,
-      "max_tg": 1409,
-      "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 523686074,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 1981408,
       "country": "Colombia",
       "tag": "JAGR | Herol",
@@ -140,7 +130,12 @@
       "cur_tg": 1296,
       "max_tg": 1419,
       "last_tg": "2026-09-24",
-      "last_1v1": "2026-11-26"
+      "last_1v1": "2026-11-26",
+      "live": {
+        "match": 523689965,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 10369585,
@@ -286,22 +281,6 @@
       "last_tg": "2026-11-10"
     },
     {
-      "profile_id": 4229230,
-      "country": "México",
-      "tag": "JAGR | xKensyt",
-      "cur_1v1": 1171,
-      "max_1v1": 1186,
-      "cur_tg": 1051,
-      "max_tg": 1127,
-      "last_1v1": "2026-11-26",
-      "last_tg": "2026-10-13",
-      "live": {
-        "match": 523687842,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 13067703,
       "country": "Argentina",
       "tag": "JAGR fran",
@@ -311,6 +290,17 @@
       "max_tg": 1446,
       "last_tg": "2026-11-24",
       "last_1v1": "2026-11-11"
+    },
+    {
+      "profile_id": 4229230,
+      "country": "México",
+      "tag": "JAGR | xKensyt",
+      "cur_1v1": 1155,
+      "max_1v1": 1186,
+      "cur_tg": 1051,
+      "max_tg": 1127,
+      "last_1v1": "2026-11-26",
+      "last_tg": "2026-10-13"
     },
     {
       "profile_id": 12831320,

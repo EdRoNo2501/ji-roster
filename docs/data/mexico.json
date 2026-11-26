@@ -1,6 +1,6 @@
 {
   "name": "México",
-  "updated_at": "2026-11-26T02:45:12Z",
+  "updated_at": "2026-11-26T03:00:18Z",
   "baseline": {
     "taken_at": "2026-11-25T14:00:20Z",
     "ranks": {
@@ -73,17 +73,12 @@
       "profile_id": 4229230,
       "tag": "xKensyt",
       "clan": "JAGR",
-      "cur_1v1": 1171,
+      "cur_1v1": 1155,
       "max_1v1": 1186,
       "cur_tg": 1051,
       "max_tg": 1127,
       "last_1v1": "2026-11-26",
-      "last_tg": "2026-10-13",
-      "live": {
-        "match": 523687842,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_tg": "2026-10-13"
     },
     {
       "profile_id": 9357272,
