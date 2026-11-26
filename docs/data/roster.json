@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-26T18:15:13Z",
+  "updated_at": "2026-11-26T18:30:15Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -83,9 +83,9 @@
       "last_1v1": "2026-11-22",
       "last_tg": "2026-11-26",
       "live": {
-        "match": 523801600,
-        "game": "Team Empire Wars",
-        "format": "4v4",
+        "match": 523804373,
+        "game": "Team Random Map",
+        "format": "2v2",
         "account": "Rojnar"
       }
     },
@@ -106,15 +106,10 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1430,
       "max_1v1": 1433,
-      "cur_tg": 1325,
+      "cur_tg": 1339,
       "max_tg": 1409,
       "last_tg": "2026-11-26",
-      "last_1v1": "2026-11-26",
-      "live": {
-        "match": 523799258,
-        "game": "Team Random Map",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-26"
     },
     {
       "profile_id": 2057662,
