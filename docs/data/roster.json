@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-26T22:00:23Z",
+  "updated_at": "2026-11-26T22:15:11Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -100,12 +100,12 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1430,
       "max_1v1": 1433,
-      "cur_tg": 1311,
+      "cur_tg": 1323,
       "max_tg": 1409,
       "last_tg": "2026-11-26",
       "last_1v1": "2026-11-26",
       "live": {
-        "match": 523840907,
+        "match": 523843799,
         "game": "Team Random Map",
         "format": "4v4"
       }
@@ -174,7 +174,12 @@
       "cur_tg": 1398,
       "max_tg": 1475,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-13"
+      "last_1v1": "2026-11-13",
+      "live": {
+        "match": 523843584,
+        "game": "Quick Play 1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 1835814,
@@ -259,12 +264,12 @@
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
-      "cur_tg": 1340,
+      "cur_tg": 1351,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
       "last_tg": "2026-11-26",
       "live": {
-        "match": 523840907,
+        "match": 523843799,
         "game": "Team Random Map",
         "format": "4v4"
       }
@@ -286,12 +291,12 @@
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
-      "cur_tg": 1342,
+      "cur_tg": 1353,
       "max_tg": 1446,
       "last_tg": "2026-11-26",
       "last_1v1": "2026-11-11",
       "live": {
-        "match": 523840907,
+        "match": 523843799,
         "game": "Team Random Map",
         "format": "4v4"
       }
@@ -324,12 +329,12 @@
       "tag": "JAGR | Mazzei10",
       "cur_1v1": 1045,
       "max_1v1": 1064,
-      "cur_tg": 1303,
+      "cur_tg": 1315,
       "max_tg": 1396,
       "last_tg": "2026-11-26",
       "last_1v1": "2026-11-26",
       "live": {
-        "match": 523840907,
+        "match": 523843799,
         "game": "Team Random Map",
         "format": "4v4"
       }
