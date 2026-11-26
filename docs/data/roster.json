@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-25T23:15:11Z",
+  "updated_at": "2026-11-26T00:00:18Z",
   "baseline": {
     "taken_at": "2026-11-25T14:00:20Z",
     "ranks": {
@@ -83,9 +83,9 @@
       "last_1v1": "2026-11-22",
       "last_tg": "2026-11-25",
       "live": {
-        "match": 523657715,
-        "game": "Unranked",
-        "format": "3v3"
+        "match": 523665519,
+        "game": "Team Random Map",
+        "format": "4v4"
       }
     },
     {
@@ -97,12 +97,7 @@
       "cur_tg": 1510,
       "max_tg": 1721,
       "last_tg": "2026-11-25",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523657715,
-        "game": "Unranked",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-23"
     },
     {
       "profile_id": 2057662,
@@ -124,12 +119,7 @@
       "cur_tg": 1324,
       "max_tg": 1409,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-21",
-      "live": {
-        "match": 523657715,
-        "game": "Unranked",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-21"
     },
     {
       "profile_id": 12573559,
@@ -153,9 +143,9 @@
       "last_tg": "2026-11-22",
       "last_1v1": "2026-09-19",
       "live": {
-        "match": 523657715,
-        "game": "Unranked",
-        "format": "3v3"
+        "match": 523665519,
+        "game": "Team Random Map",
+        "format": "4v4"
       }
     },
     {
@@ -211,7 +201,12 @@
       "cur_tg": 1489,
       "max_tg": 1552,
       "last_tg": "2026-11-25",
-      "last_1v1": "2026-09-20"
+      "last_1v1": "2026-09-20",
+      "live": {
+        "match": 523665519,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13026074,
@@ -244,12 +239,7 @@
       "cur_tg": 1394,
       "max_tg": 1482,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-06-24",
-      "live": {
-        "match": 523657715,
-        "game": "Unranked",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-06-24"
     },
     {
       "profile_id": 10608499,
@@ -339,9 +329,9 @@
       "last_tg": "2026-11-25",
       "last_1v1": "2026-11-24",
       "live": {
-        "match": 523657715,
-        "game": "Unranked",
-        "format": "3v3"
+        "match": 523665519,
+        "game": "Team Random Map",
+        "format": "4v4"
       }
     },
     {
