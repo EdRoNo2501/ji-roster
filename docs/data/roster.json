@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T02:00:18Z",
+  "updated_at": "2026-11-27T02:15:12Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -72,7 +72,7 @@
       "last_tg": "2026-11-23",
       "last_1v1": "2026-11-23",
       "live": {
-        "match": 523874572,
+        "match": 523877052,
         "game": "Unranked",
         "format": "4v4"
       }
@@ -92,16 +92,16 @@
       "profile_id": 3964428,
       "country": "Perú",
       "tag": "JAGR | BkB",
-      "cur_1v1": 1495,
+      "cur_1v1": 1512,
       "max_1v1": 1676,
       "cur_tg": 1510,
       "max_tg": 1721,
       "last_tg": "2026-11-25",
-      "last_1v1": "2026-11-23",
+      "last_1v1": "2026-11-27",
       "live": {
-        "match": 523875631,
-        "game": "1v1 Random Map",
-        "format": "1v1"
+        "match": 523876895,
+        "game": "Team Random Map",
+        "format": "4v4"
       }
     },
     {
@@ -138,22 +138,6 @@
       "last_tg": "2026-11-13"
     },
     {
-      "profile_id": 1981408,
-      "country": "Colombia",
-      "tag": "JAGR | Herol",
-      "cur_1v1": 1396,
-      "max_1v1": 1494,
-      "cur_tg": 1296,
-      "max_tg": 1419,
-      "last_tg": "2026-09-24",
-      "last_1v1": "2026-11-27",
-      "live": {
-        "match": 523871689,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
-    },
-    {
       "profile_id": 10369585,
       "country": "Argentina",
       "tag": "JAGR | GastonWick",
@@ -163,6 +147,22 @@
       "max_tg": 1455,
       "last_tg": "2026-11-27",
       "last_1v1": "2026-09-19"
+    },
+    {
+      "profile_id": 1981408,
+      "country": "Colombia",
+      "tag": "JAGR | Herol",
+      "cur_1v1": 1384,
+      "max_1v1": 1494,
+      "cur_tg": 1296,
+      "max_tg": 1419,
+      "last_tg": "2026-09-24",
+      "last_1v1": "2026-11-27",
+      "live": {
+        "match": 523877553,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 13258119,
@@ -184,7 +184,12 @@
       "cur_tg": 1398,
       "max_tg": 1475,
       "last_tg": "2026-11-24",
-      "last_1v1": "2026-11-13"
+      "last_1v1": "2026-11-13",
+      "live": {
+        "match": 523876895,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 1835814,

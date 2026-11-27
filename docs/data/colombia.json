@@ -1,6 +1,6 @@
 {
   "name": "Colombia",
-  "updated_at": "2026-11-27T01:30:16Z",
+  "updated_at": "2026-11-27T02:15:12Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -30,14 +30,14 @@
       "profile_id": 1981408,
       "tag": "Herol",
       "clan": "JAGR",
-      "cur_1v1": 1396,
+      "cur_1v1": 1384,
       "max_1v1": 1494,
       "cur_tg": 1296,
       "max_tg": 1419,
       "last_tg": "2026-09-24",
       "last_1v1": "2026-11-27",
       "live": {
-        "match": 523871689,
+        "match": 523877553,
         "game": "1v1 Random Map",
         "format": "1v1"
       }
