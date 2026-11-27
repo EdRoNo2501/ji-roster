@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T23:30:14Z",
+  "updated_at": "2026-11-27T23:45:11Z",
   "baseline": {
     "taken_at": "2026-11-27T14:00:18Z",
     "ranks": {
@@ -78,15 +78,10 @@
       "tag": "JAGR | Rojnar",
       "cur_1v1": 1548,
       "max_1v1": 1548,
-      "cur_tg": 1373,
+      "cur_tg": 1386,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-27",
-      "live": {
-        "match": 524061756,
-        "game": "Team Random Map",
-        "format": "2v2"
-      }
+      "last_tg": "2026-11-27"
     },
     {
       "profile_id": 3964428,
@@ -105,15 +100,10 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1446,
       "max_1v1": 1446,
-      "cur_tg": 1388,
+      "cur_tg": 1401,
       "max_tg": 1414,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-27",
-      "live": {
-        "match": 524061756,
-        "game": "Team Random Map",
-        "format": "2v2"
-      }
+      "last_1v1": "2026-11-27"
     },
     {
       "profile_id": 2057662,
@@ -314,6 +304,17 @@
       "last_tg": "2026-11-21"
     },
     {
+      "profile_id": 13505523,
+      "country": "Venezuela",
+      "tag": "JAGR | Mazzei10",
+      "cur_1v1": 1041,
+      "max_1v1": 1064,
+      "cur_tg": 1330,
+      "max_tg": 1396,
+      "last_tg": "2026-11-26",
+      "last_1v1": "2026-11-27"
+    },
+    {
       "profile_id": 13222272,
       "country": "Argentina",
       "tag": "JAGR | Dr. Xeneize",
@@ -323,22 +324,6 @@
       "max_tg": 1206,
       "last_tg": "2026-10-24",
       "last_1v1": "2026-11-23"
-    },
-    {
-      "profile_id": 13505523,
-      "country": "Venezuela",
-      "tag": "JAGR | Mazzei10",
-      "cur_1v1": 1027,
-      "max_1v1": 1064,
-      "cur_tg": 1330,
-      "max_tg": 1396,
-      "last_tg": "2026-11-26",
-      "last_1v1": "2026-11-27",
-      "live": {
-        "match": 524057240,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
     },
     {
       "profile_id": 13081631,
