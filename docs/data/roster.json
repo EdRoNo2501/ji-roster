@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T04:00:17Z",
+  "updated_at": "2026-11-27T04:15:13Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -65,17 +65,12 @@
       "profile_id": 12989767,
       "country": "Argentina",
       "tag": "[JAGR] GORDAZO",
-      "cur_1v1": 1649,
+      "cur_1v1": 1666,
       "max_1v1": 1739,
       "cur_tg": 1488,
       "max_tg": 1508,
       "last_tg": "2026-11-23",
-      "last_1v1": "2026-11-23",
-      "live": {
-        "match": 523891812,
-        "game": "1v1 Random Map",
-        "format": "1v1"
-      }
+      "last_1v1": "2026-11-27"
     },
     {
       "profile_id": 1025121,
