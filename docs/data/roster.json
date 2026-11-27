@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T03:00:15Z",
+  "updated_at": "2026-11-27T03:15:17Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -86,7 +86,12 @@
       "cur_tg": 1400,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-27"
+      "last_tg": "2026-11-27",
+      "live": {
+        "match": 523886621,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 3964428,
@@ -94,12 +99,12 @@
       "tag": "JAGR | BkB",
       "cur_1v1": 1512,
       "max_1v1": 1676,
-      "cur_tg": 1510,
+      "cur_tg": 1496,
       "max_tg": 1721,
-      "last_tg": "2026-11-25",
+      "last_tg": "2026-11-27",
       "last_1v1": "2026-11-27",
       "live": {
-        "match": 523876895,
+        "match": 523886621,
         "game": "Team Random Map",
         "format": "4v4"
       }
@@ -176,12 +181,12 @@
       "tag": "JAGR | TheButterfly_Effect",
       "cur_1v1": 1357,
       "max_1v1": 1401,
-      "cur_tg": 1398,
+      "cur_tg": 1387,
       "max_tg": 1475,
-      "last_tg": "2026-11-24",
+      "last_tg": "2026-11-27",
       "last_1v1": "2026-11-13",
       "live": {
-        "match": 523876895,
+        "match": 523886621,
         "game": "Team Random Map",
         "format": "4v4"
       }
