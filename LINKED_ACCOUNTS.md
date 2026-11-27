@@ -1,6 +1,6 @@
 # Linked accounts
 
-Generated 2026-11-26T14:00:22Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
+Generated 2026-11-27T14:00:18Z from aoe2companion's linked profiles (followed up to 4 links deep; each account belongs to the closest listed player).
 Used to show players LIVE when they play on any of their accounts. Ratings are RM 1v1.
 
 ## Jaguares Imperiales
