@@ -1,6 +1,6 @@
 {
   "name": "Uruguay",
-  "updated_at": "2026-11-27T23:15:11Z",
+  "updated_at": "2026-11-27T23:30:14Z",
   "baseline": {
     "taken_at": "2026-11-27T14:00:18Z",
     "ranks": {
@@ -20,8 +20,8 @@
       "last_tg": "2026-11-27",
       "last_1v1": "2026-11-27",
       "live": {
-        "match": 524059772,
-        "game": "Team Empire Wars",
+        "match": 524061756,
+        "game": "Team Random Map",
         "format": "2v2"
       }
     }
