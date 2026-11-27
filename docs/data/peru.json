@@ -1,6 +1,6 @@
 {
   "name": "Perú",
-  "updated_at": "2026-11-27T22:30:15Z",
+  "updated_at": "2026-11-27T23:15:11Z",
   "baseline": {
     "taken_at": "2026-11-27T14:00:18Z",
     "ranks": {
@@ -19,14 +19,14 @@
       "clan": "JAGR",
       "cur_1v1": 1548,
       "max_1v1": 1548,
-      "cur_tg": 1390,
+      "cur_tg": 1373,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
       "last_tg": "2026-11-27",
       "live": {
-        "match": 524050429,
-        "game": "Team Random Map",
-        "format": "4v4"
+        "match": 524059772,
+        "game": "Team Empire Wars",
+        "format": "2v2"
       }
     },
     {

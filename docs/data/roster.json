@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T23:00:18Z",
+  "updated_at": "2026-11-27T23:15:11Z",
   "baseline": {
     "taken_at": "2026-11-27T14:00:18Z",
     "ranks": {
@@ -78,14 +78,14 @@
       "tag": "JAGR | Rojnar",
       "cur_1v1": 1548,
       "max_1v1": 1548,
-      "cur_tg": 1390,
+      "cur_tg": 1373,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
       "last_tg": "2026-11-27",
       "live": {
-        "match": 524050429,
-        "game": "Team Random Map",
-        "format": "4v4"
+        "match": 524059772,
+        "game": "Team Empire Wars",
+        "format": "2v2"
       }
     },
     {
@@ -108,7 +108,12 @@
       "cur_tg": 1388,
       "max_tg": 1414,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-27"
+      "last_1v1": "2026-11-27",
+      "live": {
+        "match": 524059772,
+        "game": "Team Empire Wars",
+        "format": "2v2"
+      }
     },
     {
       "profile_id": 2057662,
@@ -160,15 +165,10 @@
       "tag": "JAGR | TheButterfly_Effect",
       "cur_1v1": 1357,
       "max_1v1": 1401,
-      "cur_tg": 1377,
+      "cur_tg": 1360,
       "max_tg": 1475,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-13",
-      "live": {
-        "match": 524050429,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-11-13"
     },
     {
       "profile_id": 12573559,
@@ -231,15 +231,10 @@
       "tag": "JAGR | Themoeplay",
       "cur_1v1": 1266,
       "max_1v1": 1267,
-      "cur_tg": 1408,
+      "cur_tg": 1389,
       "max_tg": 1482,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-06-24",
-      "live": {
-        "match": 524050429,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_1v1": "2026-06-24"
     },
     {
       "profile_id": 10608499,
@@ -269,15 +264,10 @@
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
-      "cur_tg": 1357,
+      "cur_tg": 1341,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-27",
-      "live": {
-        "match": 524050429,
-        "game": "Team Random Map",
-        "format": "4v4"
-      }
+      "last_tg": "2026-11-27"
     },
     {
       "profile_id": 12953298,
