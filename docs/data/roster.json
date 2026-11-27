@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T04:15:13Z",
+  "updated_at": "2026-11-27T04:30:14Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -78,15 +78,10 @@
       "tag": "JAGR | Rojnar",
       "cur_1v1": 1548,
       "max_1v1": 1548,
-      "cur_tg": 1386,
+      "cur_tg": 1400,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-27",
-      "live": {
-        "match": 523891476,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_tg": "2026-11-27"
     },
     {
       "profile_id": 3964428,
@@ -94,15 +89,10 @@
       "tag": "JAGR | BkB",
       "cur_1v1": 1512,
       "max_1v1": 1676,
-      "cur_tg": 1479,
+      "cur_tg": 1490,
       "max_tg": 1721,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-27",
-      "live": {
-        "match": 523891476,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-27"
     },
     {
       "profile_id": 10037286,
@@ -176,15 +166,10 @@
       "tag": "JAGR | TheButterfly_Effect",
       "cur_1v1": 1357,
       "max_1v1": 1401,
-      "cur_tg": 1373,
+      "cur_tg": 1387,
       "max_tg": 1475,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-13",
-      "live": {
-        "match": 523891476,
-        "game": "Team Random Map",
-        "format": "3v3"
-      }
+      "last_1v1": "2026-11-13"
     },
     {
       "profile_id": 1835814,
