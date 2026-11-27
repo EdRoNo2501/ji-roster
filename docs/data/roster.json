@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T20:45:13Z",
+  "updated_at": "2026-11-27T21:00:19Z",
   "baseline": {
     "taken_at": "2026-11-27T14:00:18Z",
     "ranks": {
@@ -81,7 +81,12 @@
       "cur_tg": 1400,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-27"
+      "last_tg": "2026-11-27",
+      "live": {
+        "match": 524033126,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 3964428,
@@ -100,14 +105,14 @@
       "tag": "JAGR | Quaa",
       "cur_1v1": 1446,
       "max_1v1": 1446,
-      "cur_tg": 1401,
-      "max_tg": 1409,
+      "cur_tg": 1414,
+      "max_tg": 1414,
       "last_tg": "2026-11-27",
       "last_1v1": "2026-11-27",
       "live": {
-        "match": 524024188,
+        "match": 524033126,
         "game": "Team Random Map",
-        "format": "2v2"
+        "format": "4v4"
       }
     },
     {
@@ -152,7 +157,12 @@
       "cur_tg": 1061,
       "max_tg": 1075,
       "last_1v1": "2026-11-27",
-      "last_tg": "2026-11-13"
+      "last_tg": "2026-11-13",
+      "live": {
+        "match": 524030229,
+        "game": "1v1 Random Map",
+        "format": "1v1"
+      }
     },
     {
       "profile_id": 13258119,
@@ -174,7 +184,12 @@
       "cur_tg": 1387,
       "max_tg": 1475,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-13"
+      "last_1v1": "2026-11-13",
+      "live": {
+        "match": 524033126,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 1835814,
@@ -196,7 +211,12 @@
       "cur_tg": 1417,
       "max_tg": 1552,
       "last_tg": "2026-11-26",
-      "last_1v1": "2026-09-20"
+      "last_1v1": "2026-09-20",
+      "live": {
+        "match": 524031155,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 13026074,
@@ -259,14 +279,14 @@
       "tag": "JAGR_Soyuncacahuate",
       "cur_1v1": 1201,
       "max_1v1": 1201,
-      "cur_tg": 1350,
+      "cur_tg": 1365,
       "max_tg": 1408,
       "last_1v1": "2026-11-16",
-      "last_tg": "2026-11-26",
+      "last_tg": "2026-11-27",
       "live": {
-        "match": 524024188,
+        "match": 524033126,
         "game": "Team Random Map",
-        "format": "2v2"
+        "format": "4v4"
       }
     },
     {
