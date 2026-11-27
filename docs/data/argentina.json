@@ -1,6 +1,6 @@
 {
   "name": "Argentina",
-  "updated_at": "2026-11-26T23:30:14Z",
+  "updated_at": "2026-11-27T00:00:16Z",
   "baseline": {
     "taken_at": "2026-11-26T14:00:22Z",
     "ranks": {
@@ -41,14 +41,14 @@
       "clan": "JAGR",
       "cur_1v1": 1385,
       "max_1v1": 1416,
-      "cur_tg": 1415,
+      "cur_tg": 1398,
       "max_tg": 1451,
       "last_tg": "2026-11-26",
       "last_1v1": "2026-09-19",
       "live": {
-        "match": 523854654,
+        "match": 523859626,
         "game": "Team Random Map",
-        "format": "3v3"
+        "format": "4v4"
       }
     },
     {
@@ -56,14 +56,14 @@
       "tag": "JAGR fran",
       "cur_1v1": 1158,
       "max_1v1": 1158,
-      "cur_tg": 1352,
+      "cur_tg": 1337,
       "max_tg": 1446,
       "last_tg": "2026-11-26",
       "last_1v1": "2026-11-11",
       "live": {
-        "match": 523854654,
+        "match": 523859626,
         "game": "Team Random Map",
-        "format": "3v3"
+        "format": "4v4"
       }
     },
     {
