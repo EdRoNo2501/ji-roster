@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-27T23:45:11Z",
+  "updated_at": "2026-11-28T01:15:12Z",
   "baseline": {
     "taken_at": "2026-11-27T14:00:18Z",
     "ranks": {
@@ -81,7 +81,13 @@
       "cur_tg": 1386,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-27"
+      "last_tg": "2026-11-27",
+      "live": {
+        "match": 524078694,
+        "game": "Team Random Map",
+        "format": "3v3",
+        "account": "Rojnar"
+      }
     },
     {
       "profile_id": 3964428,
