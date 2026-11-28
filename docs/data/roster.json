@@ -1,6 +1,6 @@
 {
   "name": "Jaguares Imperiales",
-  "updated_at": "2026-11-28T02:45:12Z",
+  "updated_at": "2026-11-28T03:15:12Z",
   "baseline": {
     "taken_at": "2026-11-27T14:00:18Z",
     "ranks": {
@@ -72,7 +72,7 @@
       "last_tg": "2026-11-23",
       "last_1v1": "2026-11-27",
       "live": {
-        "match": 524092992,
+        "match": 524099827,
         "game": "Unranked",
         "format": "4v4"
       }
@@ -86,13 +86,7 @@
       "cur_tg": 1386,
       "max_tg": 1502,
       "last_1v1": "2026-11-22",
-      "last_tg": "2026-11-27",
-      "live": {
-        "match": 524094844,
-        "game": "Team Random Map",
-        "format": "2v2",
-        "account": "Rojnar"
-      }
+      "last_tg": "2026-11-27"
     },
     {
       "profile_id": 3964428,
@@ -103,7 +97,12 @@
       "cur_tg": 1490,
       "max_tg": 1721,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-27"
+      "last_1v1": "2026-11-27",
+      "live": {
+        "match": 524099890,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 10037286,
@@ -169,7 +168,12 @@
       "cur_tg": 1360,
       "max_tg": 1475,
       "last_tg": "2026-11-27",
-      "last_1v1": "2026-11-13"
+      "last_1v1": "2026-11-13",
+      "live": {
+        "match": 524099890,
+        "game": "Team Random Map",
+        "format": "4v4"
+      }
     },
     {
       "profile_id": 12573559,
